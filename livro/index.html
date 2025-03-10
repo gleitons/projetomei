@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./livro.css">
+    <title id="titleFol">Folha de Ponto</title>
+   
+</head>
+
+<body>
+
+    <div class="preencher  noprint">
+        <!-- preencherDark -->
+        <fieldset>
+            <legend>Impressão de Folha</legend>
+            <h6>FUNCIONÁRIOS - PREFEITURA VELHA</h6>
+            <div class="mNoturno" >
+                <i class=" bi bi-moon-stars-fill" onclick="modoNoite()">Dark</i>
+            </div>
+            <button class="dimi" id="mostraR" onclick="abrirAjuda()"  >Como Utilizar o sistema "Livro de Ponto"</button>
+            
+            
+            <div class="duvidasS " id="duviasS">              
+            </div>
+            <fieldset id="cFunc" >
+                <legend>Funcionário</legend>
+                <select name="" id="nomeFuncionario" onchange="removeCFunc()">
+                    <option value=" " >EM BRANCO</option>
+                    <!-- <option value="ANTONIO DURAES DE QUEIROZ">ANTONIO DURAES DE QUEIROZ</option>
+                    <option value="DAMARIZE ALMEIDA FONSECA">DAMARIZE ALMEIDA FONSECA</option>
+                    <option value="ELDER TADEU BOSSER">ELDER TADEU BOSSER</option>
+                    <option value="GLEITON APARECIDO SOARES DE SOUZA">GLEITON APARECIDO SOARES DE SOUZA</option>
+                    <option value="JHESSYK DAIENY REIS BRITO">JHESSYK DAIENY REIS BRITO</option>
+                    <option value="JOAO MARTINS GUEDES">JOAO MARTINS GUEDES</option>
+                    <option value="ROSALIA CARDOSO DOS SANTOS SOUZA">ROSALIA CARDOSO DOS SANTOS SOUZA</option>
+                    <option value="VANDER DE JESUS MAGALHAES NOBRE">VANDER DE JESUS MAGALHAES NOBRE</option> -->
+                </select>    
+                <i class="iconeCadastrar bi bi-arrow-clockwise" onclick="gerarFuncionario()" id="loadFunc">Carregar Funcionarios</i>             
+                    <i class="iconeCadastrar bi bi-person-plus-fill" onclick="abrirAviso()">Cadastrar</i>                
+                <td></td>
+                <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden>
+         
+
+
+                <div class="aviso">
+                              
+                </div>
+                
+                
+                <div class="formCadastrar">                    
+                </div>
+                <div class="cadastroSucesso">
+                    
+                </div>
+            </fieldset>
+            
+            <fieldset id="cMes" >
+                
+                <legend>Mês de referência</legend>
+                <select name="" id="mesReferencia" onchange="removeCMes()"  >
+                    <option value="">SELECIONE</option>
+                    <option value="JANEIRO" >JANEIRO</option>
+                    <option value="FEVEREIRO">FEVEREIRO</option>
+                    <option value="MARÇO">MARÇO</option>
+                    <option value="ABRIL">ABRIL</option>
+                    <option value="MAIO">MAIO</option>
+                    <option value="JUNHO">JUNHO</option>
+                    <option value="JULHO">JULHO</option>
+                    <option value="AGOSTO">AGOSTO</option>
+                    <option value="SETEMBRO">SETEMBRO</option>
+                    <option value="OUTUBRO">OUTUBRO</option>
+                    <option value="NOVEMBRO">NOVEMBRO</option>
+                    <option value="DEZEMBRO">DEZEMBRO</option>
+                    <option value="">Em Branco</option>
+                </select>
+
+                <td>Mês:</td>
+                <input type="text" name="" value="" id="" placeholder="Selecione anteriormente" hidden>
+            </fieldset>
+            <fieldset>
+                <legend>Ano de referência</legend>
+                <select name="" id="anorefi">
+                    <option value="2023">2023</option>
+                    <option value="">Selecione ou Digite</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2019">2019</option>
+                    <option value="">Em Branco</option>
+                </select>
+                <td>Ano:</td>
+                <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden >
+            </fieldset>
+            <fieldset>
+                <legend>Horário de Trabalho</legend>
+                <fieldset>
+                    <legend>Manhã</legend>
+                    <select name="" id="iniM">
+                        <option value="07:00">07:00</option>
+                        <option value="08:00">08:00</option>
+                        <option value="07:00">06:00</option>
+                        <option value="07:00">05:00</option>
+                        <option value="07:00">04:00</option>
+                        <option value="">Em Branco</option>
+                        
+                        <option value="">Selecione ou Digite</option>
+
+                    </select>
+                    <td>Início:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden> <br>
+                    <select name="" id="fiM">
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="11:00">13:00</option>
+                        <option value="11:00">10:00</option>
+                        <option value="11:00">09:00</option>
+                        <option value="">Em Branco</option>
+                        
+                        
+                    </select>
+                    <td>Fim:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tarde:</legend>
+                    <select name="" id="iniT">
+                        <option value="13:00">13:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="">Em Branco</option>
+                    
+                    </select>
+                    <td>Início:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden> <br>
+                    <select name="" id="fiT">
+                        <option value="17:00">17:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:00">18:00</option>
+                        <option value="">Em Branco</option>    
+                    </select>
+                    <td>Fim:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden>
+                </fieldset>
+
+            </fieldset>
+            <div id="geradorL">
+                <button onclick="startFolha()"  >GERAR FOLHA DE PONTO</button>
+                <button onclick="loadP()">NOVO</button>
+            </div>
+            
+        </fieldset>
+        <table>
+           
+
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="tabelaFuncionario">
+
+    <div class="ocul">
+      
+        <div class="toph2" >
+            <h2>LIVRO DE PONTO</h2>
+        </div>
+        <table>
+            <thead id="cabecatabela">
+                <tr>
+                    <td colspan="3">
+                        <p>EMPREGADOR: NOME / EMPRESA</p>
+                        <h5>PREFEITURA MUNICIPAL DE LAGOA DOS PATOS</h5>
+                    </td>
+                    <td colspan="2">
+                        <p>CEI / CNPJ°</p>
+                        <h5>16.901.381/0001-10</h5>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p></p>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <p>ENDEREÇO</p>
+                        <h5>PRAÇA 31 DE MARÇO, 111, CENTRO</h5>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="0">
+                        <p>MATRÍCULA</p>
+                        <h5>99999</h5>
+                    </td>
+                    <td colspan="3">
+                        <p>EMPREGADO (A)</p>
+                        <h5>                               </h2>
+                    </td>
+                    <td colspan="1">
+                        <p>DATA DE ADMISSÃO</p>
+                        <h5>             </h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>CARGO/FUNÇÃO:</p>
+                        <h5>                          </h5>
+                    </td>
+                    <td colspan="2">
+                        <p>CPF:</p>
+                        <h5>                   </h2>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p>DATA DE ADMISSÃO</p>
+                        <h5>                  </h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>HORÁRIO DE TRABALHO DE SEG. A SEXTA-FEIRA:</p>
+                        <h5>                                  </h5>
+                    </td>
+                    <td colspan="1">
+                        <p>MÊS:</p>
+                        <h5>                   </h2>
+                    </td>
+                    <td colspan="1">
+                        <p>ANO</p>
+                        <h5>                   </h5>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        <table class="corpoT">
+            <thead class="diminuirCol">
+                <tr>
+                    <td rowspan="5">DIAS<br>MÊS</td>
+                    <td colspan="3">MANHÃ</td>
+                    <td colspan="3">TARDE</td>
+                </tr>
+                <tr>
+                    <td>ENTRADA</td>
+                    <td>ASSINATURA</td>
+                    <td>SAÍDA</td>
+                    <td>ENTRADA</td>
+                    <td>SAÍDA</td>
+                    <td>ASSINATURA</td>
+                </tr>
+            </thead>
+            <tbody class="tbod" id="tabelaData">
+            </tbody>
+        </table>
+        <table class="tfot">
+            <tbody>
+                <tr>
+                    <td colspan="1">OBSERVAÇÕES</td>
+                    <td colspan="1">VISTO DA CHEFIA IMEDIATA</td>
+                </tr>
+                <tr>
+                    <td style="height: 70px;" class="observacaoF" id="footTab">
+        
+                    </td>
+                    <td colspan="1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="/funcionario.js"></script>
+
+</body>
+
+</html>

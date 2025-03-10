@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title id="operador"></title>
+    <style>
+        header {
+            width: 60%;
+            margin: auto;
+        }
+
+        header a {
+            display: block;
+            line-height: 5em;
+
+
+        }
+
+        header a>button {
+            width: 60%;
+            padding: 10px;
+
+        }
+
+        .bi {
+            margin: 5px;
+        }
+
+        .brasao {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: black 0px 2px 10px 0px;
+            margin: 20px;
+
+        }
+
+        .brasao img {
+            width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="brasao">
+            <img src="/src/imagens/brasao-lagoa-dos-patos-mg-tributos.png" alt="">
+            <h1 class="title">Serviços Setor fazendários e tributos de Lagoa dos Patos MG</h1>
+        </div>
+        <h2 class="subtitle">Selecione o Serviço Desejado</h2>
+
+        <a href="/servicos/diarias/index.html"><button class="button is-link is-gapless m-2"> <i
+                    style="font-size:50px; margin-right:10px;" class="bi bi bi-car-front-fill"></i>Diárias</button></a>
+        <a href="https://salamineira.com/livro">
+            <button class="button is-link is-gapless m-2"><i style="font-size:50px; margin-right:10px;"
+                    class="bi bi-card-checklist"></i> Folha - livro de ponto</button></a>
+        <a href="servicos/avaliacao-venal-urbana-lagoa.html">
+
+            <button class="button is-link is-gapless m-2"><i style="font-size:50px; margin-right:10px;"
+                    class="bi bi-currency-exchange"></i> Avaliação venal Urbana Cartório</button></a>
+
+
+        <a href="servicos/avaliacao-venal-urbana.html"><button class="button is-link is-gapless m-2"> <i
+                    style="font-size:50px; margin-right:10px;" class="bi bi-cash-coin"></i> Avaliação venal Urbana
+            </button></a>
+        <a href="/servicos/avaliacao-venal-rural.html"><button class="button is-link m-2"><i
+                    style="font-size:50px; margin-right:10px;" class="bi bi-house-add-fill"></i>Avaliação Venal
+                Rural</button></a>
+        <a href="https://www.salamineira.com/valor-terra-nua/" target="nofollow"><button class="button is-link m-2"><i
+                    style="font-size:50px; margin-right:10px;" class="bi bi-coin"></i>Valor da Terra Nua</button></a>
+
+        <a href="/contrato/"><button class="button is-link m-2">
+                <i style="font-size:50px; margin-right:10px;" class="bi bi-chevron-bar-contract"></i>Contrato de Compra e
+                Venda</button></a>
+
+
+        <a href="/servicos/itbi.html"><button class="button is-link m-2"><i style="font-size:50px; margin-right:10px;"
+                    class="bi bi-house-heart-fill"></i> ITBI Urbano</button></a>
+        <a href="/servicos/itbi.html"><button class="button is-link m-2"><i style="font-size:50px; margin-right:10px;"
+                    class="bi bi-moon-stars-fill"></i> ITBI Rural</button></a>
+        <a href="servicos/retira-caracter.html"><button class="button is-link m-2"><i
+                    style="font-size:50px; margin-right:10px;" class="bi bi-at"></i>Retira Caracteres</button></a>
+        <a href="http://tributos.x10.bz/"><button class="button is-link m-2"><i
+                    style="font-size:50px; margin-right:10px;" class="bi bi-radioactive"></i>Compra e Venda e
+                Doação</button></a>
+
+
+
+        <a href="/servicos/itbi.html"><button class="button is-link m-2"><i style="font-size:50px; margin-right:10px;"
+                    class="bi bi-radioactive"></i>Outros</button></a>
+        <div class="mt-5">
+
+        </div>
+    </header>
+    <div id="loadImagens">
+        <img src="/contrato/src/img/futuro-consultoria.svg" alt="">
+        <img src="/contrato/src/img/futuro-consultoria-horizonte.svg" alt="">
+    </div>
+    <script>
+        setTimeout('fechaImagem()', 3000)
+        function fechaImagem() {
+            document.querySelector('#loadImagens').style.visibility = 'hidden'
+        }
+    </script>
+
+
+
+</body>
+
+</html>

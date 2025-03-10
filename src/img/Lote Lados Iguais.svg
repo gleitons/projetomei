@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="113.098" y="81.296" width="273.607" height="346.481" style="stroke: rgb(0, 0, 0); fill: rgb(255, 248, 242); paint-order: stroke; fill-rule: nonzero; stroke-width: 4px;"/>
+  <text style="font-size: 36; font-family: Roboto; white-space: pre;" transform="matrix(1, 0, 0, 1, 564.88335, 177.036791)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre;" x="214.668" y="102.447">Frente</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="115.098" y="251.21" transform="matrix(0, -1, 1, 0, -34.247826, -2.779047)">Esquerdo</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="316.248" y="251.21" transform="matrix(0, 1, -1, 0, 12.0139, -3.346318)">Direito</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre;" x="214.668" y="422.97">Fundo</text>
+</svg>

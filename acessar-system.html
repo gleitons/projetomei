@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA VERSÃO</title>
+</head>
+<body>
+    <input type="password" name="" id="idid" value="senhaimpossiveldedescobrir" onclick="apara()"><button>Acessar</button>
+
+    <script>
+        const btn = document.querySelector('button')
+
+        btn.addEventListener('click', () => {
+            const sen = document.querySelector('input').value;
+
+            if(sen == "senhaimpossiveldedescobrir") {
+                window.location.href = '/rede-de-atendimento/';
+            } else {
+                const senhaI = document.createElement('p')
+                senhaI.textContent = 'Senha Incorreta';
+                senhaI.setAttribute('class', "avisoL")
+                document.querySelector('body').appendChild(senhaI)
+            }
+
+        })
+       
+        idid.addEventListener('click', () => {
+            const aco = document.querySelectorAll('.avisoL')
+            for(let i = 0; i < aco.length; i++){
+                aco[i].remove()
+                
+            }
+            
+        })
+
+    </script>
+</body>
+</html>

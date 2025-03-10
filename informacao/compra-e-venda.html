@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTRATO E TERMO DE DOAÇÃO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">   
+</head>
+
+<body>
+    <div class="preencherDados">
+        <!-- <canvas id="canvas" ></canvas> -->
+        <p><a href="./imprimir-contrato.html">Pagina de impressao</a></p>
+           <div>
+            <h2>Sistema de Emissão de Contrato de compra e venda e Termo de doação</h2>
+        </div>
+        <p>Para utilizar esse sistema precisará ser no google Chrome e utilização a extensão Allow CORS = <a target="_blank" href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=pt-br" >Baixe aqui</a></p>
+        <div class="ProprietarioClass">
+            <select name="" id="termoOuContrato" onchange="selectTipo()">
+                <option value="">SELECIONE TIPO</option>
+                <option value="compraVenda">CONTRATO DE COMPRA E VENDA</option>
+                <option value="termoDoacao">TERMO DE DOAÇÃO</option>
+            </select>
+        </div>
+     
+        
+        <div id="NovoPegaDados" style="margin: 10px 0;" class="ProprietarioClass">
+        </div>
+        <fieldset id="InsiraDados">
+        
+        </fieldset>
+        <div id="preencherDados">
+        </div>
+        
+        </fieldset>
+        <div id="ver" >
+        
+        </div>
+        <div id="inpu">
+        </div>
+        
+    </div>
+    <script src="./contratos.js"></script>
+</body>
+
+</html>

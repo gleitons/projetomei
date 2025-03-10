@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/src/estilos/style.css">  
+    
+    <script src="/src/scripts/main-rural.js"></script>
+    <title id="tituloSalvar"></title>
+</head>
+<body onload="fazerProtocolo()">
+    <div id="dadosDiv">
+        <div class="fundoInsereDados"> 
+            <fieldset>
+                <legend>Avaliação Venal Rural</legend>
+                <fieldset>
+                    <legend>Dados Iniciais</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Protocolo Geral:</td>
+                            <td><input type="text" name="" placeholder="ex: 252" id="protoEcidade"><br></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Usuário:</td>
+                            <td><select name="func"  id="selectFun">
+                                <option value="">Selecione</option>
+                                <option value="funcio" id="func01">GLEITON APARECIDO SOARES DE SOUZA</option>
+                                <option value="funcio" id="func01">JHESSYK DAIENY REIS BRITO RABELO</option>
+                                <option value="funcio" id="func02">VANDER DE JESUS MAGALHAES NOBRE</option>
+                                <option value="funcio" id="func03">JOÃO MARTINS GUEDES</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Solicitante:</td>
+                            <td><input placeholder="ex: nome completo" type="text" required name="" id="nomeSolicitante"></td>
+                        </tr>
+                        
+                    </table>  
+                </fieldset>
+                <fieldset>
+                    
+                    
+                    <legend>Endereço do Imóvel</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Nome da Fazenda:</td>
+                            <td ><input type="text" placeholder="ex: mocambo" name="" id="nomeFazenda" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Denominação:</td>
+                            <td><input type="text" name="" placeholder="ex: rio das pedras" id="denominacaoFazenda" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Número da Matrícula:</td>
+                            <td><input type="text" placeholder="ex: 6.639" name="" id="matriculaFazenda"></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Folha:</td>
+                            <td><input type="text" placeholder="ex: 39 se houver" name="" id="folhaRegistro"></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Livro</td>
+                            <td><input type="text" placeholder="ex:2B se houver" name="" id="livroRegistro"></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Registro: Dia / Mês / Ano</td>
+                            <td><input type="text" placeholder="Dia - ex 09" name="" id="diaRegistro"></td>
+                            <td><input type="text" placeholder="Mês - ex 10" name="" id="mesRegistro"></td>
+                            <td><input type="text" placeholder="Ano - ex 2000" name="" id="anoRegistro"></td>
+                        </tr>
+                    </table>
+                     
+                    
+                </fieldset>
+                <fieldset>
+                    
+                    <legend>Informações do proprietário</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Nome Proprietário:</td>
+                            <td ><input type="text" placeholder="nome proprietario" name="" id="nomeProprietario" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">CPF:</td>
+                            <td><input type="text" name="" placeholder="ex. 000.000.000-00" id="cpfProprietario" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Indentidade:</td>
+                            <td><input type="text" placeholder="ex: MG00000" name="" id="identidadeProprietario"></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Conjuge:</td>
+                            <td><input type="text" value="" placeholder="Nome Completo conjuge" name="" id="nomeConjuge"></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">CPF Conjuge:</td>
+                            <td><input type="text" name="" placeholder="ex. 000.000.000-00" id="cpfconjuge" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Indentidade Conjuge:</td>
+                            <td><input type="text" placeholder="ex: MG00000" name="" id="identidadeconjuge"></td>
+                        </tr>
+                    </table>
+                     
+                    
+                </fieldset>
+
+
+                <fieldset>
+                    
+                    <legend>Imóvel Rural</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Aptidão da Terra: </td>
+                            <td><select name="" id="aptdaoTerra">
+                                <option value="" id="" >Selecione</option>
+                                <option value="4000" id="aptdaoboa">Lavoura Aptidão Boa</option>
+                                <option value="2500" id="aptdaoregular">Lavoura Aptidão Regular</option>
+                                <option value="1500" id="aptdaorestrita">Lavoura Aptidão Restrita </option>
+                                <option value="1200" id="pastagemplantada">Pastagem Plantada </option>
+                                <option value="600" id="silvicultura">Silvicultura ou Pastagem Natural</option>
+                                <option value="500" id="preservacao">Presenvação da Fauna e Flora  </option>
+                            </select>
+                            <a href="https://www.salamineira.com/valor-terra-nua/"><input type="button" value="Valor Terra Nua"></a></td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="IDados">Passe o Mouse para mais informações.</td>
+                            <td><button class="btninforma"><abbr title="1.	Lavoura aptidão boa (Cultura de Primeira): terra apta à cultura temporária ou permanente, sem limitações significativas para a produção sustentável e com um nível mínimo de restrições, que não reduzem a produtividade ou os benefícios expressivamente e não aumentam os insumos acima de um nível aceitável;">Tipo 01</abbr></button>
+                                 <button class="btninforma"><abbr title="2.	Lavoura aptidão regular (Terra de cultura de Segunda): terra apta à cultura temporária ou permanente, que apresenta limitações moderadas para a produção sustentável, que reduzem a produtividade ou os benefícios e elevam a necessidade de insumos para garantir as vantagens globais a serem obtidas com o uso;">Tipo 02</abbr></button> <button class="btninforma"><abbr title="3.	Lavoura – aptidão restrita: terra apta à cultura temporária ou permanente, que apresenta limitações fortes para a produção sustentável, que reduzem a produtividade ou os benefícios ou aumentam os insumos necessários, de tal maneira que os custos só seriam justificados marginalmente;">Tipo 03</abbr></button> <button class="btninforma"><abbr title="4.	Pastagem plantada: terra inapta à exploração de lavouras temporárias ou permanentes por possuir limitações fortes à produção vegetal sustentável, mas que é apta a formas menos intensivas de uso, inclusive sob a forma de uso de pastagens plantadas;">Tipo 04</abbr> </button> 
+                                 <button class="btninforma"><abbr title="5.	Silvicultura ou pastagem natural (Terra para reflorestamento): terra inapta aos usos indicados nos incisos I a IV, mas que é apta a usos menos intensivos;">Tipo 05</abbr></button class="btninforma"> <button class="btninforma"><abbr title="P6.	Preservação da fauna ou flora: terra inapta para os usos indicados nos incisos I a V, em decorrência de restrições ambientais, físicas, sociais ou jurídicas que impossibilitam o uso sustentável, e que, por isso, é indicada para a preservação da flora e da fauna ou para outros usos não agrários.
+                                    (Definições extraídas do Art. 2º da IN RFB 1877 de 14 de Março de 2019).
+                                    ">Tipo 06</abbr></button></td>
+                        </tr>
+                    </table>
+                    <!-- <table>
+                            <tr>
+                                <td class="IDados">Setor:</td>
+                                <td><select name="" id="selSetor">
+                                    <option value="">Selecione</option>
+                                    <option value="8" id="setor01">Setor 01</option>
+                                    <option value="6" id="setor02">Setor 02</option>
+                                    <option value="4" id="setor03">Setor 03</option>
+                                    <option value="4" id="setor04">Setor 04</option>
+                                    <option value="4" id="setor05">Setor 05</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Quadra:</td>
+                                <td><input type="text" name="" id="quadra" placeholder="ex: 0004"></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Lote:</td>
+                                <td><input type="text" name="" id="lote" placeholder="ex: 0004"></td>
+                            </tr>
+                        </table>
+                      -->
+                     
+
+                </fieldset>
+                <fieldset>
+                    <legend>Tamanho da Área</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Insira as Medidas:</td>
+                            <td><input type="text" name="" id="alqueireM" placeholder="Alqueire Mineiro"></td>
+                            <td><input type="text" name="" id="hectaresM" placeholder="Hectares"></td>
+                            <td><input type="text" name="" id="aresM" placeholder="Ares"></td>
+                            <td><input type="text" name="" id="centiaresM" placeholder="Centiares"></td>
+                        </tr>
+                        <!-- <tr>
+                            <td>Área da Construção:</td>
+                            <td><input type="text" name="" id="areaConstrucao" placeholder="ex: 50"></td>
+                        </tr> -->
+                    </table>  
+                </fieldset>
+                
+                <input  class="botaoEnviar" type="submit" onclick="calcularAvaliacao()" value="Gerar Avaliação Urbana" /></br>
+                <!--Criado por Gleiton Ap. Soares de Souza-->
+            </fieldset>
+                </fieldset>
+                
+                
+        </div>
+        
+    </div>
+    <button class="ocultarBotao" onclick="Mudarestado('dadosDiv')">Ocultar / Mostrar</button>
+    
+
+
+    <div id="avaliacaoFundo" class="backimage">
+        <Button class="imprimirAgora" onClick="window.print()">IMPRIMIR AGORA</Button>
+        <div class="folhaA4">
+            <div>
+                <div >
+                    <img style="width: 100%; margin: auto;" src="/src/imagens/logo-2-lagoa-dos-patos-mg.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="certidaoValorVenal">
+                <h1>CERTIDÃO DE VALOR VENAL DE IMÓVEL RURAL</h1>
+                <h2 class="protocolN" id="imprimeProtocolo">XXXXXXX  prot/ano</h2>
+            </div>
+            
+            <div id="cabecaDesc">
+            
+                </div>  
+            </div> 
+            </div>
+            
+            
+            
+            
+            <div >
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

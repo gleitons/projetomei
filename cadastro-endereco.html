@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Vendedor - Contrato de Compra e Venda e Termo de Doação</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+        <header>
+           
+        </header>
+        <main>
+            <div class="menusApresentação">
+               
+            </div>
+            <div class="telaApresentacao">
+
+              
+                <div class="cadastroDeImovel">
+                    <h2>Cadastro do Endereço</h2>
+                    <div>
+                        <fieldset class="fieldCadastroImóvel">
+                            <legend>Cadastro o Endereço</legend>
+                            <div>
+                                <p>Tipo:</p>
+                               <select  name="" id="enderecoSelecionado" onchange="showEnderecoCadastro()">
+                                
+                                <option>Urbano</option>
+                                <option>Rural</option>
+                               </select>
+                            </div>
+                            <span style="visibility: visible;" id="mostraShowC">
+                                <span id="cadastroRRural" style="visibility: hidden;">
+                                    <div>
+                                        <p>Comunidade:</p>
+                                        <input type="text" id="comunidade">
+                                    </div>
+                                    <div>
+                                        <p>Fazenda:</p>
+                                        <input type="text" id="fazenda">
+                                    </div>
+                                </span>
+                                
+                                <span id="cadastroRUrbano">
+                                    <div>
+                                        <p>Endereço: Rua/Avenida</p>
+                                        <input type="text" id="endereco">
+                                    </div>
+                                  
+                                    <div>
+                                        <p>Bairro:</p>
+                                        <input type="text" id="bairroEndereco">
+                                    </div>
+                                </span>
+                                <div>
+                                    <p>Número:</p>
+                                    <input type="text" id="numeroEndereco">
+                                </div>
+                                <div>
+                                    <p>CEP:</p>
+                                    <input type="text" id="cepEndereco" value="39.360-000">
+                                </div>
+                                <div>
+                                    <p>Cidade:</p>
+                                    <input type="text" id="cidadeEndereco" value="Lagoa dos Patos">
+                                </div>
+                                <div>
+                                    <p>Estado:</p>
+                                    <input type="text" id="estadoEndereco" value="MG">
+                                </div>
+                            </span>
+                            <div class="efetuadoSucesso" style="display: none;">
+                                <p>Cadastro Efetuado com Sucesso <button>OK</button></p> 
+                            </div>
+                                                      
+                            <button onclick="cadastrarEndereco()">Cadastrar</button>
+                        </fieldset>                       
+                       
+                    </div>
+
+                </div>
+                <p>Gerador de Contrato</p>
+               
+            </div>
+            
+
+        </main>
+        <footer >
+            <p>Produzido por Futuro Consultoria Digital</p>
+        </footer>
+
+        <script src="menuLateral.js"></script>
+        <script src="cadastroImovel.js"></script>
+</body>
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:27 GMT -->
+</html>

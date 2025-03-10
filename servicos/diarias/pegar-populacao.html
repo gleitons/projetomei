@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+
+
+    <title>Fetch</title>
+</head>
+
+<body>
+   
+    <div id="Ver">
+    </div>
+   
+
+
+
+    <script>
+        var distanciasC = []
+        var cidadesComHab = []
+        function porPesquisa(cidade, nome){
+        const url = `https://pt.wikipedia.org/wiki/${cidade}`
+        console.log(url)
+        var saidaTag = document.querySelector('#dadospegados');
+        fetch(url)
+            .then((resp) => resp.text())
+            .then(function (data) {
+                Ver.innerHTML = data
+                const todasTd = document.querySelectorAll('tr td')
+                //const tableS = document.querySelectorAll('tr td')[29].innerText
+               /// console.log(tableS)
+                //const tableD = document.querySelectorAll('tr td')[27].innerText
+                ///console.log(tableD)
+               
+                //onsole.log(arr)
+                const cidadeDes = nome.destinho
+                //console.log(cidadeDes)
+
+                for(let i =0; i < todasTd.length; i++){
+                    const tableD = document.querySelectorAll('tr td')[i].innerText
+                    if(tableD.includes(' hab.')){
+                        const addpopulacao = {
+                            "cidade": nome.cidade,
+                            "destinho": nome.destinho,
+                            "distanciaReta": nome.distanciaReta,
+                            "distanciaConducao": nome.distanciaConducao,
+                            "tempo": nome.tempo,
+                            "populacao": tableD
+                                }
+                            
+
+                            cidadesComHab.push(addpopulacao)
+                       
+                    }
+                    //console.log(cidadesComHab)
+
+                }
+                localStorage.setItem('distpopu', JSON.stringify(cidadesComHab))
+
+                
+                
+                
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+        }
+
+
+        async function pegarD() {
+            const response = await fetch('./arrays/distancias-mg');
+            const data = await response.json()
+
+            //porPesquisa(`${data[1]}`)
+
+            data.map((city) =>{
+                const citi = city.destinho.replace(/ /gi, '_')
+                const cit = citi.replace(/_MG/gi, '')
+                ///console.log(cit)
+                porPesquisa(`${cit}`, city)
+            })
+            
+        }
+        pegarD()    
+
+        
+        
+       
+          
+
+
+
+
+
+      
+
+    </script>
+  
+   
+
+</body>
+
+</html>

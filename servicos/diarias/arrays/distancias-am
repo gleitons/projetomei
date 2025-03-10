@@ -1,0 +1,436 @@
+[
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Apuí AM",
+    "distanciaReta": "2,926.81 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alvarães AM",
+    "distanciaReta": "2,687.55 km",
+    "distanciaConducao": "4,675 km",
+    "tempo": "7 dias 1 hora"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Anori AM",
+    "distanciaReta": "2,375.27 km",
+    "distanciaConducao": "4,259 km",
+    "tempo": "3 dias 14 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Anamã AM",
+    "distanciaReta": "2,408.38 km",
+    "distanciaConducao": "4,293 km",
+    "tempo": "3 dias 15 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Amaturá AM",
+    "distanciaReta": "2,999.73 km",
+    "distanciaConducao": "5,216 km",
+    "tempo": "11 dias 13 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Atalaia do Norte AM",
+    "distanciaReta": "3,124.13 km",
+    "distanciaConducao": "5,615 km",
+    "tempo": "14 dias 16 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Autazes AM",
+    "distanciaReta": "2,176.81 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barcelos AM",
+    "distanciaReta": "2,683.61 km",
+    "distanciaConducao": "4,954 km",
+    "tempo": "3 dias"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barreirinha AM",
+    "distanciaReta": "2,085 km",
+    "distanciaConducao": "3,235 km",
+    "tempo": "4 dias 17 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Benjamin Constant AM",
+    "distanciaReta": "3,106.40 km",
+    "distanciaConducao": "5,587 km",
+    "tempo": "14 dias 15 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Beruri AM",
+    "distanciaReta": "2,338.68 km",
+    "distanciaConducao": "4,259 km",
+    "tempo": "3 dias 14 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Boa Vista do Ramos AM",
+    "distanciaReta": "2,108.08 km",
+    "distanciaConducao": "3,304 km",
+    "tempo": "5 dias 7 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Boca do Acre AM",
+    "distanciaReta": "2,627.47 km",
+    "distanciaConducao": "3,781 km",
+    "tempo": "2 dias 2 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carauari AM",
+    "distanciaReta": "2,778.76 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Borba AM",
+    "distanciaReta": "2,153.35 km",
+    "distanciaConducao": "4,336 km",
+    "tempo": "5 dias"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caapiranga AM",
+    "distanciaReta": "2,367.17 km",
+    "distanciaConducao": "4,196 km",
+    "tempo": "2 dias 11 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Canutama AM",
+    "distanciaReta": "2,446.36 km",
+    "distanciaConducao": "3,541 km",
+    "tempo": "2 dias"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Careiro AM",
+    "distanciaReta": "2,262.61 km",
+    "distanciaConducao": "3,989 km",
+    "tempo": "2 dias 5 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Careiro da Várzea AM",
+    "distanciaReta": "2,262.61 km",
+    "distanciaConducao": "3,989 km",
+    "tempo": "2 dias 5 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coari AM",
+    "distanciaReta": "2,479.14 km",
+    "distanciaConducao": "4,453 km",
+    "tempo": "5 dias 3 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Eirunepé AM",
+    "distanciaReta": "2,976.26 km",
+    "distanciaConducao": "4,000 km",
+    "tempo": "2 dias 5 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Codajás AM",
+    "distanciaReta": "2,402.61 km",
+    "distanciaConducao": "4,327 km",
+    "tempo": "3 dias 16 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Envira AM",
+    "distanciaReta": "2,957.70 km",
+    "distanciaConducao": "4,000 km",
+    "tempo": "2 dias 5 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fonte Boa AM",
+    "distanciaReta": "2,846.80 km",
+    "distanciaConducao": "4,899 km",
+    "tempo": "8 dias 21 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guajará AM",
+    "distanciaReta": "3,213.64 km",
+    "distanciaConducao": "4,290 km",
+    "tempo": "2 dias 10 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Humaitá AM",
+    "distanciaReta": "2,262.29 km",
+    "distanciaConducao": "3,330 km",
+    "tempo": "1 dia 19 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipixuna AM",
+    "distanciaReta": "3,143.37 km",
+    "distanciaConducao": "4,169 km",
+    "tempo": "2 dias 7 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Iranduba AM",
+    "distanciaReta": "2,285.83 km",
+    "distanciaConducao": "4,051 km",
+    "tempo": "2 dias 8 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itamarati AM",
+    "distanciaReta": "2,826.35 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itacoatiara AM",
+    "distanciaReta": "2,162.29 km",
+    "distanciaConducao": "4,276 km",
+    "tempo": "2 dias 12 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Juruá AM",
+    "distanciaReta": "2,779.64 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itapiranga AM",
+    "distanciaReta": "2,159.56 km",
+    "distanciaConducao": "4,348 km",
+    "tempo": "2 dias 13 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Japurá AM",
+    "distanciaReta": "2,938.66 km",
+    "distanciaConducao": "4,900 km",
+    "tempo": "8 dias 21 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jutaí AM",
+    "distanciaReta": "2,894.45 km",
+    "distanciaConducao": "5,022 km",
+    "tempo": "9 dias 23 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lábrea AM",
+    "distanciaReta": "2,493.40 km",
+    "distanciaConducao": "3,539 km",
+    "tempo": "2 dias 1 hora"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manacapuru AM",
+    "distanciaReta": "2,323.04 km",
+    "distanciaConducao": "4,111 km",
+    "tempo": "2 dias 9 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manaquiri AM",
+    "distanciaReta": "2,296.76 km",
+    "distanciaConducao": "3,944 km",
+    "tempo": "2 dias 4 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manaus AM",
+    "distanciaReta": "2,289.25 km",
+    "distanciaConducao": "4,023 km",
+    "tempo": "2 dias 8 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manicoré AM",
+    "distanciaReta": "2,200.84 km",
+    "distanciaConducao": "3,690 km",
+    "tempo": "4 dias 18 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Maraã AM",
+    "distanciaReta": "2,845.81 km",
+    "distanciaConducao": "4,908 km",
+    "tempo": "8 dias 22 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nhamundá AM",
+    "distanciaReta": "2,112.86 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Maués AM",
+    "distanciaReta": "2,082.76 km",
+    "distanciaConducao": "3,364 km",
+    "tempo": "5 dias 19 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Olinda do Norte AM",
+    "distanciaReta": "2,149.54 km",
+    "distanciaConducao": "4,250 km",
+    "tempo": "4 dias 6 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Novo Aripuanã AM",
+    "distanciaReta": "2,166.48 km",
+    "distanciaConducao": "3,797 km",
+    "tempo": "2 dias 9 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Novo Airão AM",
+    "distanciaReta": "2,397.04 km",
+    "distanciaConducao": "4,208 km",
+    "tempo": "2 dias 10 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pauini AM",
+    "distanciaReta": "2,641.35 km",
+    "distanciaConducao": "3,840 km",
+    "tempo": "2 dias 4 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Parintins AM",
+    "distanciaReta": "2,074.66 km",
+    "distanciaConducao": "3,194 km",
+    "tempo": "4 dias 8 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Presidente Figueiredo AM",
+    "distanciaReta": "2,367.74 km",
+    "distanciaConducao": "4,137 km",
+    "tempo": "2 dias 9 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Isabel do Rio Negro AM",
+    "distanciaReta": "2,897.93 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Preto da Eva AM",
+    "distanciaReta": "2,291.98 km",
+    "distanciaConducao": "4,091 km",
+    "tempo": "2 dias 9 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gabriel da Cachoeira AM",
+    "distanciaReta": "3,086.61 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Içá AM",
+    "distanciaReta": "2,982.75 km",
+    "distanciaConducao": "5,213 km",
+    "tempo": "11 dias 13 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Paulo de Olivença AM",
+    "distanciaReta": "3,055.87 km",
+    "distanciaConducao": "5,356 km",
+    "tempo": "12 dias 17 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Uatumã AM",
+    "distanciaReta": "2,162.80 km",
+    "distanciaConducao": "4,359 km",
+    "tempo": "2 dias 14 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tabatinga AM",
+    "distanciaReta": "3,106.63 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Silves AM",
+    "distanciaReta": "2,166.27 km",
+    "distanciaConducao": "4,344 km",
+    "tempo": "2 dias 13 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tefé AM",
+    "distanciaReta": "2,670.08 km",
+    "distanciaConducao": "- ",
+    "tempo": "- "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tapauá AM",
+    "distanciaReta": "2,574.61 km",
+    "distanciaConducao": "3,534 km",
+    "tempo": "2 dias"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tonantins AM",
+    "distanciaReta": "2,981.21 km",
+    "distanciaConducao": "5,179 km",
+    "tempo": "11 dias 6 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Uarini AM",
+    "distanciaReta": "2,733.97 km",
+    "distanciaConducao": "4,729 km",
+    "tempo": "7 dias 12 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urucará AM",
+    "distanciaReta": "2,156.82 km",
+    "distanciaConducao": "4,359 km",
+    "tempo": "2 dias 14 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urucurituba AM",
+    "distanciaReta": "2,137.44 km",
+    "distanciaConducao": "4,283 km",
+    "tempo": "2 dias 12 horas"
+  }
+]

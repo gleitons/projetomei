@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Diária - Município de Lagoa dos Patos MG</title>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <main>
+        <div class="esquerdo">
+            <nav>
+             
+            </nav>
+        </div>
+        <div class="direito">
+            <div class="formularioCadastro">
+                <form action="">
+                    <h3>ANEXO II - FORMULÁRIO DE SOLICITAÇÃO DE DIÁRIA</h3>
+                  
+                    <div>
+                       
+                        <div class="cadastro">
+                            <p>Informe o CPF:</p> <input type="text" name="" id="verificaCadastro" value="" >
+                        </div>
+                        <button id="btnContinuar" onclick="editarCadastro()">Continuar</button>
+                        <div class="verExcluir dnone" id="servidoCadastrado">
+                            <p>Servidor não cadastrado - Cadastre <a href="./cadastro.html">aqui</a></p>
+                        </div>
+                        <div>
+                            <p>Nome: Gleiton</p>
+                            <p>CPF: 083.030.206-92</p>
+                            <p>Setor: Tributos/Fazendário</p>
+                            <p>Cargo: Agente Fazendário</p>
+                            <p>Banco: Sicoob/Credinor</p>
+                            <p>Tipo: Poupança</p>
+                            <p>Agência: 3144</p>
+                            <p>Conta: 60.548.658</p>
+                        </div>
+                        <div class="cadastoConti">
+                            <div>
+                                <p>Exercício:</p> <input type="number" name="" id="idAnoExercicio" placeholder="2023">
+                            </div>
+                            <div>
+                                <p>Data Hoje:</p> <input type="text" name="" id="idDataHoje" placeholder="ex: Encontro Nacional - Curso Tal">
+                            </div>
+                            <div>
+                                <p>Objetivo da Viagem:</p> <input type="text" name="" id="idPernoite" placeholder="ex: Encontro Nacional - Curso Tal">
+                            </div>
+                          <fieldset>
+                            <legend>Eventos</legend>
+                          </fieldset>
+                            
+                            <fieldset>
+                                <legend>Diária</legend>
+                                <div>
+                                    <p>Quantidade de Pernoites:</p> <input type="number" name="" id="idPernoite" placeholder="ex: 1">
+                                </div>
+                                <div>
+                                    <p>Quantidade de Diárias:</p> <input type="text" name="" id="idNome" placeholder="ex: 2">
+                                </div>
+                                <div>
+                                    <p>Valor da Diária: R$</p> <input type="number" name="" id="idNome" placeholder="ex: 80">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Passagem</legend>
+                                <div>
+                                    <p>Quantidade passagem:</p> <input type="number" name="" id="idPernoite" placeholder="ex: 1">
+                                </div>
+                                
+                                <div>
+                                    <p>Valor por passagem: R$</p> <input type="number" name="" id="idNome" placeholder="ex: 80">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Indenização - Transporte</legend>
+                                <div>
+                                    <p>Quantidade:</p> <input type="number" name="" id="idPernoite" placeholder="ex: 1">
+                                </div>
+                                
+                                <div>
+                                    <p>Valor por Indenização - Transporte R$</p> <input type="number" name="" id="idNome" placeholder="ex: 80">
+                                </div>
+                            </fieldset>
+                           
+                            <div>
+                                <p>Valor da Diária: R$</p> <input type="number" name="" id="idNome" placeholder="ex: 80">
+                            </div>
+                            <p>Viagens Previstas Período:</p>
+                            <div>
+                                <p>Saída:</p> <input type="date" name="" id="idNome">
+                            </div>
+                            <div>
+                                <p>Retorno:</p> <input type="date" name="" id="idNome">
+                            </div>
+                            <p>Tipo de Diária: </p>
+                            <input type="checkbox" name="antecipadas" value="antecipadas">
+                            <label for="antecipadas"> Antecipadas</label><br>
+                            <input type="checkbox" name="vencidas" value="vencidas">
+                            <label for="antecipadas"> Vencidas</label><br>
+                            <input type="checkbox" name="indenizacao" value="indenizacao">
+                            <label for="antecipadas"> Indenização</label><br>
+
+                        </div>
+                        <div class="cadastoConti dnone" id="mostraDados">
+                            <div>
+                                <p>Nome Completo:</p> <input type="text" name="" id="idNome">
+                            </div>
+                           
+                            <div>
+                                <p>Endereço:</p> <input type="text" name="" id="idEndereco">
+                            </div>
+                            <div>
+                                <p>Numero:</p> <input type="text" name="" id="idNumero">
+                            </div>
+                            <div>
+                                <p>Bairro:</p> <input type="text" name="" id="idBairro">
+                            </div>
+                            <div>
+                                <p>Matricula:</p> <input type="text" name="" id="idMatricula"><a onclick="adiconarMatricula()" href="#">
+                                    Consultar
+                                </a>
+                            </div>  
+                            <div>
+                                <p>Cargo:</p> <input type="text" name="" id="idCargo">
+                            </div>
+                            <div>
+                                <p>Conta:</p> <input type="text" name="" id="idSetor">
+                            </div>
+                            <div>
+                                <p>Tipo de conta:</p>
+                                <select name="" id="idTipodeConta">
+                                    <option value="cc">Selecione</option>
+                                    <option value="cc">Corrente</option>
+                                    <option value="pp">Poupança</option>   
+                                </select>                        
+                            </div>                            <div>
+                                <p>Banco:</p> <input type="text" name="" id="idBanco" placeholder="ex Sicoob">
+                            </div>              
+                            <div>
+                                <p>Agência:</p> <input type="text" name="" id="idAgencia">
+                            </div>
+                            <div>
+                                <p>Conta:</p> <input type="text" name="" id="idConta">
+                            </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="./src/script.js"></script>
+</body>
+</html>

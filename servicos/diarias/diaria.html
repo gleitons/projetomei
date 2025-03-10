@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Diária - Município de Lagoa dos Patos MG</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="esquerdo">
+            <nav>
+
+            </nav>
+        </div>
+        <div class="direito">
+            <div class="formularioCadastro">
+                <!-- <form action="" autocomplete="off"> -->
+                    <h3>Cadastrar Diária</h3>
+
+                    <div>
+                        <div class="cadastoConti">
+                            <div class="cadastro">
+                                <p>Codigo:</p> <input type="text" name="" id="codigoEvento" value="" disabled>
+                            </div>
+                            <button onclick="createCadastro()">Finalizar</button>
+
+                            <div>
+                                <p>Servidor:</p> <select name="" id="selecionaSe" onchange="preencheDiaria()">
+                                    <option value="">Selecione</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <p>Evento:</p> <select name="" id="selecionaEv" onchange="preencheDiaria()">
+                                    <option value="">Selecione</option>
+                                </select>
+                            </div>
+                            Tipo de Diária:
+                            <input type='radio' name='tipodeDiariaAnote' id="" value="antecipadas" checked> Antecipadas
+                            <input type='radio' name='tipodeDiariaAnote' id="" value="vencidas"> Vencidas
+                            <input type='radio' name='tipodeDiariaAnote' id="" value="indenizacao"> Indenização
+                            <br> <br>
+
+                            <div>
+                                <fieldset>
+                                    <legend>Partida</legend>
+                                    <span class="atencaoC"><strong>*Atenção:</strong>Confira todas as informações</span>
+                                    <p>Data:</p> <input type="date" name="" id="dataPartida" value="" autofocus
+                                        required>
+                                    <p>Horário:</p> <input type="time" name="" id="horarioPartida" value="" autofocus
+                                        required>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Chegada</legend>
+                                    <span class="atencaoC"><strong>*Atenção:</strong>Confira todas as informações</span>
+                                    <p>Data:</p> <input type="date" name="" id="dataChegada" value="" autofocus
+                                        required>
+                                    <p>Horário:</p> <input type="time" name="" id="horarioChegada" value="" autofocus
+                                        required>
+                                </fieldset>
+                            </div>
+                           
+
+                            <fieldset>
+                                <legend>Meios de Transporte</legend>
+                                <p>Veiculo Oficial:</p>
+                                <input type='radio' name='veiculoOf' id="" onchange="soma()" value='Sim' checked> Sim
+                                <input type='radio' name='veiculoOf' id="" onchange="soma()" value='Não'> Não
+                                <p>Placa:</p>
+                                <input type="text" name="" id="placa"> <br>
+                                Viagem em transporte Intermunicipal:
+                                <input type='radio' name='viagemIntermunicipal' id="" value="Avião"> Avião
+                                <input type='radio' name='viagemIntermunicipal' id="" value="Ônibus"> Ônibus
+                                <input type='radio' name='viagemIntermunicipal' id="" value="Outro" checked> Outro
+                                <br> <br>
+
+                                Viagem em Veículo particular:
+                                <input onclick="verificaVeiculoParticular()" type='radio' name='veiculoParticular' id=""
+                                    value="nao" checked> Não
+                                <input onclick="verificaVeiculoParticular()" type='radio' name='veiculoParticular' id=""
+                                    value='sim'> Sim
+                                <div id="SimjustificaVeiculo" style="display: none;">
+                                    Justifique
+                                    <input type="text" name="" id="justificaVeiculo"> <br>
+                                    Dados do Veículo particular: <br>
+                                    Placa:
+                                    <input type="text" name="" id="dadosVeiculoParticular">
+                                </div>
+                            </fieldset>
+                          
+                            <fieldset>
+                                <legend>Cidade de Destino</legend>
+                                <p>Cidade:</p>
+                                <input type="text" name="" id="cidadedoEventoC"> <br>
+                                <p>Distância:</p>
+                                <input type="text" name="" id="distanciaEventoC"> Km <br>
+                                <p>População/Habitantes:</p>
+                                <input type="text" name="" id="populacaoEventoC"> <span id="sePop"></span> <br>
+                            </fieldset>
+                           
+
+                            <fieldset>
+                                <legend>Diária</legend>
+                                <div>
+                                    <p>Quantidade de Pernoites:</p> <input type="number" name="" id="qtdpernoite"
+                                        placeholder="ex: 1">
+                                </div>
+                                <div>
+                                    <p>Quantidade de Diárias:</p> <input type="text" name="" id="qtdDeDiaria" onkeyup="preencheDiaria()"
+                                        placeholder="ex: 2">
+                                </div>
+                                onkeyup="preencheDiaria()"
+                                <div>
+                                    <p>Valor Diária: R$</p> <input type="number" name="" id="valordaDiaria"
+                                        placeholder="ex: 80">
+                                </div>
+                                <div>
+                                    <p>½ Diária: R$</p> <input onkeyup="preencheDiaria()" type="number" name="" id="valorMeiaDiaria"
+                                         >
+                                </div>
+                                <!-- <button>Atualizar Valor</button> -->
+                                <div>
+                                    <p>Total: R$</p> <input type="number" name="" id="TotaldaDiaria"
+                                        placeholder="ex: 80">
+                                </div>
+                            </fieldset>
+                           
+                            <fieldset>
+                                <legend>Passagem</legend>
+                                <div>
+                                    <p>Quantidade passagem:</p> <input type="number" name="" id="qtdDepassagem"
+                                        placeholder="ex: 1">
+                                </div>
+
+                                <div>
+                                    <p>Valor por passagem: R$</p> <input type="number" name="" id="valordaPassagem"
+                                        placeholder="ex: 80">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Indenização - Transporte</legend>
+                                <div>
+                                    <p>Quantidade de Km:</p> <input type="number" name="" id="qtddeIndenizacao"
+                                        placeholder="ex: 1">
+                                </div>
+
+                                <div>
+                                    <p>Valor por Indenização - Transporte R$</p> <input type="number" name=""
+                                        id="valordaindenizacao" placeholder="0,80 - para editar, vá em parametros" disabled>
+                                </div>
+                            </fieldset>                          
+                        </div>
+
+                    </div>
+                    <button onclick="createCadastro()">Finalizar</button>
+
+                <!-- </form> -->
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

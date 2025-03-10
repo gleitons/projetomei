@@ -1,0 +1,241 @@
+.imagemTerraNua {
+    width: 1024px;
+    position: relative;
+}
+.imagemTerraNua i{
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 20px;
+    padding: 5px;
+    color: red;
+    border-radius: 8px;
+    background-color: black;
+    cursor: pointer;
+}
+.esconde {
+    display: none;
+}
+.mostra {
+    display: block;
+}
+.marca {
+    border: black solid 1px;
+}
+.DnoneD {
+    display: none;
+}
+legend {
+    font-weight: 800;
+    color: rgb(0, 0, 122);
+}
+input{
+    border-radius: 4px;
+    border: #4e4e4e solid 1px;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 20px;
+}
+h2 {
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.folhaA4 {
+    
+    margin: 0;
+    width: 100%px;
+    padding: 10%;
+    height: 25cm;   
+    
+}
+.backimage{
+    -webkit-print-color-adjust: exact;
+    background-image: url(/src/imagens/fundo-certidao-min.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;    
+    margin: auto;   
+    
+}
+.topoBrasao{
+    margin-left: 70px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.topoBrasao h1 {
+    
+        font-size: 25px;
+
+}    
+.topoBrasao h2 {
+    
+    margin: 0px;
+    font-size: 20px;
+
+}    
+.certidaoValorVenal {
+    font-size: 13px;
+    text-align: center;
+}
+.assinaturaLateral {
+    margin-right: 0px;
+    position: fixed;
+    transform: rotate(-90deg);
+}
+.assinaTOperador{
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.assinaTOperador p{
+    padding-top: -10px;
+    font-size: 12px;
+}
+.AssinOp {
+    font-size: 12px; 
+    font-weight:700; 
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.peEnderecoPref {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.peEnderecoPref > p{
+    margin: 0;
+}
+.protocolN {
+    margin: 0px;
+}
+.fundoInsereDados {
+    background-color: #ACA8AB;
+    padding: 5px;
+}
+.IDados {
+    width: 200px;
+    border-bottom: #5e5e5ea6 solid 1px;
+}
+.botaoEnviar{
+    background-color: rgb(55, 138, 55);
+    color: white;
+    border: rgb(119, 119, 119) solid 1px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.botaoEnviar:active {
+    box-shadow: inset black 1px 2px 2px 1px;
+}
+.backimage {
+    display: none;
+}
+.ocultarBotao {
+    background-color: red;
+    color: white;
+}
+.imprimirAgora {
+   
+    
+   position: absolute;
+   margin-top: -75px;
+    padding: 12px;
+    margin-left: 200px;
+    box-shadow: rgb(0, 182, 55) 1px 1px 5px 1px;
+    border: rgb(218, 218, 218) solid 1px;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: 800;
+}
+@media print {
+    .ocultarBotao {
+        display: none !important;
+    }
+    .fundoInsereDados {
+        display: none !important;
+    }
+    .imprimirAgora {
+        display: none !important;
+    }
+}
+.diminuirLetra{
+    font-size: 1.2rem;
+}
+.btninforma{
+    background-color:none;
+    border: none;
+    border-bottom: rgb(66, 66, 66) solid 1px;
+    text-decoration: none;
+    transition-duration: 3500ms;
+}
+.btninforma:hover{
+    background-color: red;
+    color: white;
+}
+.assDireito {
+    padding: 2px;
+    margin: 10px;
+    
+    display: inline-flex;
+    width: 200px;
+    height: 50px;
+    background-image: url(/src/imagens/fundo-assinatura.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.assEsquerdo {
+
+   width: 390px;
+}
+.assinaturasEQr{
+    
+    margin: auto;
+    display: inline-flex;
+    
+}
+.DadosAss{
+
+}
+.AssMaior{
+    margin-top: 10%;
+    font-size: 6px;
+}
+.cpfAss {
+    font-size: 6px;
+}
+.assinaEData{
+    font-size: 5px;
+}
+.nomeFuncionarios {
+    height: 20px;
+}
+.tabelaInfo {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 0px;
+    
+}
+.linhaTab {
+    border: black solid 1px;
+    font-size: 15px;
+}
+.leiAnexo {
+    margin: 10px;
+}
+.corLinha {
+    background-color: rgb(189, 189, 189);
+    font-weight: 700;
+    font-size: 16px;
+}

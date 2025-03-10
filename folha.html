@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titleFol">Folha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .toph2 {
+            text-align: center;
+        }
+
+        thead {
+            border: black solid 0.6px;
+            margin-bottom: 5px;
+        }
+
+        thead td {
+            padding: 5px;
+            height: 25px;
+            border: black solid 1px;
+            position: relative;
+        }
+
+        thead td p {
+            font-size: 7px;
+            top: 0px;
+            position: absolute;
+        }
+
+        thead td h5 {
+            margin-top: 1px;
+            font-size: 10px;
+            margin-bottom: -3px;
+        }
+        
+        .observacaoF p, li{
+            font-size: 8px;
+            
+           
+        }
+
+        tbody {
+            margin-top: 5px;
+            border: black solid 1px;
+        }
+
+        .corpoT {
+            text-align: center;
+        }
+        
+        .corpoT tr td {
+            font-size: .8em;
+            border: black solid 1px;
+        }
+
+        .tbod tr td {
+            font-size: .6em;
+            height: 23px;
+        }
+
+        .tfot tr {
+            text-align: center;
+        }
+
+        .tfot td {
+            border: black solid 1px;
+        }
+
+        .preencher fieldset {
+            padding: 10px;
+        }
+
+        .preencher fieldset button {
+            padding: 10px;
+            margin: 10px 20px;
+            background-color: rgb(74, 220, 240);
+            cursor: pointer;
+        }
+
+        .preencher fieldset button:active {
+            
+            padding: 10px;
+            margin: 10px 20px;
+            background-color: rgb(2, 128, 145);
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .preencher fieldset input {
+            margin: 10px;
+
+        }
+        .diminuirCol {
+            font-size: 14px;
+            
+        }
+        .cFunc {
+            background-color: rgb(222, 125, 125);
+        }
+        .ocul {
+            visibility: hidden;
+        }
+        .dimi {
+            padding: 0px ;
+        }
+        .duvidasS {
+            display: flex;
+            padding: 0px 20px;
+        }
+        .dnone {
+            display: none;
+        }
+        @media print{
+            .noprint{
+                display:none;
+            }
+            .ocul * {
+                visibility: visible;
+              }
+         }
+    </style>
+</head>
+
+<body>
+
+    <div class="preencher noprint">
+        <fieldset>
+            <legend>Impressão de Folha</legend>
+            <h6>FUNCIONÁRIOS - PREFEITURA VELHA</h6>
+            <button class="dimi" id="mostraR" onclick="abrirAjuda()">Como Utilizar o sistema "Livro de Ponto"</button>
+            <div class="duvidasS dnone" id="duviasS">
+                <div>
+                    <p>Selecione o funcionário e o mês de referência</p>
+                    <p>Configure de acordo com a imagem abaixo</p>
+                    <img src="/mostrar-duvidas-sistema.png" alt=""></div>
+                <div>
+                    <h6>Configurações para impressão</h6>
+                    <p>*ATENÇÃO: UTILIZAR O CHROME PARA GERAR A FOLHA DE PONTO</p>
+                    <h4>Layout: Retrato</h4>
+                    <h4>Tamanho do Papel: A4</h4>
+                    <h4>Margens: Padrão</h4>
+                    <h4>Escala: Padrão</h4>
+                    <h4>Opções: Desmarcar - Cabeçalhos e rodapé <br> Marcar - Gráficos de segundo plano</h4>
+                    <button id="fechaAjuda" onclick="abrirAjuda()">Clique aqui para Fechar</button>
+                </div>
+            </div>
+            <fieldset id="cFunc" >
+                <legend>Funcionário</legend>
+                <select name="" id="nomeFuncionario" onchange="removeCFunc()">
+                    <option value="">Selecione ou Digite</option>
+
+                    <option value="ANTONIO DURAES DE QUEIROZ">ANTONIO DURAES DE QUEIROZ</option>
+                    <option value="DAMARIZE ALMEIDA FONSECA">DAMARIZE ALMEIDA FONSECA</option>
+                    <option value="ELDER TADEU BOSSER">ELDER TADEU BOSSER</option>
+                    <option value="GLEITON APARECIDO SOARES DE SOUZA">GLEITON APARECIDO SOARES DE SOUZA</option>
+                    <option value="JHESSYK DAIENY REIS BRITO">JHESSYK DAIENY REIS BRITO</option>
+                    <option value="JOAO MARTINS GUEDES">JOAO MARTINS GUEDES</option>
+                    <option value="ROSALIA CARDOSO DOS SANTOS SOUZA">ROSALIA CARDOSO DOS SANTOS SOUZA</option>
+                    <option value="VANDER DE JESUS MAGALHAES NOBRE">VANDER DE JESUS MAGALHAES NOBRE</option>
+
+                </select>
+                <td>Nome:</td>
+                <input type="text" name="" id="" placeholder="Selecione anteriormente">
+            </fieldset>
+            <fieldset id="cMes" >
+                
+                <legend>Mês de referência</legend>
+                <select name="" id="mesReferencia" onchange="removeCMes()"  >
+                    <option value="">Selecione ou Digite</option>
+                    <option value="JANEIRO" >JANEIRO</option>
+                    <option value="FEVEREIRO">FEVEREIRO</option>
+                    <option value="MARÇO">MARÇO</option>
+                    <option value="ABRIL">ABRIL</option>
+                    <option value="MAIO">MAIO</option>
+                    <option value="JUNHO">JUNHO</option>
+                    <option value="JULHO">JULHO</option>
+                    <option value="AGOSTO">AGOSTO</option>
+                    <option value="SETEMBRO">SETEMBRO</option>
+                    <option value="OUTUBRO">OUTUBRO</option>
+                    <option value="NOVEMBRO">NOVEMBRO</option>
+                    <option value="DEZEMBRO">DEZEMBRO</option>
+                </select>
+
+                <td>Mês:</td>
+                <input type="text" name="" value="" id="" placeholder="Selecione anteriormente">
+            </fieldset>
+            <fieldset>
+                <legend>Ano de referência</legend>
+                <select name="" id="anorefi">
+                    <option value="2023">2023</option>
+                    <option value="">Selecione ou Digite</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+                <td>Ano:</td>
+                <input type="text" name="" id="" placeholder="Selecione anteriormente">
+            </fieldset>
+            <fieldset>
+                <legend>Horário de Trabalho</legend>
+                <fieldset>
+                    <legend>Manhã</legend>
+                    <select name="" id="iniM">
+
+                        <option value="08:00">08:00</option>
+                        <option value="07:00">07:00</option>
+                        <option value="">Selecione ou Digite</option>
+
+                    </select>
+                    <td>Início:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente"> <br>
+                    <select name="" id="fiM">
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="">Selecione ou Digite</option>
+                    </select>
+                    <td>Fim:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tarde:</legend>
+                    <select name="" id="iniT">
+                        <option value="13:00">13:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="">Selecione ou Digite</option>
+                    </select>
+                    <td>Início:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente"> <br>
+                    <select name="" id="fiT">
+                        <option value="16:00">16:00</option>
+                        <option value="17:00">17:00</option>
+                        <option value="">Selecione ou Digite</option>
+                    </select>
+                    <td>Fim:</td>
+                    <input type="text" name="" id="" placeholder="Selecione anteriormente">
+                </fieldset>
+
+            </fieldset>
+            <div id="geradorL">
+                <button onclick="startFolha()"  >GERAR FOLHA DE PONTO</button>
+                <button onclick="loadP()">NOVO</button>
+            </div>
+            
+        </fieldset>
+        <table>
+            
+
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="tabelaFuncionario">
+
+    <div class="ocul">
+      
+        <div class="toph2" >
+            <h2>LIVRO DE PONTO</h2>
+        </div>
+        <table>
+            <thead id="cabecatabela">
+                <tr>
+                    <td colspan="3">
+                        <p>EMPREGADOR: NOME / EMPRESA</p>
+                        <h5>PREFEITURA MUNICIPAL DE LAGOA DOS PATOS</h5>
+                    </td>
+                    <td colspan="2">
+                        <p>CEI / CNPJ°</p>
+                        <h5>16.901.381/0001-10</h5>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p></p>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <p>ENDEREÇO</p>
+                        <h5>PRAÇA 31 DE MARÇO, 111, CENTRO</h5>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                    <td colspan="1" hidden>
+                        <p>ENDEREÇO</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        <p>MATRÍCULA</p>
+                        <h5>99999</h5>
+                    </td>
+                    <td colspan="2">
+                        <p>EMPREGADO (A)</p>
+                        <h5>GLEITON APARECIDO SOARES DE SOUZA</h2>
+                    </td>
+                    <td colspan="1">
+                        <p>DATA DE ADMISSÃO</p>
+                        <h5>22/09/2023</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>CARGO/FUNÇÃO:</p>
+                        <h5>AGENTE FAZENDÁRIO</h5>
+                    </td>
+                    <td colspan="2">
+                        <p>CPF:</p>
+                        <h5>083.030.206-92</h2>
+                    </td>
+                    <td colspan="0" hidden>
+                        <p>DATA DE ADMISSÃO</p>
+                        <h5>22/09/2023</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>HORÁRIO DE TRABALHO DE SEG. A SEXTA-FEIRA:</p>
+                        <h5>08:00 ÀS 11:00 / 13:00 ÀS 16:00 hs</h5>
+                    </td>
+                    <td colspan="1">
+                        <p>MÊS:</p>
+                        <h5>JANEIRO</h2>
+                    </td>
+                    <td colspan="1">
+                        <p>ANO</p>
+                        <h5>2023</h5>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        <table class="corpoT">
+            <thead class="diminuirCol">
+                <tr>
+                    <td rowspan="5">DIAS<br>MÊS</td>
+                    <td colspan="3">MANHÃ</td>
+                    <td colspan="3">TARDE</td>
+                </tr>
+                <tr>
+                    <td>ENTRADA</td>
+                    <td>ASSINATURA</td>
+                    <td>SAÍDA</td>
+                    <td>ENTRADA</td>
+                    <td>SAÍDA</td>
+                    <td>ASSINATURA</td>
+                </tr>
+            </thead>
+            <tbody class="tbod" id="tabelaData">
+            </tbody>
+        </table>
+        <table class="tfot">
+            <tbody>
+                <tr>
+                    <td colspan="1">OBSERVAÇÕES</td>
+                    <td colspan="1">VISTO DA CHEFIA IMEDIATA</td>
+                </tr>
+                <tr>
+                    <td style="height: 70px;" class="observacaoF" id="footTab">
+        
+                    </td>
+                    <td colspan="1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="/funcionario.js"></script>
+
+</body>
+
+</html>

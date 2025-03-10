@@ -1,0 +1,5619 @@
+[
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Abadia dos Dourados MG",
+    "distanciaReta": "343.16 km",
+    "distanciaConducao": "452 km",
+    "tempo": "7 horas 13 mins",
+    "populacao": "6 972 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Abaeté MG",
+    "distanciaReta": "259.14 km",
+    "distanciaConducao": "399 km",
+    "tempo": "6 horas 18 mins",
+    "populacao": "23 223 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Abre Campo MG",
+    "distanciaReta": "430.30 km",
+    "distanciaConducao": "623 km",
+    "tempo": "9 horas 8 mins",
+    "populacao": "13 465 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Acaiaca MG",
+    "distanciaReta": "405.37 km",
+    "distanciaConducao": "582 km",
+    "tempo": "8 horas 28 mins",
+    "populacao": "3 994 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Aguanil MG",
+    "distanciaReta": "448.80 km",
+    "distanciaConducao": "621 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "4 557 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Águas Formosas MG",
+    "distanciaReta": "387.41 km",
+    "distanciaConducao": "685 km",
+    "tempo": "9 horas 50 mins",
+    "populacao": "18 482 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Águas Vermelhas MG",
+    "distanciaReta": "359.45 km",
+    "distanciaConducao": "446 km",
+    "tempo": "6 horas 53 mins",
+    "populacao": "13 477 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Aiuruoca MG",
+    "distanciaReta": "555.26 km",
+    "distanciaConducao": "793 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "6 003 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alfenas MG",
+    "distanciaReta": "514.94 km",
+    "distanciaConducao": "722 km",
+    "tempo": "9 horas 45 mins",
+    "populacao": "80 973 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Além Paraíba MG",
+    "distanciaReta": "578.97 km",
+    "distanciaConducao": "777 km",
+    "tempo": "10 horas 28 mins",
+    "populacao": "35 321 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alfredo Vasconcelos MG",
+    "distanciaReta": "471.61 km",
+    "distanciaConducao": "559 km",
+    "tempo": "7 horas 46 mins",
+    "populacao": "6 078 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Almenara MG",
+    "distanciaReta": "423.86 km",
+    "distanciaConducao": "592 km",
+    "tempo": "9 horas 8 mins",
+    "populacao": "42 380 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alagoa MG",
+    "distanciaReta": "577.29 km",
+    "distanciaConducao": "821 km",
+    "tempo": "11 horas 11 mins",
+    "populacao": "543 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alpercata MG",
+    "distanciaReta": "353.61 km",
+    "distanciaConducao": "598 km",
+    "tempo": "9 horas 44 mins",
+    "populacao": "7 448 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alpinópolis MG",
+    "distanciaReta": "471.60 km",
+    "distanciaConducao": "745 km",
+    "tempo": "10 horas 19 mins",
+    "populacao": "20 059 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alterosa MG",
+    "distanciaReta": "502.76 km",
+    "distanciaConducao": "766 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "14 494 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Água Comprida MG",
+    "distanciaReta": "500.13 km",
+    "distanciaConducao": "592 km",
+    "tempo": "9 horas 20 mins",
+    "populacao": "2 061 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alto Caparaó MG",
+    "distanciaReta": "479.24 km",
+    "distanciaConducao": "728 km",
+    "tempo": "10 horas 52 mins",
+    "populacao": "5 297 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alto Jequitibá MG",
+    "distanciaReta": "474.09 km",
+    "distanciaConducao": "717 km",
+    "tempo": "10 horas 39 mins",
+    "populacao": "8 318 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alto Rio Doce MG",
+    "distanciaReta": "465.86 km",
+    "distanciaConducao": "580 km",
+    "tempo": "8 horas 46 mins",
+    "populacao": "10 723 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alvinópolis MG",
+    "distanciaReta": "383.87 km",
+    "distanciaConducao": "566 km",
+    "tempo": "8 horas 15 mins",
+    "populacao": "15 203 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alvorada de Minas MG",
+    "distanciaReta": "233.45 km",
+    "distanciaConducao": "408 km",
+    "tempo": "6 horas 37 mins",
+    "populacao": "3 606 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Amparo da Serra MG",
+    "distanciaReta": "434.71 km",
+    "distanciaConducao": "631 km",
+    "tempo": "9 horas 15 mins",
+    "populacao": "5 053 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Andradas MG",
+    "distanciaReta": "603.92 km",
+    "distanciaConducao": "864 km",
+    "tempo": "11 horas 4 mins",
+    "populacao": "41 704 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Angelândia MG",
+    "distanciaReta": "256.02 km",
+    "distanciaConducao": "454 km",
+    "tempo": "6 horas 47 mins",
+    "populacao": "8 541 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Antônio Prado de Minas MG",
+    "distanciaReta": "518.56 km",
+    "distanciaConducao": "748 km",
+    "tempo": "11 horas 21 mins",
+    "populacao": "1 670 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araçaí MG",
+    "distanciaReta": "249.64 km",
+    "distanciaConducao": "302 km",
+    "tempo": "5 horas 2 mins",
+    "populacao": "2 247 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Aracitaba MG",
+    "distanciaReta": "500.72 km",
+    "distanciaConducao": "625 km",
+    "tempo": "8 horas 39 mins",
+    "populacao": "2 057 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araçuaí MG",
+    "distanciaReta": "268.30 km",
+    "distanciaConducao": "434 km",
+    "tempo": "6 horas 54 mins",
+    "populacao": "36 705 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araguari MG",
+    "distanciaReta": "424.20 km",
+    "distanciaConducao": "532 km",
+    "tempo": "8 horas 18 mins",
+    "populacao": "118 361 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araporã MG",
+    "distanciaReta": "509.17 km",
+    "distanciaConducao": "675 km",
+    "tempo": "9 horas 40 mins",
+    "populacao": "6 992 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arapuá MG",
+    "distanciaReta": "281.55 km",
+    "distanciaConducao": "388 km",
+    "tempo": "6 horas 14 mins",
+    "populacao": "2 772 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araújos MG",
+    "distanciaReta": "391.32 km",
+    "distanciaConducao": "524 km",
+    "tempo": "8 horas 17 mins",
+    "populacao": "8 768 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arceburgo MG",
+    "distanciaReta": "546.75 km",
+    "distanciaConducao": "832 km",
+    "tempo": "11 horas 30 mins",
+    "populacao": "10 578 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Argirita MG",
+    "distanciaReta": "546.60 km",
+    "distanciaConducao": "730 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "2 901 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Aricanduva MG",
+    "distanciaReta": "236.78 km",
+    "distanciaConducao": "443 km",
+    "tempo": "6 horas 32 mins",
+    "populacao": "4 770 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arinos MG",
+    "distanciaReta": "201.10 km",
+    "distanciaConducao": "345 km",
+    "tempo": "5 horas 41 mins",
+    "populacao": "17 888 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Astolfo Dutra MG",
+    "distanciaReta": "514.36 km",
+    "distanciaConducao": "679 km",
+    "tempo": "9 horas 32 mins",
+    "populacao": "13 049 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Augusto de Lima MG",
+    "distanciaReta": "130.42 km",
+    "distanciaConducao": "236 km",
+    "tempo": "3 horas 50 mins",
+    "populacao": "4 960 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Baldim MG",
+    "distanciaReta": "265.57 km",
+    "distanciaConducao": "388 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "7 913 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Baependi MG",
+    "distanciaReta": "555.05 km",
+    "distanciaConducao": "754 km",
+    "tempo": "9 horas 51 mins",
+    "populacao": "18 292 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bambuí MG",
+    "distanciaReta": "368.20 km",
+    "distanciaConducao": "501 km",
+    "tempo": "7 horas 48 mins",
+    "populacao": "22 709 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bandeira do Sul MG",
+    "distanciaReta": "561.06 km",
+    "distanciaConducao": "819 km",
+    "tempo": "10 horas 43 mins",
+    "populacao": "5 340 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barão de Cocais MG",
+    "distanciaReta": "347.99 km",
+    "distanciaConducao": "497 km",
+    "tempo": "7 horas 23 mins",
+    "populacao": "32 319 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barão de Monte Alto MG",
+    "distanciaReta": "533.82 km",
+    "distanciaConducao": "776 km",
+    "tempo": "11 horas 5 mins",
+    "populacao": "5 676 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barra Longa MG",
+    "distanciaReta": "401.52 km",
+    "distanciaConducao": "601 km",
+    "tempo": "8 horas 50 mins",
+    "populacao": "5 250 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Belmiro Braga MG",
+    "distanciaReta": "565.88 km",
+    "distanciaConducao": "691 km",
+    "tempo": "9 horas 21 mins",
+    "populacao": "3 403 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bela Vista de Minas MG",
+    "distanciaReta": "353.41 km",
+    "distanciaConducao": "529 km",
+    "tempo": "7 horas 40 mins",
+    "populacao": "10 255 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bertópolis MG",
+    "distanciaReta": "425.93 km",
+    "distanciaConducao": "732 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "4 503 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bias Fortes MG",
+    "distanciaReta": "521.28 km",
+    "distanciaConducao": "631 km",
+    "tempo": "8 horas 53 mins",
+    "populacao": "3 796 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Biquinhas MG",
+    "distanciaReta": "223.23 km",
+    "distanciaConducao": "335 km",
+    "tempo": "5 horas 51 mins",
+    "populacao": "2 634 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bicas MG",
+    "distanciaReta": "550.39 km",
+    "distanciaConducao": "696 km",
+    "tempo": "9 horas 33 mins",
+    "populacao": "13 653 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bocaina de Minas MG",
+    "distanciaReta": "577.66 km",
+    "distanciaConducao": "794 km",
+    "tempo": "11 horas 13 mins",
+    "populacao": "5 007 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Berizal MG",
+    "distanciaReta": "338.83 km",
+    "distanciaConducao": "430 km",
+    "tempo": "6 horas 30 mins",
+    "populacao": "4 370 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bocaiuva MG",
+    "distanciaReta": "82.52 km",
+    "distanciaConducao": "148 km",
+    "tempo": "2 horas 9 mins",
+    "populacao": "48 974 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Jesus da Penha MG",
+    "distanciaReta": "493.16 km",
+    "distanciaConducao": "770 km",
+    "tempo": "10 horas 44 mins",
+    "populacao": "4 217 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Jesus do Amparo MG",
+    "distanciaReta": "325.20 km",
+    "distanciaConducao": "474 km",
+    "tempo": "6 horas 58 mins",
+    "populacao": "6 083 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bonito de Minas MG",
+    "distanciaReta": "185.27 km",
+    "distanciaConducao": "276 km",
+    "tempo": "4 horas 5 mins",
+    "populacao": "10 797 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Repouso MG",
+    "distanciaReta": "632.39 km",
+    "distanciaConducao": "821 km",
+    "tempo": "10 horas 13 mins",
+    "populacao": "10 457 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bonfinópolis de Minas MG",
+    "distanciaReta": "156.90 km",
+    "distanciaConducao": "295 km",
+    "tempo": "5 horas 25 mins",
+    "populacao": "5 867 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Borda da Mata MG",
+    "distanciaReta": "611.04 km",
+    "distanciaConducao": "800 km",
+    "tempo": "10 horas 5 mins",
+    "populacao": "19 055 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Botelhos MG",
+    "distanciaReta": "553.33 km",
+    "distanciaConducao": "789 km",
+    "tempo": "10 horas 57 mins",
+    "populacao": "14 935 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Botumirim MG",
+    "distanciaReta": "167.37 km",
+    "distanciaConducao": "267 km",
+    "tempo": "4 horas 26 mins",
+    "populacao": "6 497 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Brasópolis MG",
+    "distanciaReta": "620.60 km",
+    "distanciaConducao": "831 km",
+    "tempo": "10 horas 35 mins",
+    "populacao": "14 663 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Brasília de Minas MG",
+    "distanciaReta": "87.02 km",
+    "distanciaConducao": "112 km",
+    "tempo": "1 hora 29 mins",
+    "populacao": "31 221 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Braúnas MG",
+    "distanciaReta": "303.22 km",
+    "distanciaConducao": "533 km",
+    "tempo": "8 horas 59 mins",
+    "populacao": "4 835 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Brás Pires MG",
+    "distanciaReta": "455.36 km",
+    "distanciaConducao": "587 km",
+    "tempo": "8 horas 40 mins",
+    "populacao": "4 637 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bueno Brandão MG",
+    "distanciaReta": "634.69 km",
+    "distanciaConducao": "841 km",
+    "tempo": "10 horas 43 mins",
+    "populacao": "11 233 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Buenópolis MG",
+    "distanciaReta": "108.51 km",
+    "distanciaConducao": "203 km",
+    "tempo": "3 horas 32 mins",
+    "populacao": "10 291 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Buritizeiro MG",
+    "distanciaReta": "60.40 km",
+    "distanciaConducao": "72 km",
+    "tempo": "1 hora 20 mins",
+    "populacao": "27 988 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cabeceira Grande MG",
+    "distanciaReta": "287.79 km",
+    "distanciaConducao": "527 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "6 774 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cachoeira da Prata MG",
+    "distanciaReta": "283.08 km",
+    "distanciaConducao": "355 km",
+    "tempo": "5 horas 29 mins",
+    "populacao": "3 654 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cachoeira de Minas MG",
+    "distanciaReta": "610.70 km",
+    "distanciaConducao": "791 km",
+    "tempo": "9 horas 59 mins",
+    "populacao": "11 034 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cachoeira de Pajeú MG",
+    "distanciaReta": "347.36 km",
+    "distanciaConducao": "434 km",
+    "tempo": "6 horas 38 mins",
+    "populacao": "9 382 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caeté MG",
+    "distanciaReta": "337.33 km",
+    "distanciaConducao": "459 km",
+    "tempo": "6 horas 43 mins",
+    "populacao": "45 364 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caiana MG",
+    "distanciaReta": "498.46 km",
+    "distanciaConducao": "758 km",
+    "tempo": "11 horas 23 mins",
+    "populacao": "4 968 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araxá MG",
+    "distanciaReta": "385.42 km",
+    "distanciaConducao": "467 km",
+    "tempo": "7 horas 27 mins",
+    "populacao": "108 403 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caldas MG",
+    "distanciaReta": "581.63 km",
+    "distanciaConducao": "848 km",
+    "tempo": "10 horas 50 mins",
+    "populacao": "13 630 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cajuri MG",
+    "distanciaReta": "463.12 km",
+    "distanciaConducao": "634 km",
+    "tempo": "9 horas 23 mins",
+    "populacao": "4 047 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Camacho MG",
+    "distanciaReta": "410.04 km",
+    "distanciaConducao": "585 km",
+    "tempo": "8 horas 18 mins",
+    "populacao": "3 154 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cambuquira MG",
+    "distanciaReta": "547.72 km",
+    "distanciaConducao": "696 km",
+    "tempo": "9 horas 2 mins",
+    "populacao": "13 053 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campina Verde MG",
+    "distanciaReta": "591.09 km",
+    "distanciaConducao": "677 km",
+    "tempo": "10 horas 38 mins",
+    "populacao": "19 752 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Barroso MG",
+    "distanciaReta": "472.51 km",
+    "distanciaConducao": "594 km",
+    "tempo": "8 horas 19 mins",
+    "populacao": "20 484 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campo Azul MG",
+    "distanciaReta": "58.25 km",
+    "distanciaConducao": "157 km",
+    "tempo": "2 horas 17 mins",
+    "populacao": "3 685 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Brumadinho MG",
+    "distanciaReta": "354.63 km",
+    "distanciaConducao": "442 km",
+    "tempo": "6 horas 27 mins",
+    "populacao": "39 520 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campo Belo MG",
+    "distanciaReta": "441.27 km",
+    "distanciaConducao": "600 km",
+    "tempo": "8 horas 15 mins",
+    "populacao": "54 338 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Belo Vale MG",
+    "distanciaReta": "386.23 km",
+    "distanciaConducao": "471 km",
+    "tempo": "6 horas 54 mins",
+    "populacao": "7 816 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arantina MG",
+    "distanciaReta": "549.74 km",
+    "distanciaConducao": "748 km",
+    "tempo": "10 horas 27 mins",
+    "populacao": "2 804 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Betim MG",
+    "distanciaReta": "335.06 km",
+    "distanciaConducao": "411 km",
+    "tempo": "5 horas 57 mins",
+    "populacao": "450 024 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campo Florido MG",
+    "distanciaReta": "523.01 km",
+    "distanciaConducao": "614 km",
+    "tempo": "9 horas 33 mins",
+    "populacao": "6 870 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campos Altos MG",
+    "distanciaReta": "345.77 km",
+    "distanciaConducao": "462 km",
+    "tempo": "7 horas 19 mins",
+    "populacao": "14 213 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campos Gerais MG",
+    "distanciaReta": "489.74 km",
+    "distanciaConducao": "685 km",
+    "tempo": "9 horas 9 mins",
+    "populacao": "28 774 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cana Verde MG",
+    "distanciaReta": "453.98 km",
+    "distanciaConducao": "609 km",
+    "tempo": "8 horas 8 mins",
+    "populacao": "5 589 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caparaó MG",
+    "distanciaReta": "484.20 km",
+    "distanciaConducao": "742 km",
+    "tempo": "11 horas 7 mins",
+    "populacao": "5 424 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capela Nova MG",
+    "distanciaReta": "450.02 km",
+    "distanciaConducao": "547 km",
+    "tempo": "7 horas 56 mins",
+    "populacao": "4 758 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capim Branco MG",
+    "distanciaReta": "257.75 km",
+    "distanciaConducao": "463 km",
+    "tempo": "6 horas 15 mins",
+    "populacao": "8 880 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capetinga MG",
+    "distanciaReta": "481.34 km",
+    "distanciaConducao": "667 km",
+    "tempo": "10 horas 5 mins",
+    "populacao": "7 152 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capinópolis MG",
+    "distanciaReta": "561.07 km",
+    "distanciaConducao": "689 km",
+    "tempo": "10 horas 2 mins",
+    "populacao": "16 234 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Camanducaia MG",
+    "distanciaReta": "662.63 km",
+    "distanciaConducao": "836 km",
+    "tempo": "10 horas 13 mins",
+    "populacao": "21 074 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Areado MG",
+    "distanciaReta": "514.03 km",
+    "distanciaConducao": "753 km",
+    "tempo": "10 horas 14 mins",
+    "populacao": "14 851 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Antônio Dias MG",
+    "distanciaReta": "291.60 km",
+    "distanciaConducao": "415 km",
+    "tempo": "7 horas 21 mins",
+    "populacao": "9 363 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Andrelândia MG",
+    "distanciaReta": "529.92 km",
+    "distanciaConducao": "689 km",
+    "tempo": "10 horas 19 mins",
+    "populacao": "12 507 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Campo do Meio MG",
+    "distanciaReta": "477.71 km",
+    "distanciaConducao": "704 km",
+    "tempo": "9 horas 29 mins",
+    "populacao": "11 518 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capitão Andrade MG",
+    "distanciaReta": "372.17 km",
+    "distanciaConducao": "626 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "5 362 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capelinha MG",
+    "distanciaReta": "232.83 km",
+    "distanciaConducao": "416 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "38 057 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capitão Enéas MG",
+    "distanciaReta": "117.77 km",
+    "distanciaConducao": "170 km",
+    "tempo": "2 horas 30 mins",
+    "populacao": "14 206 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Despacho MG",
+    "distanciaReta": "316.66 km",
+    "distanciaConducao": "424 km",
+    "tempo": "6 horas 41 mins",
+    "populacao": "50 605 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Belo Oriente MG",
+    "distanciaReta": "332.66 km",
+    "distanciaConducao": "554 km",
+    "tempo": "8 horas 49 mins",
+    "populacao": "26 396 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Jardim de Minas MG",
+    "distanciaReta": "554.38 km",
+    "distanciaConducao": "740 km",
+    "tempo": "10 horas 19 mins",
+    "populacao": "6 489 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Jesus do Galho MG",
+    "distanciaReta": "396.59 km",
+    "distanciaConducao": "674 km",
+    "tempo": "9 horas 57 mins",
+    "populacao": "15 010 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cabo Verde MG",
+    "distanciaReta": "534.85 km",
+    "distanciaConducao": "782 km",
+    "tempo": "10 horas 59 mins",
+    "populacao": "14 079 hab."
+  },
+  
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Belo Horizonte MG",
+    "distanciaReta": "332.73 km",
+    "distanciaConducao": "404 km",
+    "tempo": "5 horas 54 mins",
+    "populacao": "2 530 701 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Casa Grande MG",
+    "distanciaReta": "429.61 km",
+    "distanciaConducao": "525 km",
+    "tempo": "7 horas 28 mins",
+    "populacao": "2 244 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caputira MG",
+    "distanciaReta": "430.45 km",
+    "distanciaConducao": "669 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "9 033 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caraí MG",
+    "distanciaReta": "307.01 km",
+    "distanciaConducao": "504 km",
+    "tempo": "9 horas 13 mins",
+    "populacao": "23 780 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caranaíba MG",
+    "distanciaReta": "442.11 km",
+    "distanciaConducao": "527 km",
+    "tempo": "7 horas 27 mins",
+    "populacao": "3 288 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carandaí MG",
+    "distanciaReta": "449.22 km",
+    "distanciaConducao": "533 km",
+    "tempo": "7 horas 27 mins",
+    "populacao": "23 341 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carangola MG",
+    "distanciaReta": "496.42 km",
+    "distanciaConducao": "744 km",
+    "tempo": "10 horas 59 mins",
+    "populacao": "33 000 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carbonita MG",
+    "distanciaReta": "177.05 km",
+    "distanciaConducao": "302 km",
+    "tempo": "4 horas 29 mins",
+    "populacao": "9 544 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caratinga MG",
+    "distanciaReta": "403.99 km",
+    "distanciaConducao": "698 km",
+    "tempo": "10 horas 20 mins",
+    "populacao": "92 603 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Careaçu MG",
+    "distanciaReta": "575.18 km",
+    "distanciaConducao": "735 km",
+    "tempo": "9 horas 16 mins",
+    "populacao": "6 721 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmésia MG",
+    "distanciaReta": "279.92 km",
+    "distanciaConducao": "522 km",
+    "tempo": "8 horas 23 mins",
+    "populacao": "2 646 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo da Cachoeira MG",
+    "distanciaReta": "502.59 km",
+    "distanciaConducao": "640 km",
+    "tempo": "8 horas 20 mins",
+    "populacao": "11 836 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo da Mata MG",
+    "distanciaReta": "399.42 km",
+    "distanciaConducao": "560 km",
+    "tempo": "7 horas 43 mins",
+    "populacao": "11 476 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo do Cajuru MG",
+    "distanciaReta": "357.62 km",
+    "distanciaConducao": "498 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "20 018 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo de Minas MG",
+    "distanciaReta": "574.54 km",
+    "distanciaConducao": "765 km",
+    "tempo": "9 horas 58 mins",
+    "populacao": "13 752 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo do Paranaíba MG",
+    "distanciaReta": "289.45 km",
+    "distanciaConducao": "366 km",
+    "tempo": "5 horas 52 mins",
+    "populacao": "30 334 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmo do Rio Claro MG",
+    "distanciaReta": "472.53 km",
+    "distanciaConducao": "733 km",
+    "tempo": "10 horas 11 mins",
+    "populacao": "21 400 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carneirinho MG",
+    "distanciaReta": "711.53 km",
+    "distanciaConducao": "862 km",
+    "tempo": "12 horas 44 mins",
+    "populacao": "9 556 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carmópolis de Minas MG",
+    "distanciaReta": "397.48 km",
+    "distanciaConducao": "509 km",
+    "tempo": "7 horas 3 mins",
+    "populacao": "17 050 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carrancas MG",
+    "distanciaReta": "501.39 km",
+    "distanciaConducao": "685 km",
+    "tempo": "9 horas 17 mins",
+    "populacao": "3 952 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Carvalhópolis MG",
+    "distanciaReta": "549.72 km",
+    "distanciaConducao": "748 km",
+    "tempo": "9 horas 45 mins",
+    "populacao": "3 563 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caetanópolis MG",
+    "distanciaReta": "258.75 km",
+    "distanciaConducao": "313 km",
+    "tempo": "4 horas 57 mins",
+    "populacao": "10 218 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Brasilândia de Minas MG",
+    "distanciaReta": "141.55 km",
+    "distanciaConducao": "228 km",
+    "tempo": "4 horas 26 mins",
+    "populacao": "14 226 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cascalho Rico MG",
+    "distanciaReta": "391.74 km",
+    "distanciaConducao": "505 km",
+    "tempo": "8 horas",
+    "populacao": "3 037 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cataguases MG",
+    "distanciaReta": "529.73 km",
+    "distanciaConducao": "703 km",
+    "tempo": "9 horas 56 mins",
+    "populacao": "74 171 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catas Altas MG",
+    "distanciaReta": "365.77 km",
+    "distanciaConducao": "520 km",
+    "tempo": "8 horas 1 min",
+    "populacao": "5 376 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catas Altas da Noruega MG",
+    "distanciaReta": "427.93 km",
+    "distanciaConducao": "537 km",
+    "tempo": "7 horas 46 mins",
+    "populacao": "3 462 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catuji MG",
+    "distanciaReta": "326.72 km",
+    "distanciaConducao": "624 km",
+    "tempo": "8 horas 55 mins",
+    "populacao": "6 311 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catuti MG",
+    "distanciaReta": "249.37 km",
+    "distanciaConducao": "332 km",
+    "tempo": "4 horas 58 mins",
+    "populacao": "5 008 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cedro do Abaeté MG",
+    "distanciaReta": "269.29 km",
+    "distanciaConducao": "434 km",
+    "tempo": "6 horas 54 mins",
+    "populacao": "1 212 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caxambu MG",
+    "distanciaReta": "557.37 km",
+    "distanciaConducao": "750 km",
+    "tempo": "9 horas 48 mins",
+    "populacao": "21 656 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Central de Minas MG",
+    "distanciaReta": "399 km",
+    "distanciaConducao": "673 km",
+    "tempo": "10 horas 41 mins",
+    "populacao": "7 017 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Centralina MG",
+    "distanciaReta": "521.16 km",
+    "distanciaConducao": "652 km",
+    "tempo": "9 horas 27 mins",
+    "populacao": "10 343 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cipotânea MG",
+    "distanciaReta": "456.01 km",
+    "distanciaConducao": "577 km",
+    "tempo": "8 horas 39 mins",
+    "populacao": "6 547 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Contagem MG",
+    "distanciaReta": "329.28 km",
+    "distanciaConducao": "394 km",
+    "tempo": "5 horas 46 mins",
+    "populacao": "673 849 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coqueiral MG",
+    "distanciaReta": "476.63 km",
+    "distanciaConducao": "650 km",
+    "tempo": "8 horas 37 mins",
+    "populacao": "9 446 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Chapada do Norte MG",
+    "distanciaReta": "217.11 km",
+    "distanciaConducao": "394 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "15 675 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Chapada Gaúcha MG",
+    "distanciaReta": "217.79 km",
+    "distanciaConducao": "296 km",
+    "tempo": "5 horas 20 mins",
+    "populacao": "13 680 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Chiador MG",
+    "distanciaReta": "580.94 km",
+    "distanciaConducao": "733 km",
+    "tempo": "9 horas 48 mins",
+    "populacao": "2 785 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Claraval MG",
+    "distanciaReta": "475.31 km",
+    "distanciaConducao": "639 km",
+    "tempo": "9 horas 52 mins",
+    "populacao": "4 843 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coimbra MG",
+    "distanciaReta": "470.10 km",
+    "distanciaConducao": "640 km",
+    "tempo": "9 horas 26 mins",
+    "populacao": "140 796 hab. (2021)"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coimbra MG",
+    "distanciaReta": "470.10 km",
+    "distanciaConducao": "640 km",
+    "tempo": "9 horas 26 mins",
+    "populacao": "440,8  hab./km²"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Claro dos Poções MG",
+    "distanciaReta": "40.74 km",
+    "distanciaConducao": "94 km",
+    "tempo": "1 hora 21 mins",
+    "populacao": "7 781 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Comercinho MG",
+    "distanciaReta": "306.22 km",
+    "distanciaConducao": "531 km",
+    "tempo": "8 horas 2 mins",
+    "populacao": "8 298 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição da Aparecida MG",
+    "distanciaReta": "488.53 km",
+    "distanciaConducao": "751 km",
+    "tempo": "10 horas 27 mins",
+    "populacao": "9 814 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição das Alagoas MG",
+    "distanciaReta": "517.28 km",
+    "distanciaConducao": "600 km",
+    "tempo": "9 horas 26 mins",
+    "populacao": "26 428 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição da Barra de Minas MG",
+    "distanciaReta": "461.73 km",
+    "distanciaConducao": "615 km",
+    "tempo": "8 horas 46 mins",
+    "populacao": "3 961 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição das Pedras MG",
+    "distanciaReta": "583.29 km",
+    "distanciaConducao": "787 km",
+    "tempo": "10 horas 21 mins",
+    "populacao": "2 849 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição do Mato Dentro MG",
+    "distanciaReta": "258.08 km",
+    "distanciaConducao": "451 km",
+    "tempo": "7 horas 31 mins",
+    "populacao": "18 126 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cordisburgo MG",
+    "distanciaReta": "239.97 km",
+    "distanciaConducao": "286 km",
+    "tempo": "4 horas 44 mins",
+    "populacao": "8 903 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Corinto MG",
+    "distanciaReta": "155.59 km",
+    "distanciaConducao": "197 km",
+    "tempo": "3 horas 15 mins",
+    "populacao": "58 192 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cordislândia MG",
+    "distanciaReta": "546.56 km",
+    "distanciaConducao": "716 km",
+    "tempo": "9 horas 12 mins",
+    "populacao": "3 435 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coroaci MG",
+    "distanciaReta": "303.84 km",
+    "distanciaConducao": "515 km",
+    "tempo": "8 horas 21 mins",
+    "populacao": "10 274 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coromandel MG",
+    "distanciaReta": "323.59 km",
+    "distanciaConducao": "426 km",
+    "tempo": "6 horas 47 mins",
+    "populacao": "27 547 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coronel Fabriciano MG",
+    "distanciaReta": "350.67 km",
+    "distanciaConducao": "604 km",
+    "tempo": "9 horas 29 mins",
+    "populacao": "110 290 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cônego Marinho MG",
+    "distanciaReta": "187.79 km",
+    "distanciaConducao": "259 km",
+    "tempo": "3 horas 48 mins",
+    "populacao": "7 089 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coronel Murta MG",
+    "distanciaReta": "258.17 km",
+    "distanciaConducao": "390 km",
+    "tempo": "6 horas 5 mins",
+    "populacao": "9 228 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Comendador Gomes MG",
+    "distanciaReta": "563.24 km",
+    "distanciaConducao": "680 km",
+    "tempo": "10 horas 36 mins",
+    "populacao": "3 128 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição de Ipanema MG",
+    "distanciaReta": "447.61 km",
+    "distanciaConducao": "767 km",
+    "tempo": "11 horas 40 mins",
+    "populacao": "4 570 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição do Pará MG",
+    "distanciaReta": "309.72 km",
+    "distanciaConducao": "415 km",
+    "tempo": "6 horas 51 mins",
+    "populacao": "5 162 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Congonhal MG",
+    "distanciaReta": "595.32 km",
+    "distanciaConducao": "788 km",
+    "tempo": "9 horas 54 mins",
+    "populacao": "11 706 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição do Rio Verde MG",
+    "distanciaReta": "547.78 km",
+    "distanciaConducao": "732 km",
+    "tempo": "9 horas 33 mins",
+    "populacao": "12 950 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conceição dos Ouros MG",
+    "distanciaReta": "616.84 km",
+    "distanciaConducao": "800 km",
+    "tempo": "10 horas 10 mins",
+    "populacao": "10 609 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Confins MG",
+    "distanciaReta": "303.68 km",
+    "distanciaConducao": "384 km",
+    "tempo": "5 horas 54 mins",
+    "populacao": "6 730 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Congonhas MG",
+    "distanciaReta": "395.83 km",
+    "distanciaConducao": "475 km",
+    "tempo": "6 horas 51 mins",
+    "populacao": "55 836 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conquista MG",
+    "distanciaReta": "453.58 km",
+    "distanciaConducao": "544 km",
+    "tempo": "8 horas 38 mins",
+    "populacao": "6 080 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conselheiro Lafaiete MG",
+    "distanciaReta": "417.32 km",
+    "distanciaConducao": "495 km",
+    "tempo": "6 horas 59 mins",
+    "populacao": "126 420 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Congonhas do Norte MG",
+    "distanciaReta": "225.20 km",
+    "distanciaConducao": "364 km",
+    "tempo": "6 horas 58 mins",
+    "populacao": "4 943 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Conselheiro Pena MG",
+    "distanciaReta": "409 km",
+    "distanciaConducao": "668 km",
+    "tempo": "10 horas 39 mins",
+    "populacao": "22 892 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coronel Xavier Chaves MG",
+    "distanciaReta": "451.07 km",
+    "distanciaConducao": "578 km",
+    "tempo": "8 horas 25 mins",
+    "populacao": "3 301 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Coronel Pacheco MG",
+    "distanciaReta": "530.52 km",
+    "distanciaConducao": "665 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "2 983 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Córrego Danta MG",
+    "distanciaReta": "424.28 km",
+    "distanciaConducao": "573 km",
+    "tempo": "9 horas 16 mins",
+    "populacao": "3 391 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Córrego Fundo MG",
+    "distanciaReta": "332.96 km",
+    "distanciaConducao": "519 km",
+    "tempo": "7 horas 11 mins",
+    "populacao": "5 821 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Córrego do Bom Jesus MG",
+    "distanciaReta": "646.14 km",
+    "distanciaConducao": "819 km",
+    "tempo": "10 horas 6 mins",
+    "populacao": "3 732 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Crisólita MG",
+    "distanciaReta": "390.56 km",
+    "distanciaConducao": "705 km",
+    "tempo": "10 horas 9 mins",
+    "populacao": "6 040 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Córrego Novo MG",
+    "distanciaReta": "391.62 km",
+    "distanciaConducao": "688 km",
+    "tempo": "10 horas 17 mins",
+    "populacao": "2 814 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Couto de Magalhães de Minas MG",
+    "distanciaReta": "162.68 km",
+    "distanciaConducao": "284 km",
+    "tempo": "4 horas 16 mins",
+    "populacao": "4 436 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cristália MG",
+    "distanciaReta": "189.21 km",
+    "distanciaConducao": "272 km",
+    "tempo": "3 horas 55 mins",
+    "populacao": "5 971 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cristiano Otoni MG",
+    "distanciaReta": "436.02 km",
+    "distanciaConducao": "515 km",
+    "tempo": "7 horas 14 mins",
+    "populacao": "5 007 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cruzeiro da Fortaleza MG",
+    "distanciaReta": "311.21 km",
+    "distanciaConducao": "376 km",
+    "tempo": "6 horas 5 mins",
+    "populacao": "3 934 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Crucilândia MG",
+    "distanciaReta": "381.23 km",
+    "distanciaConducao": "502 km",
+    "tempo": "7 horas 7 mins",
+    "populacao": "4 757 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cruzília MG",
+    "distanciaReta": "540.93 km",
+    "distanciaConducao": "775 km",
+    "tempo": "10 horas 10 mins",
+    "populacao": "15 417 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cuparaque MG",
+    "distanciaReta": "429.28 km",
+    "distanciaConducao": "724 km",
+    "tempo": "11 horas 35 mins",
+    "populacao": "5 026 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Curral de Dentro MG",
+    "distanciaReta": "312.63 km",
+    "distanciaConducao": "394 km",
+    "tempo": "5 horas 56 mins",
+    "populacao": "6 913 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Curvelo MG",
+    "distanciaReta": "198.71 km",
+    "distanciaConducao": "240 km",
+    "tempo": "3 horas 55 mins",
+    "populacao": "80 129 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Delfinópolis MG",
+    "distanciaReta": "444.04 km",
+    "distanciaConducao": "638 km",
+    "tempo": "11 horas 9 mins",
+    "populacao": "7 186 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Desterro de Entre Rios MG",
+    "distanciaReta": "410.07 km",
+    "distanciaConducao": "550 km",
+    "tempo": "7 horas 43 mins",
+    "populacao": "7 002 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Descoberto MG",
+    "distanciaReta": "526.05 km",
+    "distanciaConducao": "692 km",
+    "tempo": "9 horas 48 mins",
+    "populacao": "4 768 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Desterro do Melo MG",
+    "distanciaReta": "476.73 km",
+    "distanciaConducao": "595 km",
+    "tempo": "8 horas 35 mins",
+    "populacao": "2 867 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Diamantina MG",
+    "distanciaReta": "174.16 km",
+    "distanciaConducao": "325 km",
+    "tempo": "4 horas 43 mins",
+    "populacao": "47 924 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divinésia MG",
+    "distanciaReta": "475.79 km",
+    "distanciaConducao": "623 km",
+    "tempo": "9 horas 21 mins",
+    "populacao": "3 292 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divino das Laranjeiras MG",
+    "distanciaReta": "383.92 km",
+    "distanciaConducao": "649 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "4 979 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divinolândia de Minas MG",
+    "distanciaReta": "289.90 km",
+    "distanciaConducao": "498 km",
+    "tempo": "7 horas 57 mins",
+    "populacao": "7 571 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divisa Alegre MG",
+    "distanciaReta": "372.16 km",
+    "distanciaConducao": "462 km",
+    "tempo": "6 horas 54 mins",
+    "populacao": "6 946 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divisópolis MG",
+    "distanciaReta": "406.87 km",
+    "distanciaConducao": "501 km",
+    "tempo": "7 horas 38 mins",
+    "populacao": "9 838 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divisa Nova MG",
+    "distanciaReta": "532.12 km",
+    "distanciaConducao": "756 km",
+    "tempo": "10 horas 18 mins",
+    "populacao": "6 068 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Divinópolis MG",
+    "distanciaReta": "353.29 km",
+    "distanciaConducao": "499 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "242 505 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dom Silvério MG",
+    "distanciaReta": "483.13 km",
+    "distanciaConducao": "668 km",
+    "tempo": "9 horas 59 mins",
+    "populacao": "5 227 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dom Joaquim MG",
+    "distanciaReta": "261.02 km",
+    "distanciaConducao": "455 km",
+    "tempo": "7 horas 34 mins",
+    "populacao": "4 535 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dona Euzébia MG",
+    "distanciaReta": "516.97 km",
+    "distanciaConducao": "684 km",
+    "tempo": "9 horas 35 mins",
+    "populacao": "6 001 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dom Cavati MG",
+    "distanciaReta": "373.05 km",
+    "distanciaConducao": "649 km",
+    "tempo": "10 horas 9 mins",
+    "populacao": "5 097 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dom Viçoso MG",
+    "distanciaReta": "475.15 km",
+    "distanciaConducao": "679 km",
+    "tempo": "10 horas 18 mins",
+    "populacao": "2 994 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dores de Campos MG",
+    "distanciaReta": "463.12 km",
+    "distanciaConducao": "570 km",
+    "tempo": "8 horas 22 mins",
+    "populacao": "9 303 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dores de Guanhães MG",
+    "distanciaReta": "286.93 km",
+    "distanciaConducao": "517 km",
+    "tempo": "8 horas 16 mins",
+    "populacao": "5 223 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dores do Indaiá MG",
+    "distanciaReta": "296.75 km",
+    "distanciaConducao": "440 km",
+    "tempo": "6 horas 57 mins",
+    "populacao": "13 781 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Doresópolis MG",
+    "distanciaReta": "393.41 km",
+    "distanciaConducao": "565 km",
+    "tempo": "9 horas 1 min",
+    "populacao": "1 440 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Douradoquara MG",
+    "distanciaReta": "359.14 km",
+    "distanciaConducao": "487 km",
+    "tempo": "7 horas 50 mins",
+    "populacao": "1 912 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Durandé MG",
+    "distanciaReta": "463.01 km",
+    "distanciaConducao": "717 km",
+    "tempo": "10 horas 37 mins",
+    "populacao": "7 841 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Dores do Turvo MG",
+    "distanciaReta": "467.73 km",
+    "distanciaConducao": "621 km",
+    "tempo": "9 horas 17 mins",
+    "populacao": "4 439 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Elói Mendes MG",
+    "distanciaReta": "524.35 km",
+    "distanciaConducao": "708 km",
+    "tempo": "9 horas 8 mins",
+    "populacao": "27 730 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Engenheiro Caldas MG",
+    "distanciaReta": "364.32 km",
+    "distanciaConducao": "625 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "11 134 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Entre Rios de Minas MG",
+    "distanciaReta": "413.63 km",
+    "distanciaConducao": "518 km",
+    "tempo": "7 horas 26 mins",
+    "populacao": "15 458 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Entre Folhas MG",
+    "distanciaReta": "384.52 km",
+    "distanciaConducao": "645 km",
+    "tempo": "10 horas 25 mins",
+    "populacao": "5 362 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Engenheiro Navarro MG",
+    "distanciaReta": "75.22 km",
+    "distanciaConducao": "174 km",
+    "tempo": "2 horas 34 mins",
+    "populacao": "7 244 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ervália MG",
+    "distanciaReta": "477.48 km",
+    "distanciaConducao": "665 km",
+    "tempo": "9 horas 56 mins",
+    "populacao": "17 946 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Espera Feliz MG",
+    "distanciaReta": "495.60 km",
+    "distanciaConducao": "753 km",
+    "tempo": "11 horas 17 mins",
+    "populacao": "25 122 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Espírito Santo do Dourado MG",
+    "distanciaReta": "581.89 km",
+    "distanciaConducao": "797 km",
+    "tempo": "10 horas 4 mins",
+    "populacao": "4 429 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Estrela do Indaiá MG",
+    "distanciaReta": "317.89 km",
+    "distanciaConducao": "480 km",
+    "tempo": "7 horas 44 mins",
+    "populacao": "3 515 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Estrela Dalva MG",
+    "distanciaReta": "574.21 km",
+    "distanciaConducao": "810 km",
+    "tempo": "10 horas 58 mins",
+    "populacao": "2 470 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Extrema MG",
+    "distanciaReta": "676.45 km",
+    "distanciaConducao": "859 km",
+    "tempo": "10 horas 27 mins",
+    "populacao": "34 344 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Eugenópolis MG",
+    "distanciaReta": "522.49 km",
+    "distanciaConducao": "735 km",
+    "tempo": "11 horas 6 mins",
+    "populacao": "11 275 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ewbank da Câmara MG",
+    "distanciaReta": "522.84 km",
+    "distanciaConducao": "626 km",
+    "tempo": "8 horas 35 mins",
+    "populacao": "3 914 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Felício dos Santos MG",
+    "distanciaReta": "186.56 km",
+    "distanciaConducao": "299 km",
+    "tempo": "4 horas 38 mins",
+    "populacao": "5 137 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Felisburgo MG",
+    "distanciaReta": "407.97 km",
+    "distanciaConducao": "661 km",
+    "tempo": "9 horas 28 mins",
+    "populacao": "7 409 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Faria Lemos MG",
+    "distanciaReta": "503.62 km",
+    "distanciaConducao": "757 km",
+    "tempo": "11 horas 13 mins",
+    "populacao": "3 262 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Felixlândia MG",
+    "distanciaReta": "192.91 km",
+    "distanciaConducao": "301 km",
+    "tempo": "4 horas 10 mins",
+    "populacao": "14 121 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fernandes Tourinho MG",
+    "distanciaReta": "357.90 km",
+    "distanciaConducao": "635 km",
+    "tempo": "10 horas 14 mins",
+    "populacao": "3 431 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fervedouro MG",
+    "distanciaReta": "481.90 km",
+    "distanciaConducao": "725 km",
+    "tempo": "10 horas 33 mins",
+    "populacao": "10 349 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ferros MG",
+    "distanciaReta": "299.69 km",
+    "distanciaConducao": "541 km",
+    "tempo": "8 horas 38 mins",
+    "populacao": "9 949 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Florestal MG",
+    "distanciaReta": "323.63 km",
+    "distanciaConducao": "446 km",
+    "tempo": "6 horas 25 mins",
+    "populacao": "7 602 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fortaleza de Minas MG",
+    "distanciaReta": "485.12 km",
+    "distanciaConducao": "684 km",
+    "tempo": "10 horas 55 mins",
+    "populacao": "4 098 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fortuna de Minas MG",
+    "distanciaReta": "287.82 km",
+    "distanciaConducao": "360 km",
+    "tempo": "5 horas 36 mins",
+    "populacao": "3 442 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Francisco Badaró MG",
+    "distanciaReta": "236.20 km",
+    "distanciaConducao": "375 km",
+    "tempo": "6 horas 38 mins",
+    "populacao": "10 244 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Franciscópolis MG",
+    "distanciaReta": "293.62 km",
+    "distanciaConducao": "536 km",
+    "tempo": "7 horas 57 mins",
+    "populacao": "5 803 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Francisco Dumont MG",
+    "distanciaReta": "52.28 km",
+    "distanciaConducao": "103 km",
+    "tempo": "1 hora 57 mins",
+    "populacao": "4 867 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fruta de Leite MG",
+    "distanciaReta": "238.81 km",
+    "distanciaConducao": "293 km",
+    "tempo": "4 horas 25 mins",
+    "populacao": "5 940 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Frei Lagonegro MG",
+    "distanciaReta": "233.15 km",
+    "distanciaConducao": "404 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "3 469 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Frei Inocêncio MG",
+    "distanciaReta": "333.31 km",
+    "distanciaConducao": "608 km",
+    "tempo": "9 horas 50 mins",
+    "populacao": "9 543 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Fronteira dos Vales MG",
+    "distanciaReta": "388.70 km",
+    "distanciaConducao": "656 km",
+    "tempo": "9 horas 24 mins",
+    "populacao": "4 687 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Frutal MG",
+    "distanciaReta": "569.65 km",
+    "distanciaConducao": "677 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "60 508 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Funilândia MG",
+    "distanciaReta": "269.31 km",
+    "distanciaConducao": "374 km",
+    "tempo": "5 horas 51 mins",
+    "populacao": "3 854 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Gameleiras MG",
+    "distanciaReta": "262.34 km",
+    "distanciaConducao": "373 km",
+    "tempo": "5 horas 32 mins",
+    "populacao": "5 139 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Glaucilândia MG",
+    "distanciaReta": "101.18 km",
+    "distanciaConducao": "145 km",
+    "tempo": "2 horas 25 mins",
+    "populacao": "3 164 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Goianá MG",
+    "distanciaReta": "529.92 km",
+    "distanciaConducao": "677 km",
+    "tempo": "9 horas 22 mins",
+    "populacao": "3 659 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Gonzaga MG",
+    "distanciaReta": "301.12 km",
+    "distanciaConducao": "518 km",
+    "tempo": "8 horas 17 mins",
+    "populacao": "6 158 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Governador Valadares MG",
+    "distanciaReta": "350.84 km",
+    "distanciaConducao": "586 km",
+    "tempo": "9 horas 38 mins",
+    "populacao": "281 046 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Grupiara MG",
+    "distanciaReta": "373.21 km",
+    "distanciaConducao": "493 km",
+    "tempo": "8 horas 2 mins",
+    "populacao": "1 373 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Frei Gaspar MG",
+    "distanciaReta": "355.43 km",
+    "distanciaConducao": "634 km",
+    "tempo": "9 horas 32 mins",
+    "populacao": "5 880 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Grão Mogol MG",
+    "distanciaReta": "189.56 km",
+    "distanciaConducao": "226 km",
+    "tempo": "3 horas 36 mins",
+    "populacao": "15 667 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guanhães MG",
+    "distanciaReta": "264.79 km",
+    "distanciaConducao": "459 km",
+    "tempo": "7 horas 21 mins",
+    "populacao": "34 573 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipaba MG",
+    "distanciaReta": "354.15 km",
+    "distanciaConducao": "611 km",
+    "tempo": "9 horas 38 mins",
+    "populacao": "18 438 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Inhaúma MG",
+    "distanciaReta": "279.85 km",
+    "distanciaConducao": "341 km",
+    "tempo": "5 horas 15 mins",
+    "populacao": "5 781 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipanema MG",
+    "distanciaReta": "435.35 km",
+    "distanciaConducao": "767 km",
+    "tempo": "11 horas 39 mins",
+    "populacao": "42 743 (em 2 010) hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipatinga MG",
+    "distanciaReta": "351.54 km",
+    "distanciaConducao": "601 km",
+    "tempo": "9 horas 34 mins",
+    "populacao": "265 409 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itabira MG",
+    "distanciaReta": "328.92 km",
+    "distanciaConducao": "510 km",
+    "tempo": "7 horas 41 mins",
+    "populacao": "120 904 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipiaçu MG",
+    "distanciaReta": "598.91 km",
+    "distanciaConducao": "730 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "4 225 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Iraí de Minas MG",
+    "distanciaReta": "378.04 km",
+    "distanciaConducao": "437 km",
+    "tempo": "6 horas 55 mins",
+    "populacao": "6 464 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ipuiuna MG",
+    "distanciaReta": "593.69 km",
+    "distanciaConducao": "812 km",
+    "tempo": "10 horas 16 mins",
+    "populacao": "10 118 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itabirinha MG",
+    "distanciaReta": "395.60 km",
+    "distanciaConducao": "689 km",
+    "tempo": "11 horas 1 min",
+    "populacao": "11 446 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itabirito MG",
+    "distanciaReta": "373.13 km",
+    "distanciaConducao": "456 km",
+    "tempo": "6 horas 46 mins",
+    "populacao": "51 281 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itacambira MG",
+    "distanciaReta": "135.15 km",
+    "distanciaConducao": "203 km",
+    "tempo": "2 horas 59 mins",
+    "populacao": "4 982 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaguara MG",
+    "distanciaReta": "379.53 km",
+    "distanciaConducao": "480 km",
+    "tempo": "6 horas 46 mins",
+    "populacao": "12 371 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itacarambi MG",
+    "distanciaReta": "215.51 km",
+    "distanciaConducao": "285 km",
+    "tempo": "3 horas 59 mins",
+    "populacao": "17 739 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guaraciama MG",
+    "distanciaReta": "96.72 km",
+    "distanciaConducao": "170 km",
+    "tempo": "2 horas 35 mins",
+    "populacao": "4 719 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guaranésia MG",
+    "distanciaReta": "534.47 km",
+    "distanciaConducao": "830 km",
+    "tempo": "11 horas 25 mins",
+    "populacao": "19 378 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guapé MG",
+    "distanciaReta": "443.66 km",
+    "distanciaConducao": "711 km",
+    "tempo": "9 horas 50 mins",
+    "populacao": "14 258 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guarará MG",
+    "distanciaReta": "554.66 km",
+    "distanciaConducao": "703 km",
+    "tempo": "9 horas 46 mins",
+    "populacao": "3 929 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guaxupé MG",
+    "distanciaReta": "530.80 km",
+    "distanciaConducao": "820 km",
+    "tempo": "11 horas 16 mins",
+    "populacao": "52 234 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guarda-Mor MG",
+    "distanciaReta": "281.18 km",
+    "distanciaConducao": "440 km",
+    "tempo": "5 horas 53 mins",
+    "populacao": "6 565 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaipé MG",
+    "distanciaReta": "312.46 km",
+    "distanciaConducao": "536 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "11 798 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itajubá MG",
+    "distanciaReta": "612.17 km",
+    "distanciaConducao": "828 km",
+    "tempo": "10 horas 35 mins",
+    "populacao": "97 782 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itamarati de Minas MG",
+    "distanciaReta": "527.27 km",
+    "distanciaConducao": "706 km",
+    "tempo": "9 horas 57 mins",
+    "populacao": "4 362 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itamarandiba MG",
+    "distanciaReta": "206.65 km",
+    "distanciaConducao": "348 km",
+    "tempo": "5 horas 11 mins",
+    "populacao": "35 130 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itamogi MG",
+    "distanciaReta": "524.49 km",
+    "distanciaConducao": "740 km",
+    "tempo": "10 horas 59 mins",
+    "populacao": "10 501 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itambacuri MG",
+    "distanciaReta": "329.07 km",
+    "distanciaConducao": "587 km",
+    "tempo": "9 horas 14 mins",
+    "populacao": "23 212 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itambé do Mato Dentro MG",
+    "distanciaReta": "301.59 km",
+    "distanciaConducao": "519 km",
+    "tempo": "7 horas 46 mins",
+    "populacao": "2 283 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itamonte MG",
+    "distanciaReta": "590.22 km",
+    "distanciaConducao": "799 km",
+    "tempo": "10 horas 39 mins",
+    "populacao": "14 276 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itanhandu MG",
+    "distanciaReta": "592.73 km",
+    "distanciaConducao": "798 km",
+    "tempo": "10 horas 38 mins",
+    "populacao": "14 183 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itanhomi MG",
+    "distanciaReta": "376.49 km",
+    "distanciaConducao": "633 km",
+    "tempo": "10 horas 25 mins",
+    "populacao": "12 228 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaobim MG",
+    "distanciaReta": "330.72 km",
+    "distanciaConducao": "530 km",
+    "tempo": "7 horas 45 mins",
+    "populacao": "21 096 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itapagipe MG",
+    "distanciaReta": "600.36 km",
+    "distanciaConducao": "728 km",
+    "tempo": "11 horas 24 mins",
+    "populacao": "15 243 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaú de Minas MG",
+    "distanciaReta": "477.43 km",
+    "distanciaConducao": "710 km",
+    "tempo": "10 horas 46 mins",
+    "populacao": "16 108 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itatiaiuçu MG",
+    "distanciaReta": "358.48 km",
+    "distanciaConducao": "458 km",
+    "tempo": "6 horas 31 mins",
+    "populacao": "10 674 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaúna MG",
+    "distanciaReta": "344.62 km",
+    "distanciaConducao": "463 km",
+    "tempo": "6 horas 41 mins",
+    "populacao": "93 847 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itaverava MG",
+    "distanciaReta": "424.04 km",
+    "distanciaConducao": "522 km",
+    "tempo": "7 horas 29 mins",
+    "populacao": "5 758 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guimarânia MG",
+    "distanciaReta": "309.25 km",
+    "distanciaConducao": "361 km",
+    "tempo": "5 horas 48 mins",
+    "populacao": "7 290 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guidoval MG",
+    "distanciaReta": "499.97 km",
+    "distanciaConducao": "697 km",
+    "tempo": "9 horas 55 mins",
+    "populacao": "7 210 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guiricema MG",
+    "distanciaReta": "488.03 km",
+    "distanciaConducao": "668 km",
+    "tempo": "10 horas 2 mins",
+    "populacao": "8 697 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Heliodora MG",
+    "distanciaReta": "574.61 km",
+    "distanciaConducao": "759 km",
+    "tempo": "9 horas 40 mins",
+    "populacao": "6 120 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Gurinhatã MG",
+    "distanciaReta": "605.60 km",
+    "distanciaConducao": "710 km",
+    "tempo": "10 horas 37 mins",
+    "populacao": "5 577 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibertioga MG",
+    "distanciaReta": "499.47 km",
+    "distanciaConducao": "610 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "5 029 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Iapu MG",
+    "distanciaReta": "370.48 km",
+    "distanciaConducao": "631 km",
+    "tempo": "9 horas 55 mins",
+    "populacao": "10 867 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibiaí MG",
+    "distanciaReta": "37.80 km",
+    "distanciaConducao": "55 km",
+    "tempo": "1 hora",
+    "populacao": "7 839 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibiracatu MG",
+    "distanciaReta": "152.61 km",
+    "distanciaConducao": "243 km",
+    "tempo": "3 horas 43 mins",
+    "populacao": "6 155 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibiá MG",
+    "distanciaReta": "347.24 km",
+    "distanciaConducao": "452 km",
+    "tempo": "7 horas 11 mins",
+    "populacao": "24 946 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibiraci MG",
+    "distanciaReta": "471.03 km",
+    "distanciaConducao": "658 km",
+    "tempo": "10 horas 10 mins",
+    "populacao": "13 575 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itinga MG",
+    "distanciaReta": "301.62 km",
+    "distanciaConducao": "478 km",
+    "tempo": "7 horas 50 mins",
+    "populacao": "15 022 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itueta MG",
+    "distanciaReta": "444.39 km",
+    "distanciaConducao": "719 km",
+    "tempo": "11 horas 16 mins",
+    "populacao": "6 039 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ituiutaba MG",
+    "distanciaReta": "562.40 km",
+    "distanciaConducao": "661 km",
+    "tempo": "9 horas 49 mins",
+    "populacao": "105 818 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibirité MG",
+    "distanciaReta": "342.80 km",
+    "distanciaConducao": "410 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "184 030 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibitiúra de Minas MG",
+    "distanciaReta": "597.69 km",
+    "distanciaConducao": "845 km",
+    "tempo": "10 horas 46 mins",
+    "populacao": "3 406 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ibituruna MG",
+    "distanciaReta": "463.53 km",
+    "distanciaConducao": "599 km",
+    "tempo": "8 horas 12 mins",
+    "populacao": "2 966 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Iguatama MG",
+    "distanciaReta": "375.04 km",
+    "distanciaConducao": "533 km",
+    "tempo": "8 horas 13 mins",
+    "populacao": "7 901 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Icaraí de Minas MG",
+    "distanciaReta": "91.12 km",
+    "distanciaConducao": "173 km",
+    "tempo": "2 horas 15 mins",
+    "populacao": "10 737 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Imbé de Minas MG",
+    "distanciaReta": "400.98 km",
+    "distanciaConducao": "684 km",
+    "tempo": "10 horas 40 mins",
+    "populacao": "6 782 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ilicínea MG",
+    "distanciaReta": "459.65 km",
+    "distanciaConducao": "683 km",
+    "tempo": "9 horas 23 mins",
+    "populacao": "11 488 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ijaci MG",
+    "distanciaReta": "469.41 km",
+    "distanciaConducao": "611 km",
+    "tempo": "8 horas 30 mins",
+    "populacao": "5 863 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Indaiabira MG",
+    "distanciaReta": "303.16 km",
+    "distanciaConducao": "410 km",
+    "tempo": "6 horas 10 mins",
+    "populacao": "7 351 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Igaratinga MG",
+    "distanciaReta": "331.05 km",
+    "distanciaConducao": "481 km",
+    "tempo": "6 horas 44 mins",
+    "populacao": "10 286 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ingaí MG",
+    "distanciaReta": "493.25 km",
+    "distanciaConducao": "648 km",
+    "tempo": "8 horas 45 mins",
+    "populacao": "2 636 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Inhapim MG",
+    "distanciaReta": "385.73 km",
+    "distanciaConducao": "654 km",
+    "tempo": "10 horas 13 mins",
+    "populacao": "24 204 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Inconfidentes MG",
+    "distanciaReta": "620.88 km",
+    "distanciaConducao": "820 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "6 908 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Inimutaba MG",
+    "distanciaReta": "196.38 km",
+    "distanciaConducao": "245 km",
+    "tempo": "3 horas 59 mins",
+    "populacao": "6 729 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Iturama MG",
+    "distanciaReta": "666.68 km",
+    "distanciaConducao": "810 km",
+    "tempo": "11 horas 55 mins",
+    "populacao": "40 101 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itumirim MG",
+    "distanciaReta": "483.31 km",
+    "distanciaConducao": "643 km",
+    "tempo": "8 horas 35 mins",
+    "populacao": "6 139 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Itutinga MG",
+    "distanciaReta": "479.95 km",
+    "distanciaConducao": "659 km",
+    "tempo": "8 horas 47 mins",
+    "populacao": "3 809 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jaboticatubas MG",
+    "distanciaReta": "295.24 km",
+    "distanciaConducao": "418 km",
+    "tempo": "6 horas 46 mins",
+    "populacao": "20 683 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jacuí MG",
+    "distanciaReta": "503.40 km",
+    "distanciaConducao": "798 km",
+    "tempo": "11 horas 14 mins",
+    "populacao": "7 809 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jaguaraçu MG",
+    "distanciaReta": "354.02 km",
+    "distanciaConducao": "600 km",
+    "tempo": "9 horas 13 mins",
+    "populacao": "3 124 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jaíba MG",
+    "distanciaReta": "207.20 km",
+    "distanciaConducao": "312 km",
+    "tempo": "4 horas 55 mins",
+    "populacao": "38 413 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jampruca MG",
+    "distanciaReta": "336.29 km",
+    "distanciaConducao": "650 km",
+    "tempo": "10 horas 1 min",
+    "populacao": "5 068 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Januária MG",
+    "distanciaReta": "168.15 km",
+    "distanciaConducao": "228 km",
+    "tempo": "3 horas 15 mins",
+    "populacao": "67 875 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Janaúba MG",
+    "distanciaReta": "186.90 km",
+    "distanciaConducao": "242 km",
+    "tempo": "3 horas 38 mins",
+    "populacao": "72 374 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Japonvar MG",
+    "distanciaReta": "113.96 km",
+    "distanciaConducao": "161 km",
+    "tempo": "2 horas 13 mins",
+    "populacao": "8 556 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jeceaba MG",
+    "distanciaReta": "403.62 km",
+    "distanciaConducao": "510 km",
+    "tempo": "7 horas 27 mins",
+    "populacao": "5 396 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jenipapo de Minas MG",
+    "distanciaReta": "246.88 km",
+    "distanciaConducao": "397 km",
+    "tempo": "7 horas",
+    "populacao": "7 692 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Japaraíba MG",
+    "distanciaReta": "364.64 km",
+    "distanciaConducao": "493 km",
+    "tempo": "7 horas 45 mins",
+    "populacao": "3 950 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jequeri MG",
+    "distanciaReta": "435.46 km",
+    "distanciaConducao": "635 km",
+    "tempo": "9 horas 19 mins",
+    "populacao": "12 901 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jequitaí MG",
+    "distanciaReta": "30.83 km",
+    "distanciaConducao": "73 km",
+    "tempo": "1 hora 22 mins",
+    "populacao": "8 010 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jequitinhonha MG",
+    "distanciaReta": "384.94 km",
+    "distanciaConducao": "597 km",
+    "tempo": "8 horas 29 mins",
+    "populacao": "25 560 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jesuânia MG",
+    "distanciaReta": "562.66 km",
+    "distanciaConducao": "736 km",
+    "tempo": "9 horas 38 mins",
+    "populacao": "4 774 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "João Pinheiro MG",
+    "distanciaReta": "189.89 km",
+    "distanciaConducao": "263 km",
+    "tempo": "3 horas 46 mins",
+    "populacao": "47 452 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Joanésia MG",
+    "distanciaReta": "316.08 km",
+    "distanciaConducao": "559 km",
+    "tempo": "9 horas 28 mins",
+    "populacao": "4 382 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "João Monlevade MG",
+    "distanciaReta": "348.87 km",
+    "distanciaConducao": "519 km",
+    "tempo": "7 horas 36 mins",
+    "populacao": "79 387 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Joaquim Felício MG",
+    "distanciaReta": "96.95 km",
+    "distanciaConducao": "193 km",
+    "tempo": "3 horas 24 mins",
+    "populacao": "4 305 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jordânia MG",
+    "distanciaReta": "472.08 km",
+    "distanciaConducao": "668 km",
+    "tempo": "10 horas 48 mins",
+    "populacao": "9 833 636[3] hab. "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jordânia MG",
+    "distanciaReta": "472.08 km",
+    "distanciaConducao": "668 km",
+    "tempo": "10 horas 48 mins",
+    "populacao": "9 531 712 hab. "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jordânia MG",
+    "distanciaReta": "472.08 km",
+    "distanciaConducao": "668 km",
+    "tempo": "10 horas 48 mins",
+    "populacao": "107 hab./km² "
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "José Gonçalves de Minas MG",
+    "distanciaReta": "209.89 km",
+    "distanciaConducao": "352 km",
+    "tempo": "6 horas 2 mins",
+    "populacao": "4 577 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Josenópolis MG",
+    "distanciaReta": "224.91 km",
+    "distanciaConducao": "320 km",
+    "tempo": "4 horas 54 mins",
+    "populacao": "4 566 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Juatuba MG",
+    "distanciaReta": "333.64 km",
+    "distanciaConducao": "426 km",
+    "tempo": "6 horas 8 mins",
+    "populacao": "22 202 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Juiz de Fora MG",
+    "distanciaReta": "540.46 km",
+    "distanciaConducao": "651 km",
+    "tempo": "8 horas 52 mins",
+    "populacao": "577 532 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "José Raydan MG",
+    "distanciaReta": "259.78 km",
+    "distanciaConducao": "464 km",
+    "tempo": "6 horas 56 mins",
+    "populacao": "4 376 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Juruaia MG",
+    "distanciaReta": "519.47 km",
+    "distanciaConducao": "816 km",
+    "tempo": "11 horas 14 mins",
+    "populacao": "10 795 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Juvenília MG",
+    "distanciaReta": "304.96 km",
+    "distanciaConducao": "426 km",
+    "tempo": "6 horas 11 mins",
+    "populacao": "5 708 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ladainha MG",
+    "distanciaReta": "309.92 km",
+    "distanciaConducao": "534 km",
+    "tempo": "8 horas 46 mins",
+    "populacao": "18 152 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lagamar MG",
+    "distanciaReta": "271.61 km",
+    "distanciaConducao": "400 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "7 600 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lagoa da Prata MG",
+    "distanciaReta": "353.23 km",
+    "distanciaConducao": "478 km",
+    "tempo": "7 horas 32 mins",
+    "populacao": "52 711 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Joaíma MG",
+    "distanciaReta": "380.18 km",
+    "distanciaConducao": "624 km",
+    "tempo": "8 horas 53 mins",
+    "populacao": "15 432 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lajinha MG",
+    "distanciaReta": "470.81 km",
+    "distanciaConducao": "741 km",
+    "tempo": "11 horas 3 mins",
+    "populacao": "19 923 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lagoa Formosa MG",
+    "distanciaReta": "278 km",
+    "distanciaConducao": "330 km",
+    "tempo": "5 horas 19 mins",
+    "populacao": "18 111 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lagoa Dourada MG",
+    "distanciaReta": "441.11 km",
+    "distanciaConducao": "548 km",
+    "tempo": "7 horas 54 mins",
+    "populacao": "12 267 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Muzambinho MG",
+    "distanciaReta": "529.31 km",
+    "distanciaConducao": "797 km",
+    "tempo": "10 horas 56 mins",
+    "populacao": "21 026 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Naque MG",
+    "distanciaReta": "344.73 km",
+    "distanciaConducao": "563 km",
+    "tempo": "9 horas 10 mins",
+    "populacao": "6 996 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nanuque MG",
+    "distanciaReta": "458.62 km",
+    "distanciaConducao": "762 km",
+    "tempo": "11 horas 41 mins",
+    "populacao": "40 839 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Natércia MG",
+    "distanciaReta": "579.81 km",
+    "distanciaConducao": "769 km",
+    "tempo": "9 horas 55 mins",
+    "populacao": "4 807 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Natalândia MG",
+    "distanciaReta": "207.35 km",
+    "distanciaConducao": "321 km",
+    "tempo": "5 horas 58 mins",
+    "populacao": "3 306 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nepomuceno MG",
+    "distanciaReta": "478.76 km",
+    "distanciaConducao": "620 km",
+    "tempo": "8 horas 12 mins",
+    "populacao": "25 733 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ninheira MG",
+    "distanciaReta": "353.09 km",
+    "distanciaConducao": "471 km",
+    "tempo": "7 horas 8 mins",
+    "populacao": "10 263 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Lima MG",
+    "distanciaReta": "345.52 km",
+    "distanciaConducao": "418 km",
+    "tempo": "6 horas 5 mins",
+    "populacao": "97 378 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Ponte MG",
+    "distanciaReta": "407.28 km",
+    "distanciaConducao": "476 km",
+    "tempo": "7 horas 32 mins",
+    "populacao": "12 812 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Belém MG",
+    "distanciaReta": "411.89 km",
+    "distanciaConducao": "735 km",
+    "tempo": "11 horas 48 mins",
+    "populacao": "3 190 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Porteirinha MG",
+    "distanciaReta": "190.81 km",
+    "distanciaConducao": "243 km",
+    "tempo": "3 horas 37 mins",
+    "populacao": "7 398 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Módica MG",
+    "distanciaReta": "364.35 km",
+    "distanciaConducao": "662 km",
+    "tempo": "10 horas 17 mins",
+    "populacao": "3 793 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Serrana MG",
+    "distanciaReta": "324.70 km",
+    "distanciaConducao": "505 km",
+    "tempo": "6 horas 53 mins",
+    "populacao": "108 241 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nova Resende MG",
+    "distanciaReta": "500.27 km",
+    "distanciaConducao": "788 km",
+    "tempo": "11 horas 6 mins",
+    "populacao": "16 832 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Novorizonte MG",
+    "distanciaReta": "254.30 km",
+    "distanciaConducao": "323 km",
+    "tempo": "5 horas 10 mins",
+    "populacao": "5 273 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Novo Cruzeiro MG",
+    "distanciaReta": "291.65 km",
+    "distanciaConducao": "505 km",
+    "tempo": "7 horas 59 mins",
+    "populacao": "31 326 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Novo Oriente de Minas MG",
+    "distanciaReta": "360.17 km",
+    "distanciaConducao": "666 km",
+    "tempo": "9 horas 51 mins",
+    "populacao": "10 342 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Olhos-d'Água MG",
+    "distanciaReta": "6,449.79 km",
+    "distanciaConducao": "- ",
+    "tempo": "- ",
+    "populacao": "5 416 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Olímpio Noronha MG",
+    "distanciaReta": "570.27 km",
+    "distanciaConducao": "742 km",
+    "tempo": "9 horas 40 mins",
+    "populacao": "2 533 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Oliveira Fortes MG",
+    "distanciaReta": "498.72 km",
+    "distanciaConducao": "614 km",
+    "tempo": "8 horas 27 mins",
+    "populacao": "2 123 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Orizânia MG",
+    "distanciaReta": "465.35 km",
+    "distanciaConducao": "682 km",
+    "tempo": "10 horas 16 mins",
+    "populacao": "7 284 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lamim MG",
+    "distanciaReta": "439.76 km",
+    "distanciaConducao": "550 km",
+    "tempo": "8 horas",
+    "populacao": "3 456 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lassance MG",
+    "distanciaReta": "100.81 km",
+    "distanciaConducao": "137 km",
+    "tempo": "2 horas 19 mins",
+    "populacao": "6 490 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lavras MG",
+    "distanciaReta": "476.09 km",
+    "distanciaConducao": "621 km",
+    "tempo": "8 horas 15 mins",
+    "populacao": "105 756 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Leme do Prado MG",
+    "distanciaReta": "200.42 km",
+    "distanciaConducao": "389 km",
+    "tempo": "6 horas 2 mins",
+    "populacao": "5 145 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Leandro Ferreira MG",
+    "distanciaReta": "307.87 km",
+    "distanciaConducao": "420 km",
+    "tempo": "7 horas 3 mins",
+    "populacao": "3 205 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Limeira do Oeste MG",
+    "distanciaReta": "695.09 km",
+    "distanciaConducao": "861 km",
+    "tempo": "12 horas 50 mins",
+    "populacao": "7 436 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Luislândia MG",
+    "distanciaReta": "85.60 km",
+    "distanciaConducao": "133 km",
+    "tempo": "1 hora 51 mins",
+    "populacao": "6 400 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Luisburgo MG",
+    "distanciaReta": "464.70 km",
+    "distanciaConducao": "697 km",
+    "tempo": "10 horas 27 mins",
+    "populacao": "6 236 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Luminárias MG",
+    "distanciaReta": "509.78 km",
+    "distanciaConducao": "668 km",
+    "tempo": "9 horas 14 mins",
+    "populacao": "5 571 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Madre de Deus de Minas MG",
+    "distanciaReta": "501.40 km",
+    "distanciaConducao": "638 km",
+    "tempo": "9 horas 23 mins",
+    "populacao": "5 109 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Malacacheta MG",
+    "distanciaReta": "282.10 km",
+    "distanciaConducao": "518 km",
+    "tempo": "7 horas 37 mins",
+    "populacao": "18 787 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mamonas MG",
+    "distanciaReta": "276.22 km",
+    "distanciaConducao": "369 km",
+    "tempo": "5 horas 33 mins",
+    "populacao": "6 321 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manhumirim MG",
+    "distanciaReta": "466.17 km",
+    "distanciaConducao": "705 km",
+    "tempo": "10 horas 27 mins",
+    "populacao": "22 683 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manhuaçu MG",
+    "distanciaReta": "453.62 km",
+    "distanciaConducao": "683 km",
+    "tempo": "10 horas 4 mins",
+    "populacao": "91 169 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mantena MG",
+    "distanciaReta": "430.06 km",
+    "distanciaConducao": "719 km",
+    "tempo": "11 horas 20 mins",
+    "populacao": "27 640 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Machacalis MG",
+    "distanciaReta": "410.66 km",
+    "distanciaConducao": "711 km",
+    "tempo": "10 horas 15 mins",
+    "populacao": "6 974 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mar de Espanha MG",
+    "distanciaReta": "568.01 km",
+    "distanciaConducao": "718 km",
+    "tempo": "9 horas 57 mins",
+    "populacao": "11 758 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mariana MG",
+    "distanciaReta": "397.45 km",
+    "distanciaConducao": "542 km",
+    "tempo": "7 horas 51 mins",
+    "populacao": "60 142 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Marilac MG",
+    "distanciaReta": "314.20 km",
+    "distanciaConducao": "551 km",
+    "tempo": "9 horas 23 mins",
+    "populacao": "4 219 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Maria da Fé MG",
+    "distanciaReta": "598.24 km",
+    "distanciaConducao": "785 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "14 534 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mário Campos MG",
+    "distanciaReta": "346.74 km",
+    "distanciaConducao": "429 km",
+    "tempo": "6 horas 17 mins",
+    "populacao": "13 214 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Martinho Campos MG",
+    "distanciaReta": "272.52 km",
+    "distanciaConducao": "373 km",
+    "tempo": "5 horas 53 mins",
+    "populacao": "13 497 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Maripá de Minas MG",
+    "distanciaReta": "551.39 km",
+    "distanciaConducao": "711 km",
+    "tempo": "9 horas 48 mins",
+    "populacao": "2 788 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Marliéria MG",
+    "distanciaReta": "360.42 km",
+    "distanciaConducao": "592 km",
+    "tempo": "9 horas 5 mins",
+    "populacao": "4 044 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Marmelópolis MG",
+    "distanciaReta": "610.84 km",
+    "distanciaConducao": "821 km",
+    "tempo": "11 horas 13 mins",
+    "populacao": "2 968 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Martins Soares MG",
+    "distanciaReta": "462.57 km",
+    "distanciaConducao": "704 km",
+    "tempo": "10 horas 24 mins",
+    "populacao": "8 299 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mata Verde MG",
+    "distanciaReta": "434.20 km",
+    "distanciaConducao": "554 km",
+    "tempo": "8 horas 31 mins",
+    "populacao": "8 526 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mateus Leme MG",
+    "distanciaReta": "336.89 km",
+    "distanciaConducao": "443 km",
+    "tempo": "6 horas 26 mins",
+    "populacao": "31 364 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mathias Lobato MG",
+    "distanciaReta": "333 km",
+    "distanciaConducao": "606 km",
+    "tempo": "9 horas 49 mins",
+    "populacao": "3 371 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Matias Barbosa MG",
+    "distanciaReta": "558.92 km",
+    "distanciaConducao": "677 km",
+    "tempo": "9 horas 5 mins",
+    "populacao": "13 435 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mato Verde MG",
+    "distanciaReta": "253.93 km",
+    "distanciaConducao": "321 km",
+    "tempo": "4 horas 49 mins",
+    "populacao": "12 685 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Materlândia MG",
+    "distanciaReta": "230.43 km",
+    "distanciaConducao": "381 km",
+    "tempo": "7 horas 23 mins",
+    "populacao": "4 482 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Matias Cardoso MG",
+    "distanciaReta": "246.57 km",
+    "distanciaConducao": "347 km",
+    "tempo": "5 horas 5 mins",
+    "populacao": "10 905 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Maravilhas MG",
+    "distanciaReta": "282.11 km",
+    "distanciaConducao": "355 km",
+    "tempo": "6 horas 1 min",
+    "populacao": "7 156 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Matipó MG",
+    "distanciaReta": "436.24 km",
+    "distanciaConducao": "652 km",
+    "tempo": "9 horas 37 mins",
+    "populacao": "18 604 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Matutina MG",
+    "distanciaReta": "289.74 km",
+    "distanciaConducao": "439 km",
+    "tempo": "7 horas 3 mins",
+    "populacao": "3 846 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Matozinhos MG",
+    "distanciaReta": "291.55 km",
+    "distanciaConducao": "366 km",
+    "tempo": "5 horas 34 mins",
+    "populacao": "38 469 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mendes Pimentel MG",
+    "distanciaReta": "384.66 km",
+    "distanciaConducao": "660 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "6 329 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Medina MG",
+    "distanciaReta": "340.86 km",
+    "distanciaConducao": "488 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "1 100 093 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Medina MG",
+    "distanciaReta": "340.86 km",
+    "distanciaConducao": "488 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "1 687,9 hab./km²"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Medina MG",
+    "distanciaReta": "340.86 km",
+    "distanciaConducao": "488 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "3 136,1 hab./km²"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Minas Novas MG",
+    "distanciaReta": "212.86 km",
+    "distanciaConducao": "388 km",
+    "tempo": "5 horas 41 mins",
+    "populacao": "31 509 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Medeiros MG",
+    "distanciaReta": "377.54 km",
+    "distanciaConducao": "539 km",
+    "tempo": "8 horas 23 mins",
+    "populacao": "3 444 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Minduri MG",
+    "distanciaReta": "522.66 km",
+    "distanciaConducao": "688 km",
+    "tempo": "10 horas 13 mins",
+    "populacao": "3 840 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Mirabela MG",
+    "distanciaReta": "92.12 km",
+    "distanciaConducao": "146 km",
+    "tempo": "2 horas",
+    "populacao": "13 043 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Miraí MG",
+    "distanciaReta": "511.44 km",
+    "distanciaConducao": "730 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "14 946 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Miravânia MG",
+    "distanciaReta": "248.13 km",
+    "distanciaConducao": "326 km",
+    "tempo": "5 horas 1 min",
+    "populacao": "4 561 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monjolos MG",
+    "distanciaReta": "157.28 km",
+    "distanciaConducao": "246 km",
+    "tempo": "4 horas 13 mins",
+    "populacao": "2 360 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Moema MG",
+    "distanciaReta": "330.85 km",
+    "distanciaConducao": "453 km",
+    "tempo": "7 horas 7 mins",
+    "populacao": "7 028 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Montalvânia MG",
+    "distanciaReta": "277.49 km",
+    "distanciaConducao": "417 km",
+    "tempo": "6 horas 11 mins",
+    "populacao": "14 621 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monsenhor Paulo MG",
+    "distanciaReta": "540.89 km",
+    "distanciaConducao": "704 km",
+    "tempo": "9 horas 1 min",
+    "populacao": "8 537 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monte Alegre de Minas MG",
+    "distanciaReta": "501 km",
+    "distanciaConducao": "593 km",
+    "tempo": "8 horas 53 mins",
+    "populacao": "21 236 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monte Formoso MG",
+    "distanciaReta": "353.83 km",
+    "distanciaConducao": "594 km",
+    "tempo": "8 horas 41 mins",
+    "populacao": "4 664 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monte Belo MG",
+    "distanciaReta": "519.76 km",
+    "distanciaConducao": "777 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "13 453 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monte Azul MG",
+    "distanciaReta": "272.84 km",
+    "distanciaConducao": "350 km",
+    "tempo": "5 horas 16 mins",
+    "populacao": "22 102 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Monte Santo de Minas MG",
+    "distanciaReta": "531.26 km",
+    "distanciaConducao": "736 km",
+    "tempo": "11 horas 22 mins",
+    "populacao": "21 513 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Montes Claros MG",
+    "distanciaReta": "82.78 km",
+    "distanciaConducao": "108 km",
+    "tempo": "1 hora 32 mins",
+    "populacao": "417 478 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Morro do Pilar MG",
+    "distanciaReta": "279.40 km",
+    "distanciaConducao": "493 km",
+    "tempo": "7 horas 58 mins",
+    "populacao": "3 399 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Morada Nova de Minas MG",
+    "distanciaReta": "197.41 km",
+    "distanciaConducao": "304 km",
+    "tempo": "5 horas 18 mins",
+    "populacao": "8 256 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Munhoz MG",
+    "distanciaReta": "653.66 km",
+    "distanciaConducao": "855 km",
+    "tempo": "10 horas 52 mins",
+    "populacao": "6 029 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Muriaé MG",
+    "distanciaReta": "516.31 km",
+    "distanciaConducao": "708 km",
+    "tempo": "10 horas 41 mins",
+    "populacao": "108 763 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Morro da Garça MG",
+    "distanciaReta": "173.88 km",
+    "distanciaConducao": "232 km",
+    "tempo": "3 horas 50 mins",
+    "populacao": "2 660 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Nacip Raydan MG",
+    "distanciaReta": "296.35 km",
+    "distanciaConducao": "516 km",
+    "tempo": "8 horas 37 mins",
+    "populacao": "3 221 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Onça de Pitangui MG",
+    "distanciaReta": "306.79 km",
+    "distanciaConducao": "417 km",
+    "tempo": "6 horas 53 mins",
+    "populacao": "3 192 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Oratórios MG",
+    "distanciaReta": "427.02 km",
+    "distanciaConducao": "628 km",
+    "tempo": "9 horas 12 mins",
+    "populacao": "4 486 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ouro Fino MG",
+    "distanciaReta": "619.60 km",
+    "distanciaConducao": "829 km",
+    "tempo": "10 horas 35 mins",
+    "populacao": "33 639 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ouro Preto MG",
+    "distanciaReta": "394.94 km",
+    "distanciaConducao": "530 km",
+    "tempo": "7 horas 41 mins",
+    "populacao": "73 994 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Padre Carvalho MG",
+    "distanciaReta": "230.13 km",
+    "distanciaConducao": "293 km",
+    "tempo": "4 horas 25 mins",
+    "populacao": "5 834 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Padre Paraíso MG",
+    "distanciaReta": "329.07 km",
+    "distanciaConducao": "594 km",
+    "tempo": "8 horas 31 mins",
+    "populacao": "19 744 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ouro Verde de Minas MG",
+    "distanciaReta": "370.93 km",
+    "distanciaConducao": "654 km",
+    "tempo": "9 horas 53 mins",
+    "populacao": "6 021 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pará de Minas MG",
+    "distanciaReta": "319.51 km",
+    "distanciaConducao": "467 km",
+    "tempo": "6 horas 36 mins",
+    "populacao": "93 101 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paraopeba MG",
+    "distanciaReta": "256.56 km",
+    "distanciaConducao": "311 km",
+    "tempo": "4 horas 53 mins",
+    "populacao": "22 563 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paraisópolis MG",
+    "distanciaReta": "632.19 km",
+    "distanciaConducao": "818 km",
+    "tempo": "10 horas 28 mins",
+    "populacao": "20 940 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paineiras MG",
+    "distanciaReta": "236.63 km",
+    "distanciaConducao": "353 km",
+    "tempo": "6 horas 11 mins",
+    "populacao": "4 663 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Papagaios MG",
+    "distanciaReta": "274.74 km",
+    "distanciaConducao": "344 km",
+    "tempo": "5 horas 47 mins",
+    "populacao": "14 171 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pai Pedro MG",
+    "distanciaReta": "227.59 km",
+    "distanciaConducao": "304 km",
+    "tempo": "4 horas 37 mins",
+    "populacao": "5 934 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pains MG",
+    "distanciaReta": "394.23 km",
+    "distanciaConducao": "529 km",
+    "tempo": "8 horas 26 mins",
+    "populacao": "8 014 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paiva MG",
+    "distanciaReta": "494.40 km",
+    "distanciaConducao": "617 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "1 560 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Palmópolis MG",
+    "distanciaReta": "443.22 km",
+    "distanciaConducao": "716 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "5 196 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paracatu MG",
+    "distanciaReta": "246 km",
+    "distanciaConducao": "365 km",
+    "tempo": "4 horas 44 mins",
+    "populacao": "93 862 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Peçanha MG",
+    "distanciaReta": "275.77 km",
+    "distanciaConducao": "468 km",
+    "tempo": "7 horas 15 mins",
+    "populacao": "17 537 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedra Azul MG",
+    "distanciaReta": "368.53 km",
+    "distanciaConducao": "471 km",
+    "tempo": "7 horas 8 mins",
+    "populacao": "24 748 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedra do Anta MG",
+    "distanciaReta": "447.74 km",
+    "distanciaConducao": "656 km",
+    "tempo": "9 horas 44 mins",
+    "populacao": "3 365 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedra do Indaiá MG",
+    "distanciaReta": "374.98 km",
+    "distanciaConducao": "499 km",
+    "tempo": "8 horas",
+    "populacao": "3 977 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedra Dourada MG",
+    "distanciaReta": "498.23 km",
+    "distanciaConducao": "772 km",
+    "tempo": "11 horas 21 mins",
+    "populacao": "2 187 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedras de Maria da Cruz MG",
+    "distanciaReta": "154.13 km",
+    "distanciaConducao": "212 km",
+    "tempo": "3 horas",
+    "populacao": "11 084 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedralva MG",
+    "distanciaReta": "593.11 km",
+    "distanciaConducao": "784 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "11 652 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedrinópolis MG",
+    "distanciaReta": "394.39 km",
+    "distanciaConducao": "476 km",
+    "tempo": "7 horas 31 mins",
+    "populacao": "3 490 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Passabém MG",
+    "distanciaReta": "303.86 km",
+    "distanciaConducao": "565 km",
+    "tempo": "8 horas 34 mins",
+    "populacao": "2 766 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Passa Tempo MG",
+    "distanciaReta": "408.79 km",
+    "distanciaConducao": "529 km",
+    "tempo": "7 horas 23 mins",
+    "populacao": "8 199 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Passa Vinte MG",
+    "distanciaReta": "582.62 km",
+    "distanciaConducao": "781 km",
+    "tempo": "11 horas 16 mins",
+    "populacao": "2 104 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Passa Quatro MG",
+    "distanciaReta": "602.38 km",
+    "distanciaConducao": "809 km",
+    "tempo": "10 horas 52 mins",
+    "populacao": "16 439 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Patos de Minas MG",
+    "distanciaReta": "271.19 km",
+    "distanciaConducao": "318 km",
+    "tempo": "5 horas 7 mins",
+    "populacao": "159 434 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Patis MG",
+    "distanciaReta": "112.97 km",
+    "distanciaConducao": "161 km",
+    "tempo": "2 horas 16 mins",
+    "populacao": "5 594 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Patrocínio do Muriaé MG",
+    "distanciaReta": "527.05 km",
+    "distanciaConducao": "733 km",
+    "tempo": "11 horas 5 mins",
+    "populacao": "5 298 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paula Cândido MG",
+    "distanciaReta": "463.22 km",
+    "distanciaConducao": "627 km",
+    "tempo": "9 horas 27 mins",
+    "populacao": "9 571 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pequeri MG",
+    "distanciaReta": "561.19 km",
+    "distanciaConducao": "712 km",
+    "tempo": "9 horas 50 mins",
+    "populacao": "3 335 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pedro Leopoldo MG",
+    "distanciaReta": "298.26 km",
+    "distanciaConducao": "374 km",
+    "tempo": "5 horas 42 mins",
+    "populacao": "65 149 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Perdizes MG",
+    "distanciaReta": "390.15 km",
+    "distanciaConducao": "441 km",
+    "tempo": "7 horas",
+    "populacao": "14 391 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pirajuba MG",
+    "distanciaReta": "542.77 km",
+    "distanciaConducao": "640 km",
+    "tempo": "10 horas 2 mins",
+    "populacao": "6 199 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piranga MG",
+    "distanciaReta": "433.44 km",
+    "distanciaConducao": "565 km",
+    "tempo": "8 horas 14 mins",
+    "populacao": "17 918 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piranguçu MG",
+    "distanciaReta": "624.44 km",
+    "distanciaConducao": "836 km",
+    "tempo": "10 horas 42 mins",
+    "populacao": "5 488 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pirapora MG",
+    "distanciaReta": "54.12 km",
+    "distanciaConducao": "65 km",
+    "tempo": "1 hora 12 mins",
+    "populacao": "56 428 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piranguinho MG",
+    "distanciaReta": "612.16 km",
+    "distanciaConducao": "817 km",
+    "tempo": "10 horas 22 mins",
+    "populacao": "8 550 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pirapetinga MG",
+    "distanciaReta": "569.73 km",
+    "distanciaConducao": "826 km",
+    "tempo": "11 horas 14 mins",
+    "populacao": "10,772 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piraúba MG",
+    "distanciaReta": "504.32 km",
+    "distanciaConducao": "659 km",
+    "tempo": "9 horas 12 mins",
+    "populacao": "11 090 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pitangui MG",
+    "distanciaReta": "302.27 km",
+    "distanciaConducao": "402 km",
+    "tempo": "6 horas 38 mins",
+    "populacao": "28 433 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piumhi MG",
+    "distanciaReta": "414.07 km",
+    "distanciaConducao": "574 km",
+    "tempo": "9 horas 10 mins",
+    "populacao": "37 901 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Perdões MG",
+    "distanciaReta": "461.01 km",
+    "distanciaConducao": "593 km",
+    "tempo": "7 horas 53 mins",
+    "populacao": "20 140 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piedade do Rio Grande MG",
+    "distanciaReta": "500.98 km",
+    "distanciaConducao": "641 km",
+    "tempo": "9 horas 9 mins",
+    "populacao": "4 709 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piedade de Caratinga MG",
+    "distanciaReta": "406.71 km",
+    "distanciaConducao": "709 km",
+    "tempo": "10 horas 32 mins",
+    "populacao": "8 426 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piau MG",
+    "distanciaReta": "520.16 km",
+    "distanciaConducao": "644 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "2 719 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piedade dos Gerais MG",
+    "distanciaReta": "389.50 km",
+    "distanciaConducao": "494 km",
+    "tempo": "7 horas 19 mins",
+    "populacao": "4 645 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Piedade de Ponte Nova MG",
+    "distanciaReta": "411.89 km",
+    "distanciaConducao": "616 km",
+    "tempo": "9 horas 3 mins",
+    "populacao": "4 063 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pingo-d'Água MG",
+    "distanciaReta": "6,449.79 km",
+    "distanciaConducao": "- ",
+    "tempo": "- ",
+    "populacao": "4 894 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pintópolis MG",
+    "distanciaReta": "119.39 km",
+    "distanciaConducao": "218 km",
+    "tempo": "2 horas 59 mins",
+    "populacao": "7 491 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Planura MG",
+    "distanciaReta": "558.58 km",
+    "distanciaConducao": "653 km",
+    "tempo": "10 horas 13 mins",
+    "populacao": "12 133 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Poço Fundo MG",
+    "distanciaReta": "553.34 km",
+    "distanciaConducao": "772 km",
+    "tempo": "10 horas 4 mins",
+    "populacao": "16 841 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Poços de Caldas MG",
+    "distanciaReta": "576.31 km",
+    "distanciaConducao": "847 km",
+    "tempo": "11 horas 14 mins",
+    "populacao": "169 838 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ponte Nova MG",
+    "distanciaReta": "420.16 km",
+    "distanciaConducao": "610 km",
+    "tempo": "8 horas 54 mins",
+    "populacao": "60 003 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pompéu MG",
+    "distanciaReta": "253.49 km",
+    "distanciaConducao": "341 km",
+    "tempo": "5 horas 21 mins",
+    "populacao": "31 812 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ponto Chique MG",
+    "distanciaReta": "64.52 km",
+    "distanciaConducao": "91 km",
+    "tempo": "1 hora 27 mins",
+    "populacao": "4 259 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Presidente Kubitschek MG",
+    "distanciaReta": "211.44 km",
+    "distanciaConducao": "386 km",
+    "tempo": "5 horas 48 mins",
+    "populacao": "3 053 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Presidente Olegário MG",
+    "distanciaReta": "252.23 km",
+    "distanciaConducao": "297 km",
+    "tempo": "5 horas 19 mins",
+    "populacao": "19 627 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Quartel Geral MG",
+    "distanciaReta": "275.25 km",
+    "distanciaConducao": "415 km",
+    "tempo": "6 horas 33 mins",
+    "populacao": "3 315 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Raposos MG",
+    "distanciaReta": "343.09 km",
+    "distanciaConducao": "436 km",
+    "tempo": "6 horas 24 mins",
+    "populacao": "15 345 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Raul Soares MG",
+    "distanciaReta": "414.19 km",
+    "distanciaConducao": "628 km",
+    "tempo": "9 horas 13 mins",
+    "populacao": "23 762 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Queluzito MG",
+    "distanciaReta": "424.65 km",
+    "distanciaConducao": "514 km",
+    "tempo": "7 horas 16 mins",
+    "populacao": "1 866 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Reduto MG",
+    "distanciaReta": "454.36 km",
+    "distanciaConducao": "690 km",
+    "tempo": "10 horas 11 mins",
+    "populacao": "7 105 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Resplendor MG",
+    "distanciaReta": "438.10 km",
+    "distanciaConducao": "715 km",
+    "tempo": "11 horas 14 mins",
+    "populacao": "17 398 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Resende Costa MG",
+    "distanciaReta": "439.50 km",
+    "distanciaConducao": "578 km",
+    "tempo": "8 horas 26 mins",
+    "populacao": "11 569 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ressaquinha MG",
+    "distanciaReta": "462.30 km",
+    "distanciaConducao": "548 km",
+    "tempo": "7 horas 38 mins",
+    "populacao": "4 826 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Riacho dos Machados MG",
+    "distanciaReta": "196.21 km",
+    "distanciaConducao": "250 km",
+    "tempo": "3 horas 43 mins",
+    "populacao": "9 360 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ponto dos Volantes MG",
+    "distanciaReta": "327.99 km",
+    "distanciaConducao": "552 km",
+    "tempo": "8 horas 1 min",
+    "populacao": "12 138 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pocrane MG",
+    "distanciaReta": "427.28 km",
+    "distanciaConducao": "805 km",
+    "tempo": "12 horas 22 mins",
+    "populacao": "8 288 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Porteirinha MG",
+    "distanciaReta": "214.28 km",
+    "distanciaConducao": "275 km",
+    "tempo": "4 horas 6 mins",
+    "populacao": "37 950 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Porto Firme MG",
+    "distanciaReta": "439.29 km",
+    "distanciaConducao": "592 km",
+    "tempo": "8 horas 41 mins",
+    "populacao": "11 348 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pouso Alegre MG",
+    "distanciaReta": "600.07 km",
+    "distanciaConducao": "773 km",
+    "tempo": "9 horas 41 mins",
+    "populacao": "154 293 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pouso Alto MG",
+    "distanciaReta": "581.37 km",
+    "distanciaConducao": "782 km",
+    "tempo": "10 horas 19 mins",
+    "populacao": "7 123 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Poté MG",
+    "distanciaReta": "309.97 km",
+    "distanciaConducao": "561 km",
+    "tempo": "8 horas 18 mins",
+    "populacao": "15 668 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pratápolis MG",
+    "distanciaReta": "486.54 km",
+    "distanciaConducao": "710 km",
+    "tempo": "10 horas 46 mins",
+    "populacao": "8 807 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pratinha MG",
+    "distanciaReta": "361.80 km",
+    "distanciaConducao": "488 km",
+    "tempo": "7 horas 49 mins",
+    "populacao": "3 285 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ribeirão das Neves MG",
+    "distanciaReta": "315.57 km",
+    "distanciaConducao": "383 km",
+    "tempo": "5 horas 41 mins",
+    "populacao": "341 415 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ribeirão Vermelho MG",
+    "distanciaReta": "466.18 km",
+    "distanciaConducao": "601 km",
+    "tempo": "7 horas 58 mins",
+    "populacao": "3 826 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Acima MG",
+    "distanciaReta": "355.04 km",
+    "distanciaConducao": "441 km",
+    "tempo": "6 horas 29 mins",
+    "populacao": "10 312 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio do Prado MG",
+    "distanciaReta": "428.48 km",
+    "distanciaConducao": "686 km",
+    "tempo": "9 horas 55 mins",
+    "populacao": "5 213 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Espera MG",
+    "distanciaReta": "446.43 km",
+    "distanciaConducao": "559 km",
+    "tempo": "8 horas 10 mins",
+    "populacao": "6 078 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Novo MG",
+    "distanciaReta": "522.33 km",
+    "distanciaConducao": "687 km",
+    "tempo": "9 horas 30 mins",
+    "populacao": "8 712 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Pardo de Minas MG",
+    "distanciaReta": "264.70 km",
+    "distanciaConducao": "383 km",
+    "tempo": "6 horas 6 mins",
+    "populacao": "30 578 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Manso MG",
+    "distanciaReta": "366.36 km",
+    "distanciaConducao": "463 km",
+    "tempo": "6 horas 38 mins",
+    "populacao": "5 267 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rio Preto MG",
+    "distanciaReta": "572.42 km",
+    "distanciaConducao": "741 km",
+    "tempo": "10 horas 8 mins",
+    "populacao": "5 292 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rochedo de Minas MG",
+    "distanciaReta": "542 km",
+    "distanciaConducao": "711 km",
+    "tempo": "9 horas 49 mins",
+    "populacao": "2 116 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sabará MG",
+    "distanciaReta": "334.11 km",
+    "distanciaConducao": "427 km",
+    "tempo": "6 horas 14 mins",
+    "populacao": "137 877 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rodeiro MG",
+    "distanciaReta": "502.59 km",
+    "distanciaConducao": "683 km",
+    "tempo": "9 horas 36 mins",
+    "populacao": "6 863 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rubelita MG",
+    "distanciaReta": "254.79 km",
+    "distanciaConducao": "353 km",
+    "tempo": "5 horas 24 mins",
+    "populacao": "6 198 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rosário da Limeira MG",
+    "distanciaReta": "494.66 km",
+    "distanciaConducao": "686 km",
+    "tempo": "10 horas 17 mins",
+    "populacao": "4 242 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rubim MG",
+    "distanciaReta": "435.15 km",
+    "distanciaConducao": "632 km",
+    "tempo": "9 horas 51 mins",
+    "populacao": "10 226 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ritápolis MG",
+    "distanciaReta": "445.34 km",
+    "distanciaConducao": "609 km",
+    "tempo": "8 horas 36 mins",
+    "populacao": "4 604 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sabinópolis MG",
+    "distanciaReta": "245.69 km",
+    "distanciaConducao": "435 km",
+    "tempo": "6 horas 59 mins",
+    "populacao": "15 525 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Salto da Divisa MG",
+    "distanciaReta": "505.59 km",
+    "distanciaConducao": "696 km",
+    "tempo": "11 horas 21 mins",
+    "populacao": "7 014 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Bárbara do Monte Verde MG",
+    "distanciaReta": "562.10 km",
+    "distanciaConducao": "713 km",
+    "tempo": "9 horas 38 mins",
+    "populacao": "2 789 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz de Minas MG",
+    "distanciaReta": "461.85 km",
+    "distanciaConducao": "581 km",
+    "tempo": "8 horas 28 mins",
+    "populacao": "8 723 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Bárbara do Tugúrio MG",
+    "distanciaReta": "486.02 km",
+    "distanciaConducao": "592 km",
+    "tempo": "8 horas 10 mins",
+    "populacao": "4 603 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz de Salinas MG",
+    "distanciaReta": "317.23 km",
+    "distanciaConducao": "408 km",
+    "tempo": "6 horas 11 mins",
+    "populacao": "4 397 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Fé de Minas MG",
+    "distanciaReta": "94.41 km",
+    "distanciaConducao": "139 km",
+    "tempo": "2 horas 45 mins",
+    "populacao": "3 866 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz do Escalvado MG",
+    "distanciaReta": "407.07 km",
+    "distanciaConducao": "610 km",
+    "tempo": "8 horas 59 mins",
+    "populacao": "4 693 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Bárbara do Leste MG",
+    "distanciaReta": "419.03 km",
+    "distanciaConducao": "692 km",
+    "tempo": "10 horas 18 mins",
+    "populacao": "7 679 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Helena de Minas MG",
+    "distanciaReta": "414.21 km",
+    "distanciaConducao": "694 km",
+    "tempo": "10 horas 19 mins",
+    "populacao": "6 055 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Efigênia de Minas MG",
+    "distanciaReta": "305.75 km",
+    "distanciaConducao": "524 km",
+    "tempo": "8 horas 21 mins",
+    "populacao": "4 610 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Maria do Salto MG",
+    "distanciaReta": "479.08 km",
+    "distanciaConducao": "684 km",
+    "tempo": "10 horas 53 mins",
+    "populacao": "5 232 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Maria do Suaçuí MG",
+    "distanciaReta": "264.87 km",
+    "distanciaConducao": "427 km",
+    "tempo": "6 horas 59 mins",
+    "populacao": "14 615 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Maria de Itabira MG",
+    "distanciaReta": "316.95 km",
+    "distanciaConducao": "537 km",
+    "tempo": "8 horas 7 mins",
+    "populacao": "10 836 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana da Vargem MG",
+    "distanciaReta": "484.49 km",
+    "distanciaConducao": "652 km",
+    "tempo": "8 horas 38 mins",
+    "populacao": "7 239 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana de Pirapama MG",
+    "distanciaReta": "232.25 km",
+    "distanciaConducao": "319 km",
+    "tempo": "5 horas 36 mins",
+    "populacao": "8 004 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana de Cataguases MG",
+    "distanciaReta": "523.94 km",
+    "distanciaConducao": "723 km",
+    "tempo": "10 horas 17 mins",
+    "populacao": "3 622 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Deserto MG",
+    "distanciaReta": "572.26 km",
+    "distanciaConducao": "705 km",
+    "tempo": "9 horas 29 mins",
+    "populacao": "3 860 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Manhuaçu MG",
+    "distanciaReta": "445.98 km",
+    "distanciaConducao": "716 km",
+    "tempo": "10 horas 41 mins",
+    "populacao": "8 603 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Garambéu MG",
+    "distanciaReta": "516.03 km",
+    "distanciaConducao": "642 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "2 476 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Jacaré MG",
+    "distanciaReta": "440.19 km",
+    "distanciaConducao": "602 km",
+    "tempo": "8 horas 11 mins",
+    "populacao": "4 847 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Paraíso MG",
+    "distanciaReta": "341.88 km",
+    "distanciaConducao": "590 km",
+    "tempo": "9 horas 27 mins",
+    "populacao": "35 369 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana dos Montes MG",
+    "distanciaReta": "433.30 km",
+    "distanciaConducao": "522 km",
+    "tempo": "7 horas 37 mins",
+    "populacao": "3 822 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana do Riacho MG",
+    "distanciaReta": "260.18 km",
+    "distanciaConducao": "429 km",
+    "tempo": "6 horas 58 mins",
+    "populacao": "4 274 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita de Caldas MG",
+    "distanciaReta": "590.80 km",
+    "distanciaConducao": "832 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "9 027 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita de Minas MG",
+    "distanciaReta": "411.89 km",
+    "distanciaConducao": "706 km",
+    "tempo": "10 horas 24 mins",
+    "populacao": "6 552 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita de Ibitipoca MG",
+    "distanciaReta": "514.38 km",
+    "distanciaConducao": "636 km",
+    "tempo": "9 horas",
+    "populacao": "3 583 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita de Jacutinga MG",
+    "distanciaReta": "576.98 km",
+    "distanciaConducao": "777 km",
+    "tempo": "10 horas 45 mins",
+    "populacao": "4 976 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita do Itueto MG",
+    "distanciaReta": "429.13 km",
+    "distanciaConducao": "702 km",
+    "tempo": "11 horas 49 mins",
+    "populacao": "5 522 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rita do Sapucaí MG",
+    "distanciaReta": "596.76 km",
+    "distanciaConducao": "789 km",
+    "tempo": "9 horas 57 mins",
+    "populacao": "43 260 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Rosa da Serra MG",
+    "distanciaReta": "318.83 km",
+    "distanciaConducao": "466 km",
+    "tempo": "7 horas 25 mins",
+    "populacao": "3 224 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Aventureiro MG",
+    "distanciaReta": "562.38 km",
+    "distanciaConducao": "737 km",
+    "tempo": "10 horas 22 mins",
+    "populacao": "3 534 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Itambé MG",
+    "distanciaReta": "213.28 km",
+    "distanciaConducao": "413 km",
+    "tempo": "6 horas 42 mins",
+    "populacao": "4 135 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Amparo MG",
+    "distanciaReta": "442.70 km",
+    "distanciaConducao": "567 km",
+    "tempo": "7 horas 38 mins",
+    "populacao": "18 613 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Grama MG",
+    "distanciaReta": "425.25 km",
+    "distanciaConducao": "616 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "4 090 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Jacinto MG",
+    "distanciaReta": "471.40 km",
+    "distanciaConducao": "702 km",
+    "tempo": "10 horas 59 mins",
+    "populacao": "11 780 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Monte MG",
+    "distanciaReta": "354.21 km",
+    "distanciaConducao": "469 km",
+    "tempo": "7 horas 25 mins",
+    "populacao": "28 427 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Retiro MG",
+    "distanciaReta": "277.29 km",
+    "distanciaConducao": "358 km",
+    "tempo": "5 horas 22 mins",
+    "populacao": "7 315 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Hipólito MG",
+    "distanciaReta": "150.41 km",
+    "distanciaConducao": "231 km",
+    "tempo": "3 horas 51 mins",
+    "populacao": "3 541 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Rio Abaixo MG",
+    "distanciaReta": "286.36 km",
+    "distanciaConducao": "514 km",
+    "tempo": "8 horas 30 mins",
+    "populacao": "1 777 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Bento Abade MG",
+    "distanciaReta": "514.08 km",
+    "distanciaConducao": "665 km",
+    "tempo": "8 horas 52 mins",
+    "populacao": "4 577 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Domingos das Dores MG",
+    "distanciaReta": "391.02 km",
+    "distanciaConducao": "667 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "6 943 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Brás do Suaçuí MG",
+    "distanciaReta": "411.11 km",
+    "distanciaConducao": "501 km",
+    "tempo": "7 horas 8 mins",
+    "populacao": "3 512 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Domingos do Prata MG",
+    "distanciaReta": "362.86 km",
+    "distanciaConducao": "544 km",
+    "tempo": "7 horas 56 mins",
+    "populacao": "17 393 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Félix de Minas MG",
+    "distanciaReta": "373.04 km",
+    "distanciaConducao": "666 km",
+    "tempo": "10 horas 40 mins",
+    "populacao": "3 382 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Francisco do Glória MG",
+    "distanciaReta": "488.02 km",
+    "distanciaConducao": "735 km",
+    "tempo": "10 horas 42 mins",
+    "populacao": "4 844 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Geraldo da Piedade MG",
+    "distanciaReta": "321.94 km",
+    "distanciaConducao": "563 km",
+    "tempo": "9 horas 9 mins",
+    "populacao": "4 389 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gonçalo do Abaeté MG",
+    "distanciaReta": "201.45 km",
+    "distanciaConducao": "238 km",
+    "tempo": "3 horas 55 mins",
+    "populacao": "8 389 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Geraldo do Baixio MG",
+    "distanciaReta": "401.98 km",
+    "distanciaConducao": "670 km",
+    "tempo": "10 horas 47 mins",
+    "populacao": "3 963 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gonçalo do Pará MG",
+    "distanciaReta": "335.20 km",
+    "distanciaConducao": "503 km",
+    "tempo": "6 horas 57 mins",
+    "populacao": "12 411 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gonçalo do Sapucaí MG",
+    "distanciaReta": "557.72 km",
+    "distanciaConducao": "715 km",
+    "tempo": "9 horas 5 mins",
+    "populacao": "25 449 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gonçalo do Rio Abaixo MG",
+    "distanciaReta": "341.63 km",
+    "distanciaConducao": "490 km",
+    "tempo": "7 horas 11 mins",
+    "populacao": "10 818 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Gonçalo do Rio Preto MG",
+    "distanciaReta": "197.26 km",
+    "distanciaConducao": "361 km",
+    "tempo": "5 horas 37 mins",
+    "populacao": "3 039 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João da Lagoa MG",
+    "distanciaReta": "27.09 km",
+    "distanciaConducao": "31 km",
+    "tempo": "24 minutos",
+    "populacao": "4 659 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João Batista do Glória MG",
+    "distanciaReta": "454.23 km",
+    "distanciaConducao": "653 km",
+    "tempo": "10 horas 34 mins",
+    "populacao": "6 890 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João da Ponte MG",
+    "distanciaReta": "131.84 km",
+    "distanciaConducao": "194 km",
+    "tempo": "2 horas 50 mins",
+    "populacao": "25 033 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João do Manhuaçu MG",
+    "distanciaReta": "457.85 km",
+    "distanciaConducao": "681 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "11 360 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João das Missões MG",
+    "distanciaReta": "239.15 km",
+    "distanciaConducao": "311 km",
+    "tempo": "4 horas 24 mins",
+    "populacao": "11 715 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João del-Rei MG",
+    "distanciaReta": "463.20 km",
+    "distanciaConducao": "583 km",
+    "tempo": "8 horas 28 mins",
+    "populacao": "90 897 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João do Oriente MG",
+    "distanciaReta": "367.38 km",
+    "distanciaConducao": "654 km",
+    "tempo": "10 horas 22 mins",
+    "populacao": "7 393 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João do Pacuí MG",
+    "distanciaReta": "49.94 km",
+    "distanciaConducao": "88 km",
+    "tempo": "1 hora 9 mins",
+    "populacao": "4 200 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João do Manteninha MG",
+    "distanciaReta": "410.90 km",
+    "distanciaConducao": "698 km",
+    "tempo": "11 horas",
+    "populacao": "5 183 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José da Barra MG",
+    "distanciaReta": "454.15 km",
+    "distanciaConducao": "637 km",
+    "tempo": "10 horas 10 mins",
+    "populacao": "6 778 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São João Nepomuceno MG",
+    "distanciaReta": "532.68 km",
+    "distanciaConducao": "708 km",
+    "tempo": "9 horas 54 mins",
+    "populacao": "26 439 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Joaquim de Bicas MG",
+    "distanciaReta": "343.97 km",
+    "distanciaConducao": "427 km",
+    "tempo": "6 horas 8 mins",
+    "populacao": "34 677 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José da Lapa MG",
+    "distanciaReta": "310.78 km",
+    "distanciaConducao": "389 km",
+    "tempo": "5 horas 54 mins",
+    "populacao": "23 200 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José da Varginha MG",
+    "distanciaReta": "303.76 km",
+    "distanciaConducao": "395 km",
+    "tempo": "6 horas 21 mins",
+    "populacao": "4 770 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José da Safira MG",
+    "distanciaReta": "297.92 km",
+    "distanciaConducao": "542 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "4 075 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José do Goiabal MG",
+    "distanciaReta": "382.68 km",
+    "distanciaConducao": "583 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "5 454 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José do Alegre MG",
+    "distanciaReta": "505.30 km",
+    "distanciaConducao": "713 km",
+    "tempo": "10 horas 29 mins",
+    "populacao": "3 996 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José do Jacuri MG",
+    "distanciaReta": "248.59 km",
+    "distanciaConducao": "421 km",
+    "tempo": "6 horas 18 mins",
+    "populacao": "6 477 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São José do Mantimento MG",
+    "distanciaReta": "449.70 km",
+    "distanciaConducao": "749 km",
+    "tempo": "11 horas 20 mins",
+    "populacao": "2 592 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Pedro da União MG",
+    "distanciaReta": "507.99 km",
+    "distanciaConducao": "786 km",
+    "tempo": "10 horas 58 mins",
+    "populacao": "4 911 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Pedro dos Ferros MG",
+    "distanciaReta": "399.38 km",
+    "distanciaConducao": "603 km",
+    "tempo": "9 horas 2 mins",
+    "populacao": "7 634 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Miguel do Anta MG",
+    "distanciaReta": "458.44 km",
+    "distanciaConducao": "643 km",
+    "tempo": "9 horas 30 mins",
+    "populacao": "6 750 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião da Vargem Alegre MG",
+    "distanciaReta": "494.89 km",
+    "distanciaConducao": "687 km",
+    "tempo": "10 horas 39 mins",
+    "populacao": "2 798 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Pedro do Suaçuí MG",
+    "distanciaReta": "260.24 km",
+    "distanciaConducao": "442 km",
+    "tempo": "6 horas 37 mins",
+    "populacao": "5 570 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Roque de Minas MG",
+    "distanciaReta": "410.64 km",
+    "distanciaConducao": "586 km",
+    "tempo": "9 horas 44 mins",
+    "populacao": "6 686 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Maranhão MG",
+    "distanciaReta": "247.18 km",
+    "distanciaConducao": "404 km",
+    "tempo": "6 horas 40 mins",
+    "populacao": "10 647 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Anta MG",
+    "distanciaReta": "393.77 km",
+    "distanciaConducao": "678 km",
+    "tempo": "10 horas 39 mins",
+    "populacao": "6 355 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senador Firmino MG",
+    "distanciaReta": "464.17 km",
+    "distanciaConducao": "605 km",
+    "tempo": "9 horas 2 mins",
+    "populacao": "7 230 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senador José Bento MG",
+    "distanciaReta": "600.50 km",
+    "distanciaConducao": "809 km",
+    "tempo": "10 horas 18 mins",
+    "populacao": "1 793 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senador Cortes MG",
+    "distanciaReta": "562.65 km",
+    "distanciaConducao": "715 km",
+    "tempo": "10 horas 14 mins",
+    "populacao": "1 980 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senhora de Oliveira MG",
+    "distanciaReta": "443.61 km",
+    "distanciaConducao": "567 km",
+    "tempo": "8 horas 18 mins",
+    "populacao": "5 689 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senador Modestino Gonçalves MG",
+    "distanciaReta": "179.55 km",
+    "distanciaConducao": "301 km",
+    "tempo": "4 horas 39 mins",
+    "populacao": "4 574 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senhora dos Remédios MG",
+    "distanciaReta": "462.30 km",
+    "distanciaConducao": "576 km",
+    "tempo": "8 horas 9 mins",
+    "populacao": "10 565 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senhora do Porto MG",
+    "distanciaReta": "265.37 km",
+    "distanciaConducao": "481 km",
+    "tempo": "7 horas 42 mins",
+    "populacao": "3 493 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Seritinga MG",
+    "distanciaReta": "548.23 km",
+    "distanciaConducao": "802 km",
+    "tempo": "10 horas 35 mins",
+    "populacao": "1 790 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serra Azul de Minas MG",
+    "distanciaReta": "214.15 km",
+    "distanciaConducao": "436 km",
+    "tempo": "7 horas 7 mins",
+    "populacao": "4 220 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Rio Verde MG",
+    "distanciaReta": "585.69 km",
+    "distanciaConducao": "790 km",
+    "tempo": "10 horas 35 mins",
+    "populacao": "2 250 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Rio Preto MG",
+    "distanciaReta": "296.74 km",
+    "distanciaConducao": "573 km",
+    "tempo": "8 horas 43 mins",
+    "populacao": "1 616 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serra da Saudade MG",
+    "distanciaReta": "302.26 km",
+    "distanciaConducao": "466 km",
+    "tempo": "7 horas 36 mins",
+    "populacao": "771 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Oeste MG",
+    "distanciaReta": "367.45 km",
+    "distanciaConducao": "524 km",
+    "tempo": "7 horas 40 mins",
+    "populacao": "5 805 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião do Paraíso MG",
+    "distanciaReta": "505.22 km",
+    "distanciaConducao": "700 km",
+    "tempo": "10 horas 46 mins",
+    "populacao": "71 915 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sardoá MG",
+    "distanciaReta": "304.34 km",
+    "distanciaConducao": "534 km",
+    "tempo": "8 horas 34 mins",
+    "populacao": "5 597 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Tomé das Letras MG",
+    "distanciaReta": "528.85 km",
+    "distanciaConducao": "689 km",
+    "tempo": "9 horas 20 mins",
+    "populacao": "6 655 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Vicente de Minas MG",
+    "distanciaReta": "520.70 km",
+    "distanciaConducao": "674 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "7 073 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião da Bela Vista MG",
+    "distanciaReta": "588.95 km",
+    "distanciaConducao": "754 km",
+    "tempo": "9 horas 34 mins",
+    "populacao": "5 598 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sapucaí-Mirim MG",
+    "distanciaReta": "652.92 km",
+    "distanciaConducao": "843 km",
+    "tempo": "10 horas 52 mins",
+    "populacao": "6 241 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sem-Peixe MG",
+    "distanciaReta": "392.63 km",
+    "distanciaConducao": "599 km",
+    "tempo": "8 horas 48 mins",
+    "populacao": "2 579 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Senador Amaral MG",
+    "distanciaReta": "645.66 km",
+    "distanciaConducao": "830 km",
+    "tempo": "10 horas 14 mins",
+    "populacao": "5 225 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serra do Salitre MG",
+    "distanciaReta": "324.31 km",
+    "distanciaConducao": "384 km",
+    "tempo": "6 horas 8 mins",
+    "populacao": "10 541 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serrania MG",
+    "distanciaReta": "530.98 km",
+    "distanciaConducao": "746 km",
+    "tempo": "10 horas 3 mins",
+    "populacao": "7 540 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serranópolis de Minas MG",
+    "distanciaReta": "222.64 km",
+    "distanciaConducao": "299 km",
+    "tempo": "4 horas 34 mins",
+    "populacao": "4 425 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serranos MG",
+    "distanciaReta": "545.89 km",
+    "distanciaConducao": "806 km",
+    "tempo": "10 horas 40 mins",
+    "populacao": "2 023 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sete Lagoas MG",
+    "distanciaReta": "276.69 km",
+    "distanciaConducao": "344 km",
+    "tempo": "5 horas 15 mins",
+    "populacao": "241 835 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serro MG",
+    "distanciaReta": "220.03 km",
+    "distanciaConducao": "389 km",
+    "tempo": "6 horas 17 mins",
+    "populacao": "20 966 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Silveirânia MG",
+    "distanciaReta": "483.40 km",
+    "distanciaConducao": "644 km",
+    "tempo": "9 horas 2 mins",
+    "populacao": "2 192 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Simão Pereira MG",
+    "distanciaReta": "570.28 km",
+    "distanciaConducao": "691 km",
+    "tempo": "9 horas 10 mins",
+    "populacao": "2 537 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Silvianópolis MG",
+    "distanciaReta": "576.62 km",
+    "distanciaConducao": "755 km",
+    "tempo": "9 horas 51 mins",
+    "populacao": "6 029 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Setubinha MG",
+    "distanciaReta": "265.53 km",
+    "distanciaConducao": "460 km",
+    "tempo": "7 horas 11 mins",
+    "populacao": "12 060 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tabuleiro MG",
+    "distanciaReta": "506.62 km",
+    "distanciaConducao": "655 km",
+    "tempo": "9 horas 10 mins",
+    "populacao": "4 076 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Taiobeiras MG",
+    "distanciaReta": "283.20 km",
+    "distanciaConducao": "368 km",
+    "tempo": "5 horas 32 mins",
+    "populacao": "33 040 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Simonésia MG",
+    "distanciaReta": "442.61 km",
+    "distanciaConducao": "713 km",
+    "tempo": "10 horas 40 mins",
+    "populacao": "19 421 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Taparuba MG",
+    "distanciaReta": "439.84 km",
+    "distanciaConducao": "782 km",
+    "tempo": "12 horas 2 mins",
+    "populacao": "3 137 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sobrália MG",
+    "distanciaReta": "358.53 km",
+    "distanciaConducao": "639 km",
+    "tempo": "10 horas 25 mins",
+    "populacao": "5 553 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Soledade de Minas MG",
+    "distanciaReta": "566.92 km",
+    "distanciaConducao": "758 km",
+    "tempo": "9 horas 53 mins",
+    "populacao": "6 189 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Taquaraçu de Minas MG",
+    "distanciaReta": "312.19 km",
+    "distanciaConducao": "444 km",
+    "tempo": "6 horas 43 mins",
+    "populacao": "3 792 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tarumirim MG",
+    "distanciaReta": "373.33 km",
+    "distanciaConducao": "652 km",
+    "tempo": "10 horas 26 mins",
+    "populacao": "14 326 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Teófilo Otoni MG",
+    "distanciaReta": "341.06 km",
+    "distanciaConducao": "604 km",
+    "tempo": "9 horas",
+    "populacao": "141 269 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Teixeiras MG",
+    "distanciaReta": "446.95 km",
+    "distanciaConducao": "635 km",
+    "tempo": "9 horas 21 mins",
+    "populacao": "11 346 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Timóteo MG",
+    "distanciaReta": "352.38 km",
+    "distanciaConducao": "622 km",
+    "tempo": "9 horas 36 mins",
+    "populacao": "90 568 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tocantins MG",
+    "distanciaReta": "493.77 km",
+    "distanciaConducao": "665 km",
+    "tempo": "9 horas 19 mins",
+    "populacao": "1 607 363 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tocantins MG",
+    "distanciaReta": "493.77 km",
+    "distanciaConducao": "665 km",
+    "tempo": "9 horas 19 mins",
+    "populacao": "16 769 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tiros MG",
+    "distanciaReta": "268.45 km",
+    "distanciaConducao": "345 km",
+    "tempo": "6 horas 45 mins",
+    "populacao": "6 871 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tocos do Moji MG",
+    "distanciaReta": "620.19 km",
+    "distanciaConducao": "805 km",
+    "tempo": "10 horas 23 mins",
+    "populacao": "3 950 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Toledo MG",
+    "distanciaReta": "667.60 km",
+    "distanciaConducao": "870 km",
+    "tempo": "10 horas 38 mins",
+    "populacao": "85 449 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Três Corações MG",
+    "distanciaReta": "528.89 km",
+    "distanciaConducao": "676 km",
+    "tempo": "8 horas 44 mins",
+    "populacao": "78 999 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tombos MG",
+    "distanciaReta": "512.93 km",
+    "distanciaConducao": "768 km",
+    "tempo": "11 horas 28 mins",
+    "populacao": "8 201 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tupaciguara MG",
+    "distanciaReta": "472.89 km",
+    "distanciaConducao": "594 km",
+    "tempo": "9 horas 9 mins",
+    "populacao": "25 466 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Três Pontas MG",
+    "distanciaReta": "497.88 km",
+    "distanciaConducao": "661 km",
+    "tempo": "8 horas 55 mins",
+    "populacao": "57 127 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tumiritinga MG",
+    "distanciaReta": "381.48 km",
+    "distanciaConducao": "636 km",
+    "tempo": "10 horas 33 mins",
+    "populacao": "6 732 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "União de Minas MG",
+    "distanciaReta": "665.80 km",
+    "distanciaConducao": "810 km",
+    "tempo": "12 horas 27 mins",
+    "populacao": "4 325 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ubaporanga MG",
+    "distanciaReta": "393.85 km",
+    "distanciaConducao": "665 km",
+    "tempo": "10 horas 20 mins",
+    "populacao": "12 449 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Turvolândia MG",
+    "distanciaReta": "559.81 km",
+    "distanciaConducao": "744 km",
+    "tempo": "9 horas 36 mins",
+    "populacao": "4 658 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ubá MG",
+    "distanciaReta": "491.93 km",
+    "distanciaConducao": "679 km",
+    "tempo": "9 horas 37 mins",
+    "populacao": "115 552 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Uberlândia MG",
+    "distanciaReta": "446.80 km",
+    "distanciaConducao": "524 km",
+    "tempo": "8 horas 16 mins",
+    "populacao": "706 597 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Uberaba MG",
+    "distanciaReta": "472.28 km",
+    "distanciaConducao": "545 km",
+    "tempo": "8 horas 33 mins",
+    "populacao": "340 277 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ubaí MG",
+    "distanciaReta": "79.05 km",
+    "distanciaConducao": "141 km",
+    "tempo": "1 hora 51 mins",
+    "populacao": "10 551 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Umburatiba MG",
+    "distanciaReta": "427.01 km",
+    "distanciaConducao": "741 km",
+    "tempo": "10 horas 43 mins",
+    "populacao": "2 700 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Unaí MG",
+    "distanciaReta": "257.75 km",
+    "distanciaConducao": "463 km",
+    "tempo": "6 horas 15 mins",
+    "populacao": "83 808 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Uruana de Minas MG",
+    "distanciaReta": "206.05 km",
+    "distanciaConducao": "364 km",
+    "tempo": "6 horas 20 mins",
+    "populacao": "3 256 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urucânia MG",
+    "distanciaReta": "419.78 km",
+    "distanciaConducao": "619 km",
+    "tempo": "9 horas 6 mins",
+    "populacao": "10 291 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Vargem Alegre MG",
+    "distanciaReta": "378.48 km",
+    "distanciaConducao": "636 km",
+    "tempo": "10 horas 15 mins",
+    "populacao": "6 491 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urucuia MG",
+    "distanciaReta": "155.74 km",
+    "distanciaConducao": "292 km",
+    "tempo": "4 horas 50 mins",
+    "populacao": "16 547 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Várzea da Palma MG",
+    "distanciaReta": "70.61 km",
+    "distanciaConducao": "99 km",
+    "tempo": "1 hora 45 mins",
+    "populacao": "39 129 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Varginha MG",
+    "distanciaReta": "518.61 km",
+    "distanciaConducao": "691 km",
+    "tempo": "8 horas 53 mins",
+    "populacao": "137 608 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Varjão de Minas MG",
+    "distanciaReta": "217 km",
+    "distanciaConducao": "267 km",
+    "tempo": "4 horas 39 mins",
+    "populacao": "6 054 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Vargem Grande do Rio Pardo MG",
+    "distanciaReta": "299.38 km",
+    "distanciaConducao": "401 km",
+    "tempo": "6 horas 3 mins",
+    "populacao": "4 733 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Varzelândia MG",
+    "distanciaReta": "153.82 km",
+    "distanciaConducao": "226 km",
+    "tempo": "3 horas 25 mins",
+    "populacao": "19 320 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Vazante MG",
+    "distanciaReta": "270.52 km",
+    "distanciaConducao": "388 km",
+    "tempo": "6 horas",
+    "populacao": "20 580 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Verdelândia MG",
+    "distanciaReta": "189.45 km",
+    "distanciaConducao": "287 km",
+    "tempo": "4 horas 28 mins",
+    "populacao": "8 350 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Vermelho Novo MG",
+    "distanciaReta": "418.18 km",
+    "distanciaConducao": "666 km",
+    "tempo": "9 horas 50 mins",
+    "populacao": "4 852 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Vieiras MG",
+    "distanciaReta": "496.83 km",
+    "distanciaConducao": "760 km",
+    "tempo": "11 horas 3 mins",
+    "populacao": "3 570 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Veredinha MG",
+    "distanciaReta": "200.79 km",
+    "distanciaConducao": "366 km",
+    "tempo": "5 horas 17 mins",
+    "populacao": "5 773 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Virgem da Lapa MG",
+    "distanciaReta": "238.99 km",
+    "distanciaConducao": "367 km",
+    "tempo": "6 horas 18 mins",
+    "populacao": "13 764 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Virgínia MG",
+    "distanciaReta": "597.29 km",
+    "distanciaConducao": "800 km",
+    "tempo": "10 horas 42 mins",
+    "populacao": "8 631 393 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Virginópolis MG",
+    "distanciaReta": "285.75 km",
+    "distanciaConducao": "485 km",
+    "tempo": "7 horas 45 mins",
+    "populacao": "10 801 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Volta Grande MG",
+    "distanciaReta": "574.45 km",
+    "distanciaConducao": "800 km",
+    "tempo": "10 horas 47 mins",
+    "populacao": "5 118 hab."
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Virgolândia MG",
+    "distanciaReta": "288.32 km",
+    "distanciaConducao": "504 km",
+    "tempo": "8 horas 27 mins",
+    "populacao": "5 659 hab."
+  }
+]

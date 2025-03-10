@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Valor por Cargo - Município de Lagoa dos Patos MG</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="esquerdo">
+            <nav>
+
+            </nav>
+        </div>
+        <div class="direito">
+            <div class="formularioCadastro">
+                <!-- <form action=""> -->
+                    <h3>VALOR POR CARGO</h3>
+
+                    <div>
+
+
+                        <div class="cadastoConti">
+                            <!-- <div class="cadastro">
+                                <p>Codigo:</p> <input type="text" name="" id="codigoEvento" value=""
+                                    disabled>
+                            </div> -->
+                            <div>
+                                <p>Cargo:</p> 
+                                <select name="" id="verificaCargo" onchange="dadosDiariaPorCargo()">
+                                    <option>Selecione</option>
+                                    <option>Servidor(a) Público</option>
+                                    <option>Secretário(a)</option>
+                                    <option>Procurador(a)</option>
+                                    <option>Prefeito(a)</option>
+                                    <option>Vice-prefeito(a)</option>
+                                    <option>Vereador(a)</option>
+                                </select>
+                            </div>
+                            <p>Valor da Diária Atual:</p>
+                            <div >
+                                
+                                <table class="tabelaMostra dnone">
+                                    
+                                    <tr>
+                                        <td>Limite por cidade</td>
+                                        <td>Valor diária inteira Total</td>              
+                                        <td>Valor meia diária Total</td>  
+                                    </tr>
+                                    <tr>
+                                        <td>Cidade até 20 mil habitantes</td>
+                                        <td>R$ --,--</td>
+                                        <td>R$ --,--</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cidade Acima 20 mil habitantes</td>
+                                        <td>R$ --,--</td>
+                                        <td>R$ --,--</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capitais em Geral</td>
+                                        <td>R$ --,--</td>
+                                        <td>R$ --,--</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Distrito Federal</td>
+                                        <td>R$ --,--</td>
+                                        <td>R$ --,--</td>
+                                    </tr>
+                                </table>
+                               
+                                <!-- <p>Cargo:<strong> Servidor</strong></p>
+                                <p>Cargo:<strong> Servidor</strong></p> -->
+                            </div>
+                               
+                                <a href="./src/766-2017.jpeg" target="_blank"><button>Lei Municipal</button></a>
+                            <fieldset>
+                                <legend>Você está alterando o cardo de...</legend>
+                                <h3>SELECIONE O CARGO</h3>
+                                <div>
+                                    <p>Cidade até 20 mil habitantes R$:</p> <input type="number" name="" id="valorAte20milHabitantes">
+                                </div>
+                                <div>
+                                    <p>Cidade acima de 20 mil habitantes R$:</p> <input type="number" name="" id="valorAcima20milHabitantes"  >
+                                </div>
+                                <div>
+                                    <p>Capitais em Geral R$:</p> <input type="number" name="" id="capitaislHabitantes"  >
+                                </div>
+                                <div>
+                                    <p>Distrito Federal R$:</p> <input type="number" name="" id="brasiliaHabitantes"  >
+                                </div>
+                            </fieldset>
+                           
+                        </div>
+                        <button id="atualizaValorPorCargo" disabled >ATUALIZAR</button>
+                        
+                <!-- </form> -->
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

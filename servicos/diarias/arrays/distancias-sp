@@ -1,0 +1,807 @@
+[
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Américo Brasiliense SP",
+    "distanciaReta": "645.82 km",
+    "distanciaConducao": "788 km",
+    "tempo": "11 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alto Alegre SP",
+    "distanciaReta": "778.02 km",
+    "distanciaConducao": "997 km",
+    "tempo": "13 horas 43 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alvinlândia SP",
+    "distanciaReta": "815.78 km",
+    "distanciaConducao": "1,019 km",
+    "tempo": "13 horas 39 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Álvares Florence SP",
+    "distanciaReta": "673.06 km",
+    "distanciaConducao": "865 km",
+    "tempo": "12 horas 57 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Álvaro de Carvalho SP",
+    "distanciaReta": "782.45 km",
+    "distanciaConducao": "948 km",
+    "tempo": "13 horas 19 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Alumínio SP",
+    "distanciaReta": "778.37 km",
+    "distanciaConducao": "1,041 km",
+    "tempo": "12 horas 31 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Américo de Campos SP",
+    "distanciaReta": "656.50 km",
+    "distanciaConducao": "832 km",
+    "tempo": "12 horas 33 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Altair SP",
+    "distanciaReta": "614.76 km",
+    "distanciaConducao": "741 km",
+    "tempo": "11 horas 32 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Corumbataí SP",
+    "distanciaReta": "664.26 km",
+    "distanciaConducao": "858 km",
+    "tempo": "11 horas 45 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Amparo SP",
+    "distanciaReta": "676.81 km",
+    "distanciaConducao": "936 km",
+    "tempo": "11 horas 31 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Altinópolis SP",
+    "distanciaReta": "537.41 km",
+    "distanciaConducao": "700 km",
+    "tempo": "10 horas 19 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cosmorama SP",
+    "distanciaReta": "671.69 km",
+    "distanciaConducao": "830 km",
+    "tempo": "12 horas 29 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cravinhos SP",
+    "distanciaReta": "586.54 km",
+    "distanciaConducao": "727 km",
+    "tempo": "10 horas 20 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cristais Paulista SP",
+    "distanciaReta": "484.25 km",
+    "distanciaConducao": "606 km",
+    "tempo": "9 horas 23 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cruzália SP",
+    "distanciaReta": "911.29 km",
+    "distanciaConducao": "1,140 km",
+    "tempo": "14 horas 43 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cotia SP",
+    "distanciaReta": "778.84 km",
+    "distanciaConducao": "994 km",
+    "tempo": "12 horas 12 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Álvares Machado SP",
+    "distanciaReta": "917.50 km",
+    "distanciaConducao": "1,226 km",
+    "tempo": "15 horas 22 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cosmópolis SP",
+    "distanciaReta": "685.58 km",
+    "distanciaConducao": "995 km",
+    "tempo": "11 horas 54 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cruzeiro SP",
+    "distanciaReta": "624.64 km",
+    "distanciaConducao": "840 km",
+    "tempo": "11 horas 24 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Avanhandava SP",
+    "distanciaReta": "751.89 km",
+    "distanciaConducao": "979 km",
+    "tempo": "13 horas 28 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Atibaia SP",
+    "distanciaReta": "713.34 km",
+    "distanciaConducao": "905 km",
+    "tempo": "10 horas 56 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cunha SP",
+    "distanciaReta": "679.03 km",
+    "distanciaConducao": "927 km",
+    "tempo": "12 horas 32 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Auriflama SP",
+    "distanciaReta": "751.41 km",
+    "distanciaConducao": "897 km",
+    "tempo": "13 horas 14 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capela do Alto SP",
+    "distanciaReta": "792.92 km",
+    "distanciaConducao": "1,081 km",
+    "tempo": "12 horas 51 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Capivari SP",
+    "distanciaReta": "736.11 km",
+    "distanciaConducao": "1,013 km",
+    "tempo": "12 horas 14 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Avaré SP",
+    "distanciaReta": "817.50 km",
+    "distanciaConducao": "970 km",
+    "tempo": "13 horas 17 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Caraguatatuba SP",
+    "distanciaReta": "744.74 km",
+    "distanciaConducao": "1,074 km",
+    "tempo": "12 horas 57 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cardoso SP",
+    "distanciaReta": "659.47 km",
+    "distanciaConducao": "833 km",
+    "tempo": "12 horas 33 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bálsamo SP",
+    "distanciaReta": "671.84 km",
+    "distanciaConducao": "794 km",
+    "tempo": "12 horas 9 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catiguá SP",
+    "distanciaReta": "653.68 km",
+    "distanciaConducao": "865 km",
+    "tempo": "11 horas 47 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Castilho SP",
+    "distanciaReta": "845.54 km",
+    "distanciaConducao": "1,017 km",
+    "tempo": "14 horas 43 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Casa Branca SP",
+    "distanciaReta": "594.46 km",
+    "distanciaConducao": "839 km",
+    "tempo": "11 horas 27 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Catanduva SP",
+    "distanciaReta": "654.31 km",
+    "distanciaConducao": "852 km",
+    "tempo": "11 horas 39 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guararapes SP",
+    "distanciaReta": "794.62 km",
+    "distanciaConducao": "1,052 km",
+    "tempo": "14 horas 12 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guaratinguetá SP",
+    "distanciaReta": "650.15 km",
+    "distanciaConducao": "877 km",
+    "tempo": "11 horas 50 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guaraci SP",
+    "distanciaReta": "603.56 km",
+    "distanciaConducao": "721 km",
+    "tempo": "11 horas 17 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Elisiário SP",
+    "distanciaReta": "664.19 km",
+    "distanciaConducao": "863 km",
+    "tempo": "11 horas 47 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guarantã SP",
+    "distanciaReta": "757.90 km",
+    "distanciaConducao": "913 km",
+    "tempo": "12 horas 51 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guareí SP",
+    "distanciaReta": "802.74 km",
+    "distanciaConducao": "1,123 km",
+    "tempo": "13 horas 10 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guapiara SP",
+    "distanciaReta": "900.67 km",
+    "distanciaConducao": "1,202 km",
+    "tempo": "14 horas 17 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Embu das Artes SP",
+    "distanciaReta": "778.51 km",
+    "distanciaConducao": "988 km",
+    "tempo": "12 horas 8 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Emilianópolis SP",
+    "distanciaReta": "902.65 km",
+    "distanciaConducao": "1,264 km",
+    "tempo": "16 horas 10 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arandu SP",
+    "distanciaReta": "827.53 km",
+    "distanciaConducao": "983 km",
+    "tempo": "13 horas 30 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Arapeí SP",
+    "distanciaReta": "633.10 km",
+    "distanciaConducao": "906 km",
+    "tempo": "12 horas 19 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Areiópolis SP",
+    "distanciaReta": "763.61 km",
+    "distanciaConducao": "928 km",
+    "tempo": "12 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Aspásia SP",
+    "distanciaReta": "739.58 km",
+    "distanciaConducao": "914 km",
+    "tempo": "13 horas 28 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Araçariguama SP",
+    "distanciaReta": "763.69 km",
+    "distanciaConducao": "1,014 km",
+    "tempo": "12 horas 8 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cachoeira Paulista SP",
+    "distanciaReta": "633.40 km",
+    "distanciaConducao": "856 km",
+    "tempo": "11 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Embu-Guaçu SP",
+    "distanciaReta": "804.89 km",
+    "distanciaConducao": "1,023 km",
+    "tempo": "12 horas 42 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Guatapará SP",
+    "distanciaReta": "618.79 km",
+    "distanciaConducao": "769 km",
+    "tempo": "10 horas 49 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Cajobi SP",
+    "distanciaReta": "621.32 km",
+    "distanciaConducao": "796 km",
+    "tempo": "11 horas 26 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Florínea SP",
+    "distanciaReta": "919.83 km",
+    "distanciaConducao": "1,143 km",
+    "tempo": "14 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Bom Sucesso de Itararé SP",
+    "distanciaReta": "943.85 km",
+    "distanciaConducao": "1,289 km",
+    "tempo": "15 horas 41 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Jambeiro SP",
+    "distanciaReta": "708.05 km",
+    "distanciaConducao": "1,022 km",
+    "tempo": "12 horas 10 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Manduri SP",
+    "distanciaReta": "832.82 km",
+    "distanciaConducao": "1,031 km",
+    "tempo": "13 horas 35 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Lindóia SP",
+    "distanciaReta": "652.76 km",
+    "distanciaConducao": "877 km",
+    "tempo": "11 horas 18 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Narandiba SP",
+    "distanciaReta": "944.44 km",
+    "distanciaConducao": "1,256 km",
+    "tempo": "15 horas 45 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Oscar Bressane SP",
+    "distanciaReta": "841.76 km",
+    "distanciaConducao": "1,068 km",
+    "tempo": "14 horas 1 min"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Ourinhos SP",
+    "distanciaReta": "866.68 km",
+    "distanciaConducao": "1,035 km",
+    "tempo": "13 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Pacaembu SP",
+    "distanciaReta": "866.83 km",
+    "distanciaConducao": "1,125 km",
+    "tempo": "15 horas 12 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Palmares Paulista SP",
+    "distanciaReta": "636.90 km",
+    "distanciaConducao": "796 km",
+    "tempo": "11 horas 26 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Palestina SP",
+    "distanciaReta": "636.39 km",
+    "distanciaConducao": "771 km",
+    "tempo": "12 horas 2 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Paulicéia SP",
+    "distanciaReta": "770.84 km",
+    "distanciaConducao": "975 km",
+    "tempo": "11 horas 54 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Penápolis SP",
+    "distanciaReta": "759.52 km",
+    "distanciaConducao": "872 km",
+    "tempo": "13 horas 29 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Porangaba SP",
+    "distanciaReta": "782.17 km",
+    "distanciaConducao": "1,111 km",
+    "tempo": "13 horas 2 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Porto Ferreira SP",
+    "distanciaReta": "621.65 km",
+    "distanciaConducao": "795 km",
+    "tempo": "10 horas 59 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Porto Feliz SP",
+    "distanciaReta": "758.20 km",
+    "distanciaConducao": "1,026 km",
+    "tempo": "12 horas 16 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Promissão SP",
+    "distanciaReta": "751.10 km",
+    "distanciaConducao": "872 km",
+    "tempo": "13 horas 21 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rifaina SP",
+    "distanciaReta": "456.63 km",
+    "distanciaConducao": "555 km",
+    "tempo": "8 horas 49 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rubineia SP",
+    "distanciaReta": "764.08 km",
+    "distanciaConducao": "939 km",
+    "tempo": "13 horas 39 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sabino SP",
+    "distanciaReta": "723.29 km",
+    "distanciaConducao": "971 km",
+    "tempo": "13 horas 35 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Rincão SP",
+    "distanciaReta": "630.15 km",
+    "distanciaConducao": "776 km",
+    "tempo": "10 horas 54 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sagres SP",
+    "distanciaReta": "862.59 km",
+    "distanciaConducao": "1,097 km",
+    "tempo": "14 horas 58 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Salmourão SP",
+    "distanciaReta": "835.35 km",
+    "distanciaConducao": "1,106 km",
+    "tempo": "15 horas 5 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sales Oliveira SP",
+    "distanciaReta": "542.74 km",
+    "distanciaConducao": "664 km",
+    "tempo": "9 horas 44 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Bárbara d'Oeste SP",
+    "distanciaReta": "702.54 km",
+    "distanciaConducao": "849 km",
+    "tempo": "11 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Branca SP",
+    "distanciaReta": "728.42 km",
+    "distanciaConducao": "1,002 km",
+    "tempo": "12 horas 6 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz da Conceição SP",
+    "distanciaReta": "647.46 km",
+    "distanciaConducao": "832 km",
+    "tempo": "11 horas 22 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz da Esperança SP",
+    "distanciaReta": "565.26 km",
+    "distanciaConducao": "752 km",
+    "tempo": "10 horas 35 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz das Palmeiras SP",
+    "distanciaReta": "607.02 km",
+    "distanciaConducao": "817 km",
+    "tempo": "11 horas 12 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Cruz do Rio Pardo SP",
+    "distanciaReta": "843.25 km",
+    "distanciaConducao": "1,006 km",
+    "tempo": "13 horas 13 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Ernestina SP",
+    "distanciaReta": "639.26 km",
+    "distanciaConducao": "788 km",
+    "tempo": "10 horas 57 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Fé do Sul SP",
+    "distanciaReta": "757.95 km",
+    "distanciaConducao": "932 km",
+    "tempo": "13 horas 33 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Gertrudes SP",
+    "distanciaReta": "683.36 km",
+    "distanciaConducao": "881 km",
+    "tempo": "11 horas 47 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Isabel SP",
+    "distanciaReta": "725.32 km",
+    "distanciaConducao": "971 km",
+    "tempo": "11 horas 41 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Lúcia SP",
+    "distanciaReta": "639.54 km",
+    "distanciaConducao": "781 km",
+    "tempo": "11 horas"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Maria da Serra SP",
+    "distanciaReta": "725.37 km",
+    "distanciaConducao": "908 km",
+    "tempo": "12 horas 24 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santa Mercedes SP",
+    "distanciaReta": "896.46 km",
+    "distanciaConducao": "1,083 km",
+    "tempo": "15 horas 24 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana da Ponte Pensa SP",
+    "distanciaReta": "749.47 km",
+    "distanciaConducao": "920 km",
+    "tempo": "13 horas 27 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santana de Parnaíba SP",
+    "distanciaReta": "759.03 km",
+    "distanciaConducao": "975 km",
+    "tempo": "11 horas 57 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Pedro do Turvo SP",
+    "distanciaReta": "838.02 km",
+    "distanciaConducao": "1,024 km",
+    "tempo": "13 horas 31 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Santo Antônio do Jardim SP",
+    "distanciaReta": "612.45 km",
+    "distanciaConducao": "877 km",
+    "tempo": "11 horas 14 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Sebastião SP",
+    "distanciaReta": "765.54 km",
+    "distanciaConducao": "1,107 km",
+    "tempo": "13 horas 31 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "São Vicente SP",
+    "distanciaReta": "799.37 km",
+    "distanciaConducao": "1,033 km",
+    "tempo": "12 horas 34 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sarapuí SP",
+    "distanciaReta": "813.58 km",
+    "distanciaConducao": "1,095 km",
+    "tempo": "13 horas 2 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sarutaiá SP",
+    "distanciaReta": "865.57 km",
+    "distanciaConducao": "1,073 km",
+    "tempo": "14 horas 15 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sebastianópolis do Sul SP",
+    "distanciaReta": "695.45 km",
+    "distanciaConducao": "834 km",
+    "tempo": "12 horas 35 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serra Azul SP",
+    "distanciaReta": "574.52 km",
+    "distanciaConducao": "749 km",
+    "tempo": "10 horas 35 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serrana SP",
+    "distanciaReta": "567.51 km",
+    "distanciaConducao": "728 km",
+    "tempo": "10 horas 22 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Serra Negra SP",
+    "distanciaReta": "665.01 km",
+    "distanciaConducao": "890 km",
+    "tempo": "11 horas 32 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sertãozinho SP",
+    "distanciaReta": "585.40 km",
+    "distanciaConducao": "725 km",
+    "tempo": "10 horas 19 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sete Barras SP",
+    "distanciaReta": "894.06 km",
+    "distanciaConducao": "1,162 km",
+    "tempo": "14 horas 2 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Severínia SP",
+    "distanciaReta": "615.47 km",
+    "distanciaConducao": "727 km",
+    "tempo": "11 horas 19 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Silveiras SP",
+    "distanciaReta": "633.36 km",
+    "distanciaConducao": "861 km",
+    "tempo": "11 horas 42 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Socorro SP",
+    "distanciaReta": "778.18 km",
+    "distanciaConducao": "985 km",
+    "tempo": "12 horas 5 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sorocaba SP",
+    "distanciaReta": "780.59 km",
+    "distanciaConducao": "1,036 km",
+    "tempo": "12 horas 22 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Sud Mennucci SP",
+    "distanciaReta": "784.76 km",
+    "distanciaConducao": "942 km",
+    "tempo": "13 horas 43 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tapiratiba SP",
+    "distanciaReta": "549.31 km",
+    "distanciaConducao": "842 km",
+    "tempo": "11 horas 36 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Taquaral SP",
+    "distanciaReta": "607.68 km",
+    "distanciaConducao": "786 km",
+    "tempo": "10 horas 56 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Taquarituba SP",
+    "distanciaReta": "876.38 km",
+    "distanciaConducao": "1,034 km",
+    "tempo": "14 horas 17 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tarabai SP",
+    "distanciaReta": "940.21 km",
+    "distanciaConducao": "1,244 km",
+    "tempo": "15 horas 34 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tarumã SP",
+    "distanciaReta": "897.14 km",
+    "distanciaConducao": "1,118 km",
+    "tempo": "14 horas 18 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Tuiuti SP",
+    "distanciaReta": "685.20 km",
+    "distanciaConducao": "917 km",
+    "tempo": "11 horas 12 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urupês SP",
+    "distanciaReta": "682.27 km",
+    "distanciaConducao": "887 km",
+    "tempo": "12 horas 14 mins"
+  },
+  {
+    "cidade": "Lagoa dos Patos MG",
+    "destinho": "Urânia SP",
+    "distanciaReta": "732.56 km",
+    "distanciaConducao": "906 km",
+    "tempo": "13 horas 21 mins"
+  }
+]

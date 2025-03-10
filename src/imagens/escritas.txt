@@ -1,0 +1,213 @@
+<div class="topoBrasao">
+                    <h1>PREFEITURA MUNICIPAL DE LAGOA DOS PATOS</h1>
+                    <h2>CNPJ: 16.901.381/0001-10</h2>
+                    <h2>PRAÇA 31 DE MARÇO, 111 – CENTRO – LAGOA DOS PATOS – MG – TEL.(38)37451239</h2>
+                </div>
+
+
+
+
+            let ddig = document.querySelector('input#numeroP');
+            let n = String(ddig.value);
+
+             let especiais=["Dez","Onze", "Doze", "Treze", "Catorze", "Quinze", "Dezeseis", "Dezsete", "Dezoito", "Deznove"]; 
+            let dezenas=["Vinte", "Trinta", "Quarenta", "Cinquenta", "Sessenta", "Setenta", "Oitenta", "Noventa"];
+            let centenas=["Cem", "Duzentos", "Trezentos", "Quatrocentos", "Quinhetos", "Seiscentos","Setescentos","Oitocentos", "Novecentos"];
+            let milhares = ["Mil", "Dois Mil", "Três Mil"]
+
+            
+
+
+            //Valores com 2 algarismos
+            else if(n.length === 2) {
+                //Especiais
+                if((n[0]=='1') && (n[1]=='0'||n[1]=='1'||n[1]=='2'||n[1]=='3'||n[1]=='4'||n[1]=='5'||n[1]=='6'||n[1]=='7'||n[1]=='8'||n[1]=='9')) {
+                    mostrar.innerHTML = (especiais[parseInt(n[1])]);
+                }
+                
+                //Dezenas
+                else if((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && n[1]=='0') {
+                    mostrar.innerHTML = (dezenas[parseInt(n[0]-2)]);
+                }
+    
+                //Dezenas compostas
+                else {
+                    mostrar.innerHTML = (dezenas[parseInt(n[0]-2)]+" e "+unidades[parseInt(n[1])]);
+                }
+            }
+    
+            //Valores com 3 algarimos
+            else if (n.length === 3) {
+                //Centenas inteiras
+                if ((n[0]=='1'||n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]=='0' && n[2]=='0')) {
+                    mostrar.innerHTML = (centenas[parseInt(n[0]-1)])
+                }
+    
+                //Centenas + números especiais
+                else if ((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]=='1') && ((n[2]=='1'||n[2]=='2'||n[2]=='3'||n[2]=='4'||n[2]=='5'||n[2]=='6'||n[2]=='7'||n[2]=='8'||n[2]=='9'))) {
+                    mostrar.innerHTML = (centenas[parseInt(n[0]-1)]+" e "+especiais[parseInt(n[2])])
+                }
+    
+                //Centenas + Nº Compostos
+                else if ((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]!='1')) {
+                    mostrar.innerHTML = (centenas[parseInt(n[0]-1)]+" e "+dezenas[parseInt(n[1]-2)]+" e "+unidades[parseInt(n[2])]);
+                }
+    
+                //Cento + Nº Especiais
+                else if ((n[0]=='1') && (n[1]=='1') && (n[2]=='1'||n[2]=='2'||n[2]=='3'||n[2]=='4'||n[2]=='5'||n[2]=='6'||n[2]=='7'||n[2]=='8'||n[2]=='9')) {
+                    mostrar.innerHTML = ("Cento e "+especiais[parseInt(n[2])])
+                }
+    
+                //Cento + Nº Compostos
+                else if ((n[0]=='1') && (n[1]!='1') && (n[2]!='0')) {
+                    mostrar.innerHTML = ("Cento e "+dezenas[parseInt(n[1]-2)]+" e "+unidades[parseInt(n[2])]);
+                }
+                
+            }
+            
+
+
+             let numeroImovel =  document.getElementById('input#numeroCasa').value;
+            let bairroImovel = document.getElementById('input#bairro').value;
+
+            N° ${numeroImovel},
+                bairro: ${bairroImovel}
+
+
+
+
+                 function calculoExtenso(el) {
+
+            let n = document.querySelector('input#areaLote').value;
+            
+            let unidades=["Zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove"];
+            let especiais=["Dez","Onze", "Doze", "Treze", "Catorze", "Quinze", "Dezeseis", "Dezsete", "Dezoito", "Deznove"]; 
+            let dezenas=["Vinte", "Trinta", "Quarenta", "Cinquenta", "Sessenta", "Setenta", "Oitenta", "Noventa"];
+            let centenas=["Cem", "Duzentos", "Trezentos", "Quatrocentos", "Quinhetos", "Seiscentos","Setescentos","Oitocentos", "Novecentos"];
+            let milhares = ["Mil", "Dois Mil", "Três Mil"]
+           
+            
+            //Valores com 1 algarismo
+            if(n.length === 1) {
+                //Imprimir unidadades
+               var extenso = (unidades[parseInt(n[0])]); 
+            }	      
+            //Valores com 2 algarismos
+            else if(n.length === 2) {
+                //Especiais
+                if((n[0]=='1') && (n[1]=='0'||n[1]=='1'||n[1]=='2'||n[1]=='3'||n[1]=='4'||n[1]=='5'||n[1]=='6'||n[1]=='7'||n[1]=='8'||n[1]=='9')) {
+                    var extenso =  (especiais[parseInt(n[1])]);
+                }
+                
+                //Dezenas
+                else if((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && n[1]=='0') {
+                    var extenso =  (dezenas[parseInt(n[0]-2)]);
+                }
+    
+                //Dezenas compostas
+                else {
+                    var extenso =  (dezenas[parseInt(n[0]-2)]+" e "+unidades[parseInt(n[1])]);
+                }
+            }
+    
+            //Valores com 3 algarimos
+            else if (n.length === 3) {
+                //Centenas inteiras
+                if ((n[0]=='1'||n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]=='0' && n[2]=='0')) {
+                    var extenso = (centenas[parseInt(n[0]-1)])
+                }
+    
+                //Centenas + números especiais
+                else if ((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]=='1') && ((n[2]=='1'||n[2]=='2'||n[2]=='3'||n[2]=='4'||n[2]=='5'||n[2]=='6'||n[2]=='7'||n[2]=='8'||n[2]=='9'))) {
+                    var extenso =  (centenas[parseInt(n[0]-1)]+" e "+especiais[parseInt(n[2])])
+                }
+    
+                //Centenas + Nº Compostos
+                else if ((n[0]=='2'||n[0]=='3'||n[0]=='4'||n[0]=='5'||n[0]=='6'||n[0]=='7'||n[0]=='8'||n[0]=='9') && (n[1]!='1')) {
+                    var extenso =  (centenas[parseInt(n[0]-1)]+" e "+dezenas[parseInt(n[1]-2)]+" e "+unidades[parseInt(n[2])]);
+                }
+    
+                //Cento + Nº Especiais
+                else if ((n[0]=='1') && (n[1]=='1') && (n[2]=='1'||n[2]=='2'||n[2]=='3'||n[2]=='4'||n[2]=='5'||n[2]=='6'||n[2]=='7'||n[2]=='8'||n[2]=='9')) {
+                    var extenso =  ("Cento e "+especiais[parseInt(n[2])])
+                }
+    
+                //Cento + Nº Compostos
+                else if ((n[0]=='1') && (n[1]!='1') && (n[2]!='0')) {
+                    var extenso =  ("Cento e "+dezenas[parseInt(n[1]-2)]+" e "+unidades[parseInt(n[2])]);
+                }
+                
+            }
+    
+
+        }
+
+
+
+
+        <p>
+                    Certifico a <strong>pedido verbal e protocolado</strong> de <strong>${nSol}</strong>, pessoa interessada e a quem interessar que,  verificando os valores de Terrenos Rurais do CTM <strong>(Código Tributário Municipal) e CVTN (Comissão de Valor da Terra Nua)</strong>, verifica-se constar o seguinte: </br>
+            O Imóvel <strong>${nomeFazenda}</strong>, lugar denominado <strong>${denominacaoFazenda}</strong>, imóvel: ${matriculafFazenda}${folhaRegistro}${livroRegistro}, registrado em <strong>${diaRegistro} de ${mesRegistro}  ${anoRegistro}</strong>, propriedade de: <strong>${nomeProprietario}</strong>, CPF: ${cpfProprietario}, ${identidadeProprietario} ${esposa} com área total de <strong>${areaTotalN}</strong> <strong><i>(${exteAlqueire}${exteHectares},${exteAres}${exteCentiares})</i></strong>, descrita nesta avaliação como ${descricaoAptdao} de acordo com o solicitante, com valor total de ${valorTerra} <i><strong>( ${milhoes} ${milhares} ${reais} ${centavos})</strong></i>, sendo o preço por Hectare a ${valorporHectare}, localizado neste Município de Lagoa dos Patos – MG
+                </p>
+                <div>
+                    <div class="tabelaInfo"> 
+                        <h5 class="leiAnexo">Anexo VII - Lei Complementar 254/2005 <br> Avalição de Terra Nua/2021</h5>
+                        <table>
+                            <tr>
+                                <td class="linhaTab corLinha">Item</td>
+                                <td class="linhaTab corLinha">Área</td>
+                                <td class="linhaTab corLinha">Valor por Ha</td>
+                                <td class="linhaTab corLinha">Caracteristicas da Área</td>     
+                                <td class="linhaTab corLinha">Valor Venal Total</td>                            
+                                
+                                
+                            </tr>
+                            <tr >  
+                                <td class="linhaTab">01</td>
+                                <td class="linhaTab">55,30 Ha</td>
+                                <td class="linhaTab">R$ 1.500,00</td>
+                                <td class="linhaTab">Área agricultável de primeira - Lavoura de aptidão boa</td>       
+                                <td class="linhaTab">R$ 150.000,00</td>                          
+                               
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="valorVenais">
+                    
+                </div>
+
+               <div class="assinaturasEQr">
+                <div class="assEsquerdo">
+                    
+                </div>
+                <div class="assDireito">
+                    <div class="nomeAss">
+                        <div class="AssMaior">GLEITON APARECIDO SOARES DE SOUZA</div>
+                        <div class="cpfAss" id="cpfFunc">CPF: 08303020692</div>
+                    </div>
+                    <div class="DadosAss">
+                        <p class="assinaEData">
+                            Emitido Digitalmente por</br>
+                            <strong>GLEITON APARECIDO SOARES DE SOUZA</strong> <br>CPF: 083.030.206-92 <br>14/10/2021 - 10:55hs <br> -3 UTM LDP MG</div>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <h2 id="localEData">
+                        Lagoa dos Patos – MG, (27 de maio de 2021)
+                    </h2>
+                    <div class="assinaTOperador">
+                        <p>
+                            ________________________________________
+                        </p>
+                        <div class="AssinOp" id="operador">Nome funcionario Responsável
+                        </div>
+                        <p>
+                            Divisão de Receitas e Cadastramento Imobiliário
+                            Município de Lagoa dos Patos/MG –
+                            CNPJ 16.901.381/0001-10
+                        </p>
+                        <div class="nomeFuncionarios" id="funcionarioDados"></div>
+                    </div>

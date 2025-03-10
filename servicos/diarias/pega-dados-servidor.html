@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A</title>
+</head>
+<body>
+    <div>
+
+    </div>
+    <script>
+        async function funcCargo() {
+            var servidorP = []
+            const response = await fetch('./src/funcionarios-cargo')
+            const data = await response.json()
+
+            const response2 = await fetch('./src/funcionarios-endereco')
+            const data2 = await response2.json()
+            data.map((cargo) => {
+
+                data2.map((endereco) => {
+                    if(cargo.matricula == endereco.matricula){
+                       const servidor = {
+                        "nome": cargo.nome,
+                        "matricula": cargo.matricula,
+                        "endereco": endereco.endereco,
+                        "numero":endereco.numero,
+                        "bairro": endereco.bairro,
+                        "cargo": cargo.cargo
+                       }
+                       servidorP.push(servidor)
+                    }
+                    
+                })
+            })
+            console.log(servidorP)
+            localStorage.setItem('serviS', JSON.stringify(servidorP))
+            //console.log(data2)
+        }
+        funcCargo()
+    </script>
+    
+</body>
+</html>

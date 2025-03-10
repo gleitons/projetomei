@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Compra e Venda e Termo de Doação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+        <header>
+           
+        </header>
+        <main>
+            <div class="menusApresentação">
+               
+            </div>
+            <div class="telaApresentacao">
+
+              
+                <div class="cadastroDeImovel">
+                    <h2>Cadastro de Imóvel</h2>
+                    <div>
+                        
+                        <fieldset class="fieldCadastroImóvel">
+                            <legend>Cadastro de Imóvel</legend>
+                            <div class="atencao">
+                                <p>Este modulo ainda não está concluido</p>
+                            </div>
+                            <div>
+                                <p>Tipo:</p>
+                                <select name="" id="imovelSelect" onchange="selecionaTipoImovel()">
+                                   <option>Urbano</option>
+                                    <option>Rural</option>
+                                </select>
+                                
+                            </div>
+                            <span id="abreInfoImovel" style="display: block;">
+                                <div>
+                                    <p>Matrícula:</p>
+                                    <input type="text" id="matriculaImovelC" placeholder="ex: 2210">
+                                </div>
+                                <div>
+                                    <p>*IMPORTANTE:</p>
+                                    <select name="" id="loteParte">
+                                        <option>Lote Completo</option>
+                                        <option>Parte do Lote</option>
+                                    </select>
+                                </div>
+                                <span id="ShowImovelUrbano" style="display: block;">
+                                    <div>
+                                        <p>Setor:</p>
+                                        <input type="text" id="setorImovel" placeholder="ex: 0005">
+                                        <p>Quadra:</p>
+                                        <input type="text" id="quadraImovel" placeholder="ex: 0020">
+                                        <p>Lote:</p>
+                                        <input type="text" id="loteImovel" placeholder="ex: 0010">
+                                    </div>
+                                   
+                                   
+                                </span>
+                                <span id="ShowImovelRural" style="display: none;">
+                                    <div>
+                                        <p>Nome da Fazenda:</p>
+                                        <input type="text" id="nomeFazenda" placeholder="Goiabeira">
+                                    </div>
+                                    <div>
+                                        <p>Denominação:</p>
+                                        <input type="text" id="nomeDenominacao" placeholder="Goiabeira Etc">
+                                    </div>
+                                    <div>
+                                        <p>Livro:</p>
+                                        <input type="text" id="nomeLivro" placeholder="ex: 2">
+                                        <p>Folha:</p>
+                                        <input type="text" id="nomeFolha" placeholder="ex: 2">
+
+                                        
+                                    </div>
+                                    <div>
+                                        
+                                    </div>
+                                    <p>Registro:</p>
+                                    <div>                                        
+                                        <p> Dia:</p>
+                                        <input type="text" id="registroDia" placeholder="ex: 01">
+
+                                        <p>Mês:</p>
+                                        <input type="text" id="registroMes" placeholder="ex: 10">
+
+                                        <p>Ano:</p>
+                                        <input type="text" id="registroAno" placeholder="ex: 1999">
+                                
+                                    </div>
+                                    <div>
+                                        <p>Denominação:</p>
+                                        <textarea name="" id="denominacaoFazenda" cols="30" rows="10" placeholder="Insira todas as informções do imovel - Limitantes etc"></textarea>
+                                       
+                                    </div>
+                                  
+                                </span>
+                                <div>
+                                    <p><i class="bi bi-arrow-up-square-fill"></i></p>
+                                    <input type="text" id="nomeFrente" placeholder="Frente ex: Rua JK">
+                                    <p>M:</p>
+                                    <input type="number" id="medidaFrente" onkeyup="carregaMetrosQuadrados()" placeholder="Medida"><i class="bi bi-rulers"></i>
+                                </div>
+                                <div>
+                                    <p><i class="bi bi-arrow-down-square-fill"></i></p>
+                                    <input type="text" id="nomeFundo" placeholder="Fundo ex: Rua BA">
+                                    <p>M:</p>
+                                    <input type="number" id="medidaFundo" onkeyup="carregaMetrosQuadrados()" placeholder="Medida"><i class="bi bi-rulers"></i>
+                                </div>
+                                <div>
+                                    <p><i class="bi bi-arrow-left-square-fill"></i></p>
+                                    <input type="text" id="nomeEsquerdo" placeholder="Esquerdo ex: Rua AB">
+                                    <p>M:</p>
+                                    <input type="number" id="medidaEsquerda" onkeyup="carregaMetrosQuadrados()"  placeholder="Medida"><i class="bi bi-rulers"></i>
+                                </div>
+                                <div>
+                                    <p><i class="bi bi-arrow-right-square-fill"></i></p>
+                                    <input type="text" id="nomeDireito" placeholder="Direito ex: Rua KJ">
+                                    <p>M:</p>
+                                    <input type="number" id="medidaDireta" onkeyup="carregaMetrosQuadrados()"  placeholder="Medida"><i class="bi bi-rulers"></i>
+                                </div>
+
+                                <div>
+                                    <p><i class="bi bi-pencil-square"></i></p>                                  
+                                    <p>Área Total:</p>
+                                    <input type="text" id="areaTotalM2" placeholder="Medida">
+                                    M²
+                                </div>
+
+
+
+                                <div>
+                                    <p>Selecione Endereço:</p>
+                                    <select name="" id="enderecosCadastrados" onchange="preencheCadastroEndereco()" >
+                                    </select>
+                                    <a href="./cadastro-endereco.html" target="_blank"><abbr title="Esses são os endereços pré-cadastrados, para cadastrar um endereço que será usado várias vezes, clique aqui ">Novo</abbr></a>
+                                </div>
+                               
+
+                                <div>
+                                    <p>Cadastrar Casa:</p>
+                                    <select name="" id="cadastrarCasaSelect" onchange="addCasa()" >
+                                        <option>Não</option>
+                                        <option>Sim</option>
+                                    </select>                                    
+                                </div>
+                                <span id="cadastrarCasaImovel" style="display: none;">
+                                    <div>
+                                        <p>Tipo de Casa:</p>
+                                        <select name="" id="tipoCasaImovelC">
+                                            <option>Casa</option>
+                                            <option>Barraco</option>
+                                            <option>Prédio</option>
+                                            <option>Sede</option>
+                                            <option>Fazenda</option>
+                                            <option>Mini-casa</option>
+                                            <option>Demolida</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <p>Área Total Casa:</p>
+                                        <input type="text" id="areaTotalCasa">
+                                    </div>
+                                </span>
+                                <div>
+                                    
+                                    <p>Número:</p>
+                                    <input type="text" id="numeroImovel">
+                                </div>
+                                <div>
+                                    <p>Bairro:</p>
+                                    <input type="text" id="bairroImovel">
+                                </div>
+                                <div>
+                                    <p>Endereço:</p>
+                                    <input type="text" id="enderecoImovel">
+                                </div>
+                                <div>
+                                    <p>CEP:</p>
+                                    <input type="text" id="cepImovel" value="39360-000">
+                                </div>
+                                <div>
+                                    <p>Cidade:</p>
+                                    <input type="text" id="cidadeImovel" value="Lagoa dos Patos">
+                                </div>
+                                <div>
+                                    <p>Estado:</p>
+                                    <input type="text" id="estadoImovel" value="MG">
+                                </div>
+                                <div class="efetuadoSucesso" style="display: none;">
+                                    <p>Cadastro Efetuado com Sucesso <button>OK</button></p> 
+                                </div>
+
+                                <button onclick="cadastroImoveCompleto()">Cadastrar</button>
+
+                               
+                            </span>
+                            
+                          
+                        </fieldset>                       
+                       
+                    </div>
+
+                </div>
+                <p>Gerador de Contrato</p>
+               
+            </div>
+            
+
+        </main>
+        <footer >
+            <p>Produzido por Futuro Consultoria Digital</p>
+        </footer>
+
+        <script src="menuLateral.js"></script>
+        <script src="cadastroImovel.js"></script>
+</body>
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:27 GMT -->
+</html>

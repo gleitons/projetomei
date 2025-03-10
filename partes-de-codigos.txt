@@ -1,0 +1,511 @@
+ <div>
+                                    <p>Selecione Tipo de Lote:</p>
+                                    <select name="" id="enderecosCadastrados" onchange="preencheCadastroEndereco()" >
+                                        <option>Lados iguais</option>
+                                        <option>Lados Diferentes</option>
+                                    </select>           
+                                </div>
+                                <div class="imagemMedidas">
+                                    <img src="./src/img/Lote Lados Iguais.svg" alt="">
+                                    <div class="medidasImovel">
+                                        <p>Frente</p>
+                                        <p>Fundo</p>
+                                        <p>Esquerdo</p>
+                                        <p>Direito</p>
+                                    </div>
+                                </div>
+     <div class="copiarDados">
+        <input type="text" id="titulo2" placeholder="insira Titulo">
+        <input type="text" id="subtitulo2" placeholder="insira a Informação">
+        <i class="bi bi-x-square-fill"></i>
+        </div>
+
+                                ${people[data[index].vendedores[0].p1].nome} <strong>PARA</strong> ${people[data[index].compradores[0].c1].nome}
+
+                                 objetoParaEditar.id =  todosCadastros.length + 1,
+        objetoParaEditar.tipo =  fisica,
+        objetoParaEditar.cpf =  cpfGerado.value,
+        objetoParaEditar.nome =  cpfNome.value,
+        objetoParaEditar.profissao =  profissaoGerado.value,
+        objetoParaEditar.nacionalidade =  nacionalidadeGerado.value,
+        objetoParaEditar.genero =  cpfGenero,
+        objetoParaEditar.estadoCivil =  estadoCivilP,
+        objetoParaEditar.identidade =  cpfIdentidade.value,
+        objetoParaEditar.endereco =  enderecoImovel.value,
+        objetoParaEditar.bairro =  bairroImovel.value,
+        objetoParaEditar.numero =  numeroImovel.value,
+        objetoParaEditar.cep =  cepImovel.value,
+        objetoParaEditar.cidade =  cidadeImovel.value,
+        objetoParaEditar.estado =  estadoImovel.value
+
+
+        function dMode() {
+    dModeT()
+    //avisoS('Opção em construção - Em breve Novidades')
+}
+if(localStorage.getItem('dmodeRede') == null){
+    localStorage.setItem('dmodeRede', 0) 
+}
+const modeAtual = localStorage.getItem('dmodeRede')
+if(modeAtual == 0 ){
+    document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+    
+} else {
+    document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+    
+}
+
+
+function dModeT() {
+    const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
+    const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
+    const modeAtual = localStorage.getItem('dmodeRede')
+
+    if(modeAtual == 0 ){
+        document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+        localStorage.setItem('dmodeRede', 1) 
+    } else {
+        document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+        localStorage.setItem('dmodeRede', 0)
+    }
+    // alert(menuAtual)
+    // document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
+    
+    //#555555
+    
+}
+
+<a href="#" onclick="dMode()">
+    <li><i class="bi bi-brightness-high-fill"></i> <i class="bi bi-moon-fill"></i></li>
+    </a> 
+
+
+    <!-- <div class="buscaEmpresa">
+                                <span class="infodoFavorito">
+                                    <p><strong>GLEITON APARECIDO SOARES DE SOUZA</strong> - 26300217000100</p>
+                                    <button onclick="editaInfoEmpresaFavorito()">Mais Informações</button>
+                                    <button onclick="excluirInfoEmpresaFavorito()">Remover</button>
+                                </span>
+                                
+    
+                                <div>
+                                    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp?cnpj="
+                                        target="_blank">
+                                        <abbr title="Consulta CNPJ - Comprovante de Situação Cadastral no CNPJ">
+                                            <p><img src="./src/img/icons/consulta-cnpj.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Inscrição Estadual">
+                                            <p><img src="./src/img/icons/inscricao-estadual.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Nota Fiscal de Produtos">
+                                            <p><img src="./src/img/icons/nota-fiscal-de-produtos.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Nota Fiscal de Serviços">
+                                            <p><img src="./src/img/icons/nota-fiscal-de-servico.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão FGTS">
+                                            <p><img src="./src/img/icons/debitos-trabalhistas.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão Negativa Receita Federal">
+                                            <p><img src="./src/img/icons/edificio-do-governo.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão do INSS - Previdência Social">
+                                            <p><img src="./src/img/icons/inss-coffee.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão Negativa de Débitos Trabalhistas">
+                                            <p><img src="./src/img/icons/certidao-debitos-trabalhistas.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                </div>
+                            </div> -->
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+
+    <p class="avisoDiv">Consulta CNPJ</p>
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Consulta CNPJ
+    <ul class="subMenu">
+    <a href="./buscar-cnpj.html">
+    <li><i class="bi bi-house-up-fill"></i>Rápida</li>
+    </a>   
+    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>Receita Federal</li>
+    </a>    
+    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>E-CAC</li>
+    </a>   
+    <a href="./inscricao-estadual.html" >
+    <li><i class="bi bi-house-up-fill"></i>Estadual
+    </li>
+    </a>     
+    </ul>
+    </li>  
+
+
+
+
+
+
+
+
+    function dMode() {
+    dModeT()
+    //avisoS('Opção em construção - Em breve Novidades')
+}
+if (localStorage.getItem('dmodeRede') == null) {
+    localStorage.setItem('dmodeRede', 0)
+}
+const modeAtual = localStorage.getItem('dmodeRede')
+
+if (modeAtual == 1) {
+    const moded = document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+
+} else {
+    document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+
+}
+
+
+function dModeT() {
+    const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
+    const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
+    const modeAtual = localStorage.getItem('dmodeRede')
+
+    if (modeAtual == 0) {
+        document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+        localStorage.setItem('dmodeRede', 1)
+    } else {
+        document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+        localStorage.setItem('dmodeRede', 0)
+    }
+    // alert(menuAtual)
+    // document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
+
+    //#555555
+
+}
+const MenuLateral = () => {
+    document.querySelector('.menusApresentação').innerHTML = ` 
+    <nav class="menuLateral">
+    <div>
+    <p>MENU - FUTURO CONSULTORIA</p>
+    </div>
+    
+    <a href="./">
+        <li><i class="bi bi-house-fill"></i> Inicio</li>
+    </a>
+    <p class="avisoDiv">Buscador S</p>
+    <a href="./buscar-cnpj.html">
+    <li><i class="bi bi-search"></i> Buscador Completo</li>
+    </a>
+    <p class="avisoDiv">Adicionar Atalho</p>
+
+    <li class="menuDrop"><i class="bi bi-folder-symlink-fill"></i> Atalho
+     <ul class="subMenu">
+        <a href="./criar-atalho.html">
+        <li><i class="bi bi-house-up-fill"></i>Novo</li>
+        </a>   
+        <a href="./editar-atalho.html">
+        <li><i class="bi bi-house-up-fill"></i>Editar</li>
+        </a>   
+        <a href="./excluir-atalho.html">
+        <li><i class="bi bi-house-up-fill"></i>Excluir</li>
+        </a>   
+        <a href="#" onclick="addAtalhos()">
+        <li><i class="bi bi-house-up-fill"></i>Adicionar na Tela</li>
+        </a>   
+        
+     </ul>
+    </li>  
+
+    
+    
+    
+
+    <p class="avisoDiv">MEI (Microempreendedor Individual)</p>
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Universo MEI
+    <ul class="subMenu">
+    <a href="./links-interessantes.html">
+    <li><i class="bi bi-house-up-fill"></i>Links Interessantes</li>
+    </a>  
+    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
+    </a>  
+    <a href="./itbi-urbano.html" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
+    </a>  
+    <a href="./itbi-rural.html">
+    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
+    </a>      
+    </ul>
+    </li>  
+
+
+    <p class="avisoDiv">Atendimento SAS SEBRAE</p>
+
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimentos
+     <ul class="subMenu">
+        <a href="./atendimento-sas-modelos.html">
+        <li><i class="bi bi-house-up-fill"></i>Modelos</li>
+        </a>   
+        <a href="./cadastro-empresa.html">
+        <li><i class="bi bi-house-up-fill"></i>Cadastrar</li>
+        </a>   
+         <a href="./cadastro-imovel.html">
+             <li><i class="bi bi-house-add-fill"></i>Editar</li>
+         </a>
+        
+         <a href="./cadastro-endereco.html">
+             <li><i class="bi bi-signpost-fill"></i> Excluir</li>
+         </a>
+     </ul>
+    </li>  
+    <p class="avisoDiv">Favoritos</p>
+
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Favoritos
+     <ul class="subMenu">
+        <a href="./favoritos.html">
+        <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
+        </a>   
+        <a href="./cadastro-pessoal.html">
+        <li><i class="bi bi-house-up-fill"></i>Novo</li>
+        </a>   
+        <a href="./cadastro-empresa.html">
+        <li><i class="bi bi-house-up-fill"></i>Editar</li>
+        </a>   
+         <a href="./cadastro-imovel.html">
+             <li><i class="bi bi-house-add-fill"></i>Excluir</li>
+         </a>
+     </ul>
+    </li>  
+
+    <a href="./perfil.html">
+    <li><i class="bi bi-layer-backward"></i> Editar Perfil</li>
+    </a> 
+   
+
+   
+    
+<a href="./backup.html">
+<li><i class="bi bi-layer-backward"></i> Backup</li>
+</a> 
+<a href="./resetar.html">
+<li><i class="bi bi-trash3-fill"></i> Resetar</li>
+</a> 
+
+
+
+    
+ </nav>`
+
+}
+MenuLateral()
+
+if (localStorage.getItem('perfilRede') == null) {
+    loadDadosPrincipais()
+}
+function loadDadosPrincipais() {
+    const dados = {
+        "imagemFundo": "./src/img/futuro-consultoria.svg",
+        "imagem": "./src/img/futuro-consultoria-horizonte.svg",
+        "titlo": "FUTURO CONSULTORIA",
+        "subTitle": "26.300.217/0001-00",
+        "color": "#ffffff"
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([dados]))
+    console.log([dados])
+}
+function resetaMenuEFundo() {
+    loadDadosPrincipais()
+    location.reload()
+}
+const loadItensDoPerfil = () => {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    linkImagfundo.value = data[0].imagemFundo
+    linkImag.value = data[0].imagem
+    tituloLocal.value = data[0].titlo
+    SubTituloLocal.value = data[0].subTitle
+    fundoColor.value = data[0].color
+}
+const linkImag = document.querySelector('#linkImag')
+if (linkImag != null) {
+    loadItensDoPerfil()
+}
+const menuTop = () => {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const imagemFundo = data[0].imagemFundo
+    const imagem = data[0].imagem
+    const titlo = data[0].titlo
+    const subTitle = data[0].subTitle
+    const color = data[0].color
+    const fundoAP = document.querySelector('.telaApresentacao')
+    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}'); background-color: ${color};`)
+
+    document.querySelector('header').innerHTML = ` 
+    <div>
+    <a href="./" style="background-image: url('${imagem}')">
+    <div class="logoCima" ">        
+    </div>
+    </a>
+    <div class="letrasLogo">
+        <h2>${titlo.toUpperCase()}</h2>
+        <h3>${subTitle}</h3>
+    </div>
+   </div>`
+
+}
+menuTop()
+
+
+function atualizarPerfilDigito() {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const perfil = {
+        "imagemFundo": linkImagfundo.value,
+        "imagem": linkImag.value,
+        "titlo": tituloLocal.value,
+        "subTitle": SubTituloLocal.value,
+        "color": fundoColor.value
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([perfil]))
+
+}
+
+function atualizarPerfilClique() {
+    
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const perfil = {
+        "imagemFundo": linkImagfundo.value,
+        "imagem": linkImag.value,
+        "titlo": tituloLocal.value,
+        "subTitle": SubTituloLocal.value,
+        "color": fundoColor.value
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([perfil]))
+    location.reload()
+}
+
+if (document.querySelector('.classT') != null) {
+    window.onstorage = function (e) {
+
+        atualizarPerfilDigito()
+        // if(document.querySelector('#AtalhosAdicionandoIcons' != null)) adicionaNoDesktop()
+
+    }
+}
+
+document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
+
+document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop confiTela">         
+
+<div >
+    <a href="./">
+        <img src="./src/img/icons/inicio-casa.png" alt="Novo Lembrete">
+        <p>Home</p>
+    </a>
+</div>           
+<div onclick="addAtalhos()">
+    <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
+    <p>Novo Atalho</p>
+</div>
+<div onclick="addLembrete()">
+    <img src="./src/img/icons/novo-lembrete.png" alt="Novo Atalho">
+    <p>Novo Lembrete</p>
+</div>
+<div >
+    <a href="./favoritos.html">
+        <img src="./src/img/icons/favoritos-empresas.png" alt="Novo Atalho">
+        <p>Favoritos</p>
+    </a>
+</div>
+ <div>
+    <a href="./buscar-cnpj.html">
+        <img src="./src/img/icons/pesquisa-empresas.png" alt="Novo Atalho">
+        <p>Pesquisar Empresa</p>
+    </a>
+</div>
+<div>
+    <a href="./perfil.html">
+        <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
+        <p>Editar Perfil</p>
+    </a>
+</div>
+
+</div>`
+
+
+
+localStorage.setItem('atalhosContratos', '[{"id":0,"imagem":"./src/img/icons/itbi-urbano.png","texto":"ITBI Urbano","link":"itbi-urbano"},{"id":1,"imagem":"./src/img/icons/itbi-rural.png","texto":"ITBI Rural","link":"itbi-rural"}]')
+
+
+<a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
+    </a>  
+    <a href="./itbi-urbano.html" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
+    </a>  
+    <a href="./itbi-rural.html">
+    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
+    </a>      
+
+    <a href="./resetar.html">
+    <li><i class="bi bi-trash3-fill"></i> Resetar</li>
+    </a> 
+
+    <a href="./ajuda.html">
+    <li><i class="bi bi-trash3-fill"></i> Ajuda</li>
+    </a> 

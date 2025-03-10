@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <text style="font-size: 36; font-family: Roboto; white-space: pre;" transform="matrix(1, 0, 0, 1, 564.88335, 177.036791)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre;" x="215.93" y="126.636">Frente</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="115.098" y="251.21" transform="matrix(0, -1, 1, 0, -34.247826, -2.779047)">Esquerdo</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="316.248" y="251.21" transform="matrix(0, 1, -1, 0, 12.0139, -3.346318)">Direito</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 23px; white-space: pre;" x="215.93" y="403.186">Fundo</text>
+  <polygon style="stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(245, 245, 245); stroke-width: 3px;" points="424.426 58.889 422.257 477.966 60.999 379.61 74.665 102.644"/>
+</svg>

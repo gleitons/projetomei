@@ -1,0 +1,165 @@
+[
+  {
+    "sigla": "MG",
+    "nomeEstado": "MINAS GERAIS",
+    "capitalEstado": "BELO HORIZONTE",
+    "regiao": "SUDESTE"
+  },
+  
+  {
+    "sigla": "DF",
+    "nomeEstado": "DISTRITO FEDERAL",
+    "capitalEstado": "BRASILIA",
+    "regiao": "CENTRO-OESTE"
+  },
+  {
+    "sigla": "AC",
+    "nomeEstado": "ACRE",
+    "capitalEstado": "RIO BRANCO",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "PA",
+    "nomeEstado": "PARÁ",
+    "capitalEstado": "BELÉM",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "RO",
+    "nomeEstado": "RONDÔNIA",
+    "capitalEstado": "PORTO VELHO",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "RR",
+    "nomeEstado": "RORAIMA",
+    "capitalEstado": "BOA VISTA",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "TO",
+    "nomeEstado": "TOCANTINS",
+    "capitalEstado": "PALMAS",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "MA",
+    "nomeEstado": "MARANHÃO",
+    "capitalEstado": "SÃO LUIZ",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "PB",
+    "nomeEstado": "PARAÍBA",
+    "capitalEstado": "JOÃO PESSOA",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "PE",
+    "nomeEstado": "PERNAMBUCO",
+    "capitalEstado": "RECIFE",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "PI",
+    "nomeEstado": "PIAUÍ",
+    "capitalEstado": "TEREZINA",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "RN",
+    "nomeEstado": "RIO GRANDE DO NORTE",
+    "capitalEstado": "NATAL",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "SE",
+    "nomeEstado": "SERGIPE",
+    "capitalEstado": "ARACAJÚ",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "GO",
+    "nomeEstado": "GOIÁS",
+    "capitalEstado": "GOIÂNIA",
+    "regiao": "CENTRO-OESTE"
+  },
+  {
+    "sigla": "MS",
+    "nomeEstado": "MATO GROSSO DO SUL",
+    "capitalEstado": "CAMPO GRANDE",
+    "regiao": "CENTRO-OESTE"
+  },
+  {
+    "sigla": "MT",
+    "nomeEstado": "MATO GROSSO",
+    "capitalEstado": "CUIABÁ",
+    "regiao": "CENTRO-OESTE"
+  },
+  {
+    "sigla": "ES",
+    "nomeEstado": "ESPÍRITO SANTO",
+    "capitalEstado": "VITÓRIA",
+    "regiao": "SUDESTE"
+  },
+  {
+    "sigla": "RJ",
+    "nomeEstado": "RIO DE JANEIRO",
+    "capitalEstado": "RIO DE JANEIRO",
+    "regiao": "SUDESTE"
+  },
+  {
+    "sigla": "SP",
+    "nomeEstado": "SÃO PAULO",
+    "capitalEstado": "SÃO PAULO",
+    "regiao": "SUDESTE"
+  },
+  {
+    "sigla": "RS",
+    "nomeEstado": "RIO GRANDE DO SUL",
+    "capitalEstado": "PORTO ALEGRE",
+    "regiao": "SUL"
+  },
+  {
+    "sigla": "SC",
+    "nomeEstado": "SANTA CATARINA",
+    "capitalEstado": "FLORIANÓPOLIS",
+    "regiao": "SUL"
+  },
+  {
+    "sigla": "AM",
+    "nomeEstado": "AMAZONAS",
+    "capitalEstado": "MANAUS",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "AP",
+    "nomeEstado": "AMAPÁ",
+    "capitalEstado": "MACAPÁ",
+    "regiao": "NORTE"
+  },
+  {
+    "sigla": "AL",
+    "nomeEstado": "ALAGOAS",
+    "capitalEstado": "MACEIÓ",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "BA",
+    "nomeEstado": "BAHIA",
+    "capitalEstado": "SALVADOR",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "CE",
+    "nomeEstado": "CEARÁ",
+    "capitalEstado": "FORTALEZA",
+    "regiao": "NORDESTE"
+  },
+  {
+    "sigla": "PR",
+    "nomeEstado": "PARANÁ",
+    "capitalEstado": "CURITIBA",
+    "regiao": "SUL"
+  }
+]

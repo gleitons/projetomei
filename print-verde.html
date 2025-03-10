@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimindo</title>
+
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            /* background-color: #FAFAFA; */
+            font: 12pt "Tahoma";
+
+        }
+
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm 20mm;
+            margin: 5mm auto;
+            border: 1px #D3D3D3 solid;
+            border-radius: 5px;
+            background-size: cover;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            background-image: url('./src/img/fundo-contrato-verde.jpg');
+            font-family: monospace;
+        }
+
+        .imprimir {
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            height: 30px;
+            align-items: center;
+            z-index: 9999;
+            top: 0px;
+        }
+        .imprimir button {
+            padding: 5px;
+            cursor: pointer;
+        }
+        .subpage {
+            padding: 10px;
+            /* border: 5px red solid; */
+            height: 257mm;
+            /* outline: 2cm #FFEAEA solid; */
+            position: relative;
+            text-align: justify;
+        }
+
+        .subpage h3 {
+            position: absolute;
+            bottom: -78px;
+            right: 13px;
+            transform: rotate(0deg);
+        }
+
+        .subpage .assT {
+            position: absolute;
+            display: flex;
+            bottom: -65px;
+            left: -30px;
+            width: 300px;
+            font-size: 10px;
+            gap: 5px;
+        }
+
+        .olhar {
+            background-color: rgb(0, 0, 0);
+            border-radius: 50%;
+            padding: 2px;
+            color: white;
+
+        }
+
+        .assinaturaCompleto {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: .8em;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .subpage img {
+            width: 30%;
+        }
+        .obsObs {
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.255) 0px 5px 5px 1px;
+        }
+
+        .subpage h2 {
+            text-align: center;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+
+            html,
+            body {
+                width: 210mm;
+                height: 297mm;
+
+            }
+
+            .imprimir {
+                display: none;
+            }
+
+            .page {
+                margin: 0;
+                border: initial;
+                border-radius: initial;
+                width: initial;
+                min-height: initial;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+                /* background-image: url('./src/img/fundo-contrato-2.jpg'); */
+                background-image: url('./src/img/fundo-contrato-verde.jpg');
+                background-size: cover;
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imprimir">
+        Selecicione a fonte:
+        <select name="" id="fontesACarregar" onchange="carregaFonte()">
+
+            <option>Normal</option>
+            <option>Cartório</option>
+            <option>Coladas</option>
+            <option>Pequena</option>
+            <option>Grande</option>
+            <option>Cartório</option>
+            <option>Cursiva</option>
+        </select>
+        <select name="" id="tamanhoFontesACarregar" onchange="carregaTFonte()">
+
+            <option>Tamanho</option>
+            <option>Minuscula</option>
+            <option>Pequena</option>
+            <option>Normal</option>
+            <option>Grande</option>
+            <option>Extra Grande</option>
+           
+        </select>
+        <select name="" id="FundoACarregar" onchange="carregaCFundo()">
+
+            <option>Papel de Fundo</option>
+            <option>Amarelo</option>
+            <option>Verde</option>
+            <option>Normal</option>
+           
+           
+        </select>
+        <button onclick="imprimiContra()">Imprimir</button>
+    </div>
+    <div class="book">
+        <div class="page">
+            <div class="subpage" id="pageOne">
+
+            </div>
+        </div>
+        <div class="page">
+            <div class="subpage">
+                <p><strong>CLÁUSULA QUINTA:</strong> <span class="oven">O </span> se compromete a entregar toda documentação necessária
+                    para o comprador para transferir o imóvel para o nome dele.</p>
+
+                <p><strong>CLÁUSULA SEXTA:</strong> <span class="oven">O </span> declara sob responsabilidade civil e penal, que o imóvel
+                    objeto deste contrato <strong>está completamente livre e desembaraçado de quaisquer dívidas e ônus real</strong>,
+                    pessoal, fiscal ou extrajudicial, arrestos ou sequestros, inclusive hipotecas, impostos e taxas, ou
+                    ainda restrições de qualquer natureza até a data da venda do imóvel.</p>
+
+                <p><strong>CLÁUSULA SÉTIMA:</strong> Fica nomeado o Foro da Comarca de Coração de Jesus MG, para dirimir
+                    quaisquer dúvidas oriundas deste contrato. Certifico que os dados, informações e poderes objeto do
+                    presente contrato <strong>
+                        foram fornecidos por declaração dos mesmos, responsabilizando-se os mesmos por
+                        eventual incorreção
+                    </strong>.
+                </p>
+
+                <p>Para todos os fins de direito, os contratantes declaram aceitar o presente contrato nos expressos
+                    termos em que foi lavrado, obrigando-se a si, seus herdeiros e sucessores a bem fielmente cumpri-lo.
+                </p>
+                <p>E por estarem justos e contratados, assinam o presente contrato de Compra e Venda de<strong> imóvel RURAL em duas vias de igual forma e teor</strong>.</p>
+                <div class="obsObs">
+                    <p>Obs: <span id="observContrato"></span></p>
+                    
+                </div>
+                <p>VENDEDORES:</p>
+                <div class="assinaturaCompleto" id="assVendedoresC">
+
+                </div>
+                <p>COMPRADORES</p>
+                <div class="assinaturaCompleto" id="assCompradoresC">
+
+                </div>
+                <div>
+                    <p>Testemunhas: ________________________________________________ <br><br>
+                        <span style="visibility: hidden;">Testemunhas: </span>________________________________________________
+                    </p>
+                </div>
+                
+
+
+                <h3 class="codigoInfo">COD: 001254</h3>
+                <div class="assT">
+                    <img src="./src/img/qr.png" alt="">
+                    <div>
+                        <p>Aponte a camêra para saber a autenticidade deste contrato.</p>
+                        <p>*ATENÇÃO: Para uma validação correta, as assinaturas devem ser registradas e autenticadas em
+                            cartório.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./imprimir-rural.js"></script>
+    <script src="./src/extenso/extenso.js"></script>
+</body>
+
+</html>

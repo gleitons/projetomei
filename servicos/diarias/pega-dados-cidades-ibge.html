@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+
+
+    <title>Fetch</title>
+</head>
+
+<body>
+    <div id="veja"></div>
+    <div id="dadospegados">
+    </div>
+    <div id="Ver">
+
+    </div>
+
+    <script>
+        var distanciasC = []
+        function porPesquisa(cidade){
+        const url = `https://cidades.ibge.gov.br/brasil/mg/${cidade}/panorama`
+      
+        //var saidaTag = document.querySelector('#dadospegados');
+        fetch(url)
+            .then((resp) => resp.text())
+            .then(function (data) {
+                Ver.innerHTML = data
+
+                console.log(data)
+
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+        }
+
+        porPesquisa('pirapora')
+        async function pegarD() {
+            const response = await fetch('./arrays/cidades-mg');
+            const data = await response.json()
+            console.log(data)
+
+            data.map((city) =>{
+                const cit = city.toLowerCase().replace(/ /gi, '-')
+                console.log(cit)
+                porPesquisa(cit)
+            })
+            
+        }
+        //pegarD()    
+
+        
+        
+       
+          
+
+
+
+
+
+      
+
+    </script>
+  
+   
+
+</body>
+
+</html>

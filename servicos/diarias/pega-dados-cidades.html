@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+
+
+    <title>Fetch</title>
+</head>
+
+<body>
+    <div id="veja"></div>
+    <div id="dadospegados">
+    </div>
+    <div id="Ver">
+
+    </div>
+
+    <script>
+        var distanciasC = []
+        function porPesquisa(origem, destino, cidade, cDestino){
+        const url = `http://br.distanciacidades.net/calcular?from=${origem}&to=${destino}%20sp`
+        console.log(url)
+        var saidaTag = document.querySelector('#dadospegados');
+        fetch(url)
+            .then((resp) => resp.text())
+            .then(function (data) {
+                Ver.innerHTML = data
+
+                const distancia_reta = document.querySelector('#straightbox strong').innerText
+
+                const distancia_conducao = document.querySelector('#drivingbox strong').innerText
+
+                const timebox = document.querySelector('#timebox strong').innerText
+
+                const deLagoaAte = {
+                    "cidade": cidade,
+                    "destinho": cDestino,
+                    "distanciaReta": distancia_reta,
+                    "distanciaConducao": distancia_conducao,
+                    "tempo": timebox
+                }
+
+                distanciasC.push(deLagoaAte)
+
+                localStorage.setItem('distancias', JSON.stringify(distanciasC))
+
+
+                console.log(distancia_reta)
+                console.log(distancia_conducao)
+                console.log(cidade)
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+        }
+
+
+        async function pegarD() {
+            const response = await fetch('./arrays/cidades-sp');
+            const data = await response.json()
+            console.log(data)
+
+            data.map((city) =>{
+                const cit = city.toLowerCase().replace(/ /gi, '%20')
+                console.log(cit)
+                porPesquisa(`lagoa%20dos%20patos%20mg`, `${cit}`, `Lagoa dos Patos MG`, `${city} SP`)
+            })
+            
+        }
+        pegarD()    
+
+        
+        
+       
+          
+
+
+
+
+
+      
+
+    </script>
+  
+   
+
+</body>
+
+</html>

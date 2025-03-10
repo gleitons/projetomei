@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <style>
+        .ifr iframe {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="veja"></div>
+    <div id="dadospegados">
+    </div>
+    <!-- <div class="ifr">
+        <iframe src="https://lagoadospatos.mg.gov.br/licitacoes/" frameborder="0"></iframe>
+    </div> -->
+    <div id="Ver">
+
+    </div>
+
+    <script>
+       
+        var distanciasC = []
+        function porPesquisa(){
+        const url = `https://lagoadospatos.mg.gov.br/licitacoes/`
+        console.log(url)
+        var saidaTag = document.querySelector('#dadospegados');
+        fetch(url)
+            .then((resp) => resp.text())
+            .then(function (data) {
+                Ver.innerHTML = data
+              
+
+                distanciasC.push(deLagoaAte)
+
+                localStorage.setItem('distancias', JSON.stringify(distanciasC))
+
+
+                console.log(distancia_reta)
+                console.log(distancia_conducao)
+                console.log(cidade)
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+        }
+
+
+        porPesquisa()
+        
+        
+        
+       
+          
+
+
+
+
+
+      
+
+    </script>
+  
+   
+
+</body>
+
+</html>

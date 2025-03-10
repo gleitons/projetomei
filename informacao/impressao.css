@@ -1,0 +1,62 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    margin: auto;
+    width: 100%;
+}
+.paginaOne  {
+    width: 21cm;
+    height: 29.7cm;
+    background-image: url('./fundo-papel-cartorio.jpeg');    
+    background-size:cover;
+}
+.paginaTwo {
+    width: 21cm;
+    height: 29.7cm;
+    background-image: url('./fundo-papel-cartorio.jpeg');    
+    background-size:cover;
+}
+.paginaTwo div {
+    margin: auto;
+    width: 85%;
+    padding-top: 50px;
+}
+.paginaOne div {
+    margin: auto;
+    width: 85%;
+    padding-top: 50px;
+}
+.paginaTwo div p {
+    font-size: 1.2em;
+    margin:  1em auto;
+    align-items: flex-end;
+}
+
+.paginaTwo div h2 {
+    text-align: center;
+    font-size: 1.4em;
+    width: 80%;
+    margin: auto;
+}
+.paginaOne div p {
+    font-size: 1.2em;
+    margin:  1.2em auto;
+    align-items: flex-end;
+}
+
+.paginaOne div h2 {
+    text-align: center;
+    font-size: 1.4em;
+    width: 80%;
+    margin: auto;
+}
+.paginaTwo  .assinat {
+    margin: auto;
+    width: 100%;
+    padding-top: 0;
+    
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Cadastro - Município de Lagoa dos Patos MG</title>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <main>
+        <div class="esquerdo">
+            <nav>
+                
+            </nav>
+        </div>
+        <div class="direito">
+            <div id="notificado">
+              
+            </div>
+            <div class="formularioCadastro">
+                <h3>CADASTRO DE SERVIDOR</h3>
+                <div class="cadastro">
+                    <!-- <p>COD:</p> <input type="number" name="" id="codServidor" > -->
+                </div>
+                <!-- <form  autocomplete="off"> -->
+                    
+                    <!-- <button id="btnContinuar" onclick="verCadastro()">Continuar</button> -->
+                    <div class="cadastoConti" id="mostraDados">
+                        <div class="cadastro">
+                            <p>CPF:</p> <input type="text" name="" id="verificaCadastro" value=""  onkeyup="verificaCadas()" placeholder="Somente Números ex: 08320325488" required autofocus>
+                        </div>
+                        <div>
+                            <p>Matricula:</p> <input type="text" name="" id="idMatricula" required>
+                             <!-- <button onclick="mostraAbaDel()">Consultar</button> -->
+                            <a onclick="mostraAbaDel(), geraFuncionario() " href="#">
+                                Consultar
+                            </a>
+                        </div>  
+                        <div>
+                            <p>Nome Completo:</p> <input type="text" name="" id="idNome" required>
+                        </div>
+                       
+                        <div>
+                            <p>Endereço:</p> <input type="text" name="" id="idEndereco">
+                        </div>
+                        <div>
+                            <p>Numero:</p> <input type="text" name="" id="idNumero">
+                        </div>
+                        <div>
+                            <p>Bairro:</p> <input type="text" name="" id="idBairro">
+                        </div>
+                        
+                        <div>
+                            <p>Tipo de Cargo:</p>
+                            <select name="" id="idTipodeServidor" required>
+                                <option value="">Selecione</option>
+                                <option >Servidor Público Efetivo</option>
+                                <option >Secretário Municipal</option> 
+                                <option >Vereador</option> 
+                                <option >Vice-Prefeito</option> 
+                                <option >Prefeito</option>
+                            </select>                        
+                        </div>     
+                        <div>
+                            <p>Cargo:</p> <input type="text" name="" id="idCargo" required>
+                        </div>
+                        <div>
+                            <p>Departamento:</p> <input type="text" name="" id="idDepartamento" required>
+                        </div>
+                        <div>
+                            <p>Tipo de conta:</p>
+                            <select name="" id="idTipodeConta" required>
+                                <option value="">Selecione</option>
+                                <option value="cc">Corrente</option>
+                                <option value="pp">Poupança</option>   
+                            </select>                        
+                        </div>                            <div>
+                            <p>Banco:</p> 
+                            <select name="" id="idBanco" onchange="loadBank()" required>
+                                <option value="">Selecione</option>
+                                <option >Sicoob/Credinor</option>
+                                <option >Caixa</option> 
+                                <option >Bradesco</option> 
+                                <option >Banco do Brasil</option> 
+                                <option >Outro</option>                                
+                            </select>     
+                            <input style="display: none"  type="text" name="" id="outroBanco" placeholder="Digite o nome do Banco" required>
+                        </div>              
+                        <div>
+                            <p>Agência:</p> <input type="text" name="" id="idAgencia" required>
+                        </div>
+                        <div>
+                            <p>Conta:</p> <input type="text" name="" id="idConta" required>
+                        </div>
+                        <div id="btnenviarDados">
+
+                        </div>
+                       
+                        <button id="cadastrarOuAtualizar" onclick="cadastroSer()" >Cadastrar</button>   
+                       
+                    </div>
+                   
+                <!-- </form> -->
+            </div>
+        </div>
+        <div class="fundoCadastro dnone " id="fundoMatricula">
+            <div>
+                <div>
+                    <p>Existe um pré-cadastro com esse CPF</p>
+                    <input type="text" name="" id="colocarCPF" disabled value="">
+                    <p>Selecione o que deseja fazer </p>
+                </div>
+                <div>
+                    <!-- <li >2351 - Gleiton</li>
+                    <li >2351 - Gleiton</li> -->
+                    <div class="btnc" id="infoJ">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="addMatricula dnone" id="abaDel" >
+            <div class="telaaddMatricula" >
+                Comece a digitar o nome <br>
+                <input type="text" id="pesquisarMatricu" placeholder="Digite" onkeyup="search_Matricula()" autofocus> <br>
+                
+                <!-- <button id="editEn"  class="simExc">Sim</button> -->
+                <button onclick="mostraAbaDel()">Fechar</button>
+                <div class="liMatricula" id="mostraMatricula" style="display: none">
+                    <p>Clique no servidor abaixo:</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="./src/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    scroll-behavior: smooth;
+
+}
+
+table {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.toph2 {
+    text-align: center;
+}
+
+thead {
+    border: black solid 0.6px;
+    margin-bottom: 5px;
+}
+
+thead td {
+    padding: 5px;
+    height: 25px;
+    border: black solid 1px;
+    position: relative;
+}
+
+thead td p {
+    font-size: 7px;
+    top: 0px;
+    position: absolute;
+}
+
+thead td h5 {
+    margin-top: 1px;
+    font-size: 10px;
+    margin-bottom: -3px;
+}
+
+.observacaoF p, li{
+    font-size: 8px;
+    
+   
+}
+
+tbody {
+    margin-top: 5px;
+    border: black solid 1px;
+}
+
+.corpoT {
+    text-align: center;
+}
+
+.corpoT tr td {
+    font-size: .8em;
+    border: black solid 1px;
+}
+
+.tbod tr td {
+    font-size: .6em;
+    height: 23px;
+}
+
+.tfot tr {
+    text-align: center;
+}
+
+.tfot td {
+    border: black solid 1px;
+}
+.preencher {
+    width: 80%;
+    margin: auto;
+}
+
+.preencherDark {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+.preencher fieldset {
+    padding: 10px;
+}
+
+.preencher fieldset button {
+    padding: 10px;
+    margin: 10px 20px;
+    background-image: linear-gradient(to right, #103489 0%, #3c0e87 51%, #052a7f 100%);
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+
+.preencher fieldset button:active {
+    
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: rgb(2, 128, 145);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.preencher fieldset input {
+    margin: 10px;
+
+}
+.dimiBaixar {
+    animation: baixarS 200ms normal;
+}
+.diminuirCol {
+    font-size: 14px;
+    
+}
+.cFunc {
+    background-color: rgb(222, 125, 125);
+}
+.ocul {
+    visibility: hidden;
+}
+.dimi {
+    padding: 0px ;
+}
+.duvidasS {
+    display: flex;
+    padding: 0px 20px;
+   
+}
+.duvidasS img{
+    width: 100%;
+}
+.dnone {
+    display: none;
+}
+.mNoturno {
+    border: white solid 1px;
+    text-align: center;
+    background-color: rgb(28, 28, 28);
+    width: 50px;
+    height: 40px;
+    font-size: .8em;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    margin: 5px 0;
+}
+select {
+    padding: 5px;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+    color: black;
+    font-weight: 700;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+.aviso div{
+    width: 80%;
+    text-align: center;
+    border: black solid 1px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #e7eefe;
+    animation: baixarS 500ms normal;
+}
+.formCadastrar form div {
+    width: 360px;
+    border-radius: 8px;
+    background-color: rgb(167, 197, 254);
+    border: black solid 1px;
+    justify-content: space-between;
+    padding: 10px;
+    animation: zooz 500ms normal;
+    
+}
+.formCadastrar input {
+    width: 90%;
+    padding: 5px;
+}
+.iconeCadastrar {
+    background-color: green;
+    padding: 2px;
+    border-radius: 8px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+
+}
+.cadastroSucesso p{
+    width: 200px;
+    margin: auto;
+    background-color: rgb(15, 103, 0);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+@media print{
+    .noprint{
+        display:none;
+    }
+    .ocul * {
+        visibility: visible;
+      }
+ }
+ @media (max-width:720px) {
+    .duvidasS {
+        text-align: center;
+        display: block;
+        padding: 0px 20px;
+    }
+    .preencher {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+ }
+ @keyframes zooz {
+    0% {
+        -webkit-transform: scale(0.4);
+        -ms-transform: scale(0.4);
+        transform: scale(0.4);
+        opacity: 0%;
+       
+    }
+    100% {
+        opacity: 100%;
+    }
+ }
+ @keyframes baixarS {
+    0% {
+        opacity: 0%;
+        margin-top: -100px;
+    }
+    100% {
+        opacity: 100%;
+    }
+ }

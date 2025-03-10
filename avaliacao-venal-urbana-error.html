@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style.css">  
+    
+    <script src="main.js"></script>
+    <title id="tituloSalvar"></title>
+</head>
+<body>
+    <div id="dadosDiv">
+        <div class="fundoInsereDados"> 
+            <fieldset>
+                <legend>Avaliação Venal Urbana</legend>
+                <fieldset>
+                    <legend>Dados Iniciais</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Protocolo Geral:</td>
+                            <td><input type="text" name="" placeholder="ex: 252" id="protoEcidade"><br></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Usuário:</td>
+                            <td><select name="func"  id="selectFun">
+                                <option value="">Selecione</option>
+                                <option value="funcio" id="func01">GLEITON APARECIDO SOARES DE SOUZA</option>
+                                <option value="funcio" id="func02">VANDER DE JESUS MAGALHAES NOBRE</option>
+                                <option value="funcio" id="func03">JOAO MARTINS GUEDES</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Solicitante:</td>
+                            <td><input placeholder="ex: nome completo" type="text" required name="" id="nomeSolicitante"></td>
+                        </tr>
+                        
+                    </table>  
+                </fieldset>
+                <fieldset>
+                    
+                    <legend>Endereço do Imóvel</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Rua:</td>
+                            <td ><input type="text" placeholder="ex: rua santo brasil" name="" id="ruaC" required></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Número:</td>
+                            <td><input type="text" name="" placeholder="ex: 456" id="numeroCasaC" required></td>
+                        </tr>
+                        <tr>
+                            <td>Bairro:</td>
+                            <td><input type="text" placeholder="ex: centro" name="" id="bairroC"></td>
+                        </tr>
+                    </table>
+                     
+                    
+                </fieldset>
+
+
+                <fieldset>
+                    
+                    <legend>Imóvel urbano</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Tipo de Acabamento: </td>
+                            <td><select name="" id="tipoDeAcabamento">
+                                <option value="">Selecione</option>
+                                <option value="0" id="npossui" >Não Possui imóvel</option>
+                                <option value="581.62" id="setor01"><abbr title="">Unidade de Alto padrão de Acabamento</abbr> </option>
+                                <option value="416.25" id="setor02">Unidade de Padrão Médio de Acabamento </option>
+                                <option value="346.50" id="setor03">Unidade de Padrão Normal de Acabamento  </option>
+                                <option value="200.02" id="setor04">Unidade de Padrão Popular de Acabamento </option>
+                                <option value="140.62" id="setor05">Unidade de Baixíssimo Padrão de Acabamento</option>
+                                <option value="138" id="setor05">Unidade de Baixíssimo Padrão de Acabamento  </option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Passe o Mouse para mais informações.</td>
+                            <td><button><abbr title="Piso em tábua corrida de madeira de lei ou cerâmica tipo extra e 
+                                ou  granito,  suíte,  banheiro  e  cozinha  em  azulejos  de  primeira, 
+                                portas e janelas em madeiras de lei  maciças ou alumínio, coberta 
+                                em telhado colonial com laje de forro, pintura a óleo ou látex com 
+                                massa corrida................................................R$ 581,62  ">Tipo 01</abbr></button> <button><abbr title="Unidade de Padrão Médio de Acabamento  
+                                    Piso em tábua corrida ou taco de madeira de lei e ou cerâmica 
+                                    comercial, banheiro e cozinha em azulejos comercial, esquadrias 
+                                    em madeira de lei, coberta em telha colonial ou francesa com forro 
+                                    de madeira ou laje e pintura a óleo ou látex................R$ 416,25">Tipo 02</abbr></button> <button><abbr title="Unidade de Padrão Normal de Acabamento  
+                                        Piso  em taco de madeira e ou cerâmica, banheiro e cozinha em 
+                                        azulejo, esquadrias metálicas em chapa dobrada e ou madeira, 
+                                        cobertura em telha colonial ou francesa com laje de forro, pintura 
+                                        a óleo ou similar.............................................R$ 346,50  ">Tipo 03</abbr></button> <button><abbr title="Unidade de Padrão Popular de Acabamento  
+                                            Piso  cimentado,  banheiro  e  cozinha  em  cimento  enatado  ou 
+                                            azulejo  e  ou  cerâmica    de  terceira  qualidade,  esquadrias  em 
+                                            cantoneira  ou  chapa  dobrada,  cobertura  em  telha  de  cerâmica, 
+                                            sem laje de forro e pintura com tinta a base de água.............R$ 200,02 ">Tipo 04</abbr> </button> <button><abbr title="Unidade de Baixíssimo Padrão de Acabamento  
+                                                Piso  cimentado,  banheiro  e  cozinha  em  cimento  enatado, 
+                                                esquadrias  em  cantoneiras,  cobertura  em  telha  de  amiato, 
+                                                inexistindo laje de forro e pintura........................................R$ 140,62  ">Tipo 05</abbr></button> <button><abbr title="Unidade de Baixíssimo Padrão de Acabamento  
+                                                    Aquela em que falta uma das características do item 
+                                                    anterior....................................................................R$ 138,00 ">Tipo 06</abbr></button></td>
+                        </tr>
+                    </table>
+                    
+                    
+                    
+                        <table>
+                            <tr>
+                                <td class="IDados">Setor:</td>
+                                <td><select name="" id="selSetor">
+                                    <option value="">Selecione</option>
+                                    <option value="8" id="setor01">Setor 01</option>
+                                    <option value="6" id="setor02">Setor 02</option>
+                                    <option value="4" id="setor03">Setor 03</option>
+                                    <option value="4" id="setor04">Setor 04</option>
+                                    <option value="4" id="setor05">Setor 05</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Quadra:</td>
+                                <td><input type="text" name="" id="quadra" placeholder="ex: 0004"></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Lote:</td>
+                                <td><input type="text" name="" id="lote" placeholder="ex: 0004"></td>
+                            </tr>
+                        </table>
+                     
+                     
+
+                </fieldset>
+                <fieldset>
+                    <legend>Tamanho do Imóvel</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Área do Lote:</td>
+                            <td><input type="text" name="" id="areaLote" placeholder="ex: 100"></td>
+                        </tr>
+                        <tr>
+                            <td>Área da Construção:</td>
+                            <td><input type="text" name="" id="areaConstrucao" placeholder="ex: 50"></td>
+                        </tr>
+                    </table>  
+                </fieldset>
+                
+                <input  class="botaoEnviar" type="submit" onclick="calcularAvaliacao()" value="Gerar Avaliação Urbana" />
+                
+            </fieldset>
+                </fieldset>
+                
+                
+        </div>
+        
+    </div>
+    <button class="ocultarBotao" onclick="Mudarestado('dadosDiv')">Ocultar / Mostrar</button>
+    
+
+
+    <div id="avaliacaoFundo" class="backimage">
+        <Button class="imprimirAgora" onClick="window.print()">IMPRIMIR AGORA</Button>
+        <div class="folhaA4">
+            <div>
+                <div >
+                    <img  src="src/logo-2-lagoa-dos-patos-mg.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="certidaoValorVenal">
+                <h1>CERTIDÃO DE VALOR VENAL DE IMÓVEL URBANO</h1>
+                <h2 class="protocolN" id="imprimeProtocolo">XXXXXXX  prot/ano</h2>
+            </div>
+            <div >
+                <p class="diminuirLetra" id="cabecaDesc">
+                    Certifico a pedido verbal e protocolado de <strong>(nome da pessoa protocolo),</strong> pessoa interessada  que, revendo a planta
+                    Cadastral do Perímetro Urbano deste Município e a Planta de valores de
+                    Terrenos Urbanos do <strong>CTM (Código Tributário Municipal)</strong>, verifiquei que o <strong>Lote (0010) </strong>da <strong>Quadra (0004)</strong> localizado no <strong>setor (0003)</strong> com área total de <strong>162,00m2</strong>
+                    (Cento e Sessenta e dois Metros Quadrados), com área construída de <strong>44,00m2</strong>
+                    (Quarenta e quatro metros quadrados), localizado na <strong>
+                        Rua Brasília, N° 230,
+                        bairro centro,
+                    </strong> neste Município de Lagoa dos Patos – MG tem o seguinte Valor
+                    Venal (avaliado a <strong>“Preço de Tabela *Código Tributário Pág. 87</strong> - <i>
+                        Unidade de
+                        Unidade de Padrão Popular de Acabamento
+                    </i> e <strong>Pág. 90 para terrenos.</strong>”) da
+                    seguinte forma:
+                </p>
+                <div id="valorVenais">
+                    <p>
+                        <strong>* Terreno (Lote):</strong> <u>R$ xxxxxxxx</u> (Valor calculado de acordo com o código tributário 544/2005). <strong>(*VT)</strong>
+                    </p>
+                    <p>
+                        <strong>* Área Construída:</strong> <u>R$ xxxxxxxx</u> (Valor calculado de acordo com o código tributário 544/2005). <strong>(*VT)</strong>
+                    </p>
+                    <p>
+                        <strong>*Valor total do Imóvel:</strong> <u>R$ xxxxxxx</u> (Valor calculado de acordo com o código tributário 544/2005).<strong>(*VT)</strong>
+                    </p>
+                    <p>
+                        <strong>VT= </strong>(Valor de tributação).
+                    </p>
+                </div>
+                <p>
+                    E, por ser a expressão da verdade, assim o certifico e dou fé, na forma da Lei,
+                    para que possa produzir seus regulares efeitos.
+                </p>
+                <div>
+                    <h2 id="localEData">
+                        Lagoa dos Patos – MG, (27 de maio de 2021)
+                    </h2>
+                    <div class="assinaTOperador">
+                        <p>
+                            ________________________________________
+                        </p>
+                        <div class="AssinOp" id="operador">Nome funcionario Responsável
+                        </div>
+                        <p>
+                            Divisão de Receitas e Cadastramento Imobiliário
+                            Município de Lagoa dos Patos/MG –
+                            CNPJ 16.901.381/0001-10
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="peEnderecoPref">
+                <p>
+                    PRAÇA 31 DE MARÇO 111 / CENTRO / (38) 3745-1239 / CEP: 39.360-000 / LAGOA DOS PATOS / MINAS GERAIS
+                </p>
+                <p>
+                    prefeitura@lagoadospatos.mg.gov.br
+                </p>
+            </div>
+            
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>

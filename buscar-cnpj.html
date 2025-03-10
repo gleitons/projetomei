@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:25 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CNPJ - Rede</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div>
+                <img src="./src/img/futuro-consultoria-horizonte.png" alt="">
+            </div>
+            <div>
+                <h2>FUTURO CONSULTORIA</h2>
+                <h3>26.300.217/0001-00</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+       
+        <div class="menusApresentação">
+
+        </div>
+        <div class="telaApresentacao">
+
+
+            <div class="cadastroDeImovel">
+                <h2>Busca Completa</h2>
+                <div>
+                    <fieldset class="fieldCadastroImóvel">
+                        <legend>Todas Informações Disponíveis</legend>
+
+
+                        <div class="copiarDados">
+                            <p>CNPJ:</p>
+                            <input maxlength="18" type="text" id="cnpjGerado" onkeyup="cnpjGerador()" 
+                                placeholder="Insira o CNPJ. Digite">
+                            <button onclick="pesquisaCNPJ()" id="bcnpj">Buscar</button>
+                        </div>
+                        <div class="infoCNPJPesquisa">
+                            
+                        </div>
+                        <h3>INFORMAÇÃO DO CNPJ</h3>
+                        <div class="copiarDados">
+                            <p>CNPJ Sem pontuação:</p>
+                            <abbr title="Copiar">
+                                <h4></h4>
+                            </abbr>
+                        </div>
+                        <div class="copiarDados">
+                            <p>Nome Empresarial:</p>
+                            <abbr title="Copiar">
+                                <h4></h4>
+                            </abbr>
+                        </div>
+
+                        <div class="copiarDados">
+                            <p>Nome Fantasia:</p>
+                            <abbr title="Copiar">
+                                <h4></h4>
+                            </abbr>
+                        </div>
+                        <button  onclick="abriMInfoCNPJ()" >Abrir Mais Informações do CNPJ <i style="font-size: 1em;" class="bi bi-chevron-down"></i></button> <button onclick="favoritoPessoaJuridica('Juridica')" >SALVAR FAVORITO <i style="font-size: 1em;" class="bi bi-star-fill"></i></button>
+                        <div class="cnpjEstaCadastrado">                               
+                        </div>          
+                        <span  class="verMaisInfoCNPJ dnone">
+                            <div class="copiarDados">
+                                <p>MEI:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Atividade Principal:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Natureza Jurídica:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Logradouro:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                                <p>Número:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                             
+                            </div>
+                            <div class="copiarDados">
+                                <p>Complemento:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                                <p>CEP:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                           
+                            <div class="copiarDados">
+                                <p>Bairro:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Município:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                                <p>Estado:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                               
+                            </div>
+                            <div class="copiarDados">
+                                <p>E-mail:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                                <p>Telefone:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                               
+                            </div>
+                            <div class="copiarDados">
+                                <p>Situação Cadastral:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Data Situação Cadastral:</p>
+                                <abbr title="Copiar">
+                                    <h4></h4>
+                                </abbr>
+                            </div>
+                            <div class="copiarDados">
+                                <p>Atividade Secundário:</p>
+                                <span class="outrasAtividades" style="display: block; margin-bottom: 10px;">
+                                   
+                                </span>
+                            </div>
+
+                            <div class="efetuadoSucesso" style="display: none;">
+                                <p>Cadastro Efetuado com Sucesso <button>OK</button></p>
+                            </div>
+                            <button onclick="favoritoPessoaJuridica('Juridica')" disabled="true" style="background-color: grey;">Salvar CNPJ como favorito</button>
+                            <div class="cnpjEstaCadastrado">                               
+                            </div>                           
+                             <h3>EMISSÃO DE CERTIDÕES E ACESSOS</h3>
+                        <div class="copiarDados">
+                            <p>CCMEI:</p>
+                            <abbr title="Copiar">
+                                <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+                                    <h5></h5>
+                                </a>
+                            </abbr>
+                        </div>
+                        <div class="copiarDados">
+                            <p>Consulta CNPJ RBF:</p>
+                            <abbr title="Copiar">
+                                <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp?cnpj=26300217000100" target="_blank">
+                                    <h5></h5>
+                                </a>
+                            </abbr>
+                        </div>
+                        <div class="copiarDados">
+                            <p>CND Federal RFB:</p>
+                            <abbr title="Copiar">
+                                <a href="https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir" target="_blank">
+                                    <h5>ACESSAR CND FEDERAL</h5>
+                                </a>
+                            </abbr>
+                        </div>
+                        <div class="copiarDados">
+                            <p>CND Estadual MG:</p>
+                            <abbr title="Copiar">
+                                <a href="https://www2.fazenda.mg.gov.br/sol/ctrl/SOL/CDT/SERVICO_829?ACAO=INICIAR" target="_blank">
+                                    <h5>ACESSAR CND ESTADUAL MG</h5>
+                                </a>
+                            </abbr>
+                        </div>
+                        <div class="copiarDados">
+                            <p>Parcelamento MEI:</p>
+                            <abbr title="Copiar">
+                                <a href="https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=48" target="_blank">
+                                    <h5>PARCELAMENTO MEI</h5>
+                                </a>
+                            </abbr>
+                        </div>
+                        </span>
+                    </fieldset>
+
+                </div>
+
+            </div>
+            <p>Futuro Consultoria - Criação de Aplicações</p>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <p>Produzido por Futuro Consultoria Digital</p>
+    </footer>
+
+    <script src="menuLateral.js"></script>
+    <script src="cadastroImovel.js"></script>
+</body>
+
+<!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:27 GMT -->
+
+</html>

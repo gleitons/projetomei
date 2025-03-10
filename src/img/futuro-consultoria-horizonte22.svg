@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="257.403" y1="43.866" x2="257.403" y2="332.548" id="gradient-0" gradientTransform="matrix(-0.494333, -0.407113, 0.354544, -0.430503, 174.031921, 435.996277)">
+      <stop offset="0" style="stop-color: rgb(229, 156, 64);"/>
+      <stop offset="1" style="stop-color: rgb(113, 211, 203);"/>
+    </linearGradient>
+  </defs>
+  <path d="M 199.008 240.134 C 199.008 246.896 198.281 253.49 196.899 259.839 C 162.05 230.024 95.944 181.714 34.476 182.736 C 51.381 161.483 77.467 147.859 106.732 147.859 C 157.695 147.859 199.008 189.172 199.008 240.134 Z M 106.732 332.41 C 59.768 332.41 20.998 297.325 15.204 251.935 C 50.118 259.076 97.536 277.792 143.519 324.785 C 132.249 329.69 119.808 332.41 106.732 332.41 Z M 23.733 199.764 C 53.171 199.677 123.882 207.584 191.514 276.622 C 184.524 292.841 173.016 306.655 158.577 316.48 C 131.964 292.465 73.706 245.353 14.691 233.508 C 15.544 221.476 18.705 210.082 23.733 199.764 Z" style="stroke: rgb(0, 0, 0); fill: url(#gradient-0); paint-order: fill; stroke-opacity: 0; transform-box: fill-box; transform-origin: 50% 50%;"/>
+  <text style="fill: rgb(23, 49, 58); font-family: Arial, sans-serif; font-size: 59.5px; font-weight: 700; white-space: pre;" x="202.008" y="253.767">FUTURO</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 21.8px;" x="237.874" y="285.698">CONSULTORIA</text>
+</svg>

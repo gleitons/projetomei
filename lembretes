@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "titulo": "Planeje seus compromissos antecedência",
+    "textoL": "Quanto mais tempo uma pessoa tem, mais condições de se planejar ela possui. Desta forma, sempre que possível, utilize o tempo ao seu favor. No dia anterior, coloque as tarefas que já tem conhecimento na sua agenda e verifique outros compromissos anotados. Isso facilitará muito a sua rotina.",
+    "data": "2025-03-01"
+  },
+  {
+    "id": 1,
+    "titulo": "Repasse seus compromissos três vezes ao dia",
+    "textoL": "É indicado que você repasse seus compromissos no início do expediente de trabalho ou no início do seu dia e confira novamente ao longo do dia para melhorar sua rotina – muitas pessoas preferem verificar após o almoço ou no meio do expediente. Ao final do dia, verifique novamente para não deixar nenhuma tarefa para trás.",
+    "data": "2025-03-02"
+  },
+  {
+    "id": 2,
+    "titulo": "Utilize cores diferentes",
+    "textoL": "Uma dica é utilizar diferentes cores para tipos diferentes de tarefas – por exemplo, azul para as tarefas pessoais, verde para as profissionais, roxo para os compromissos fixos, etc. Isso ajuda a memorizar e a ter perspectiva de prioridades. Você pode usar cores ainda para tarefas concluídas, a delegar e a priorizar, por exemplo.",
+    "data": "2025-03-03"
+  },
+  {
+    "id": 3,
+    "titulo": "Não deixe para amanhã o que pode fazer hoje",
+    "textoL": "Crie o hábito de não deixar para o dia seguinte o que você pode realizar ainda hoje. Amanhã você terá outras tarefas e poderá ficar sobrecarregado. Apenas postergue tarefas se necessário. Evite procrastinar!",
+    "data": "2025-03-04"
+  }
+]

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  width: 90%;
+  margin: auto;
+}
+
+.fundoImpressao {
+  background-image: url("/src/imagens/fundo-certidao-min.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.toUCase::first-letter {
+  text-transform:capitalize;
+}
+.corpoFolha {
+  width: 80%;
+  height: 100vh;
+  padding-top: 4.6em;
+  margin: auto;
+  position: relative;
+}
+.cabecaFolha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecaFolha div img {
+  width: 100px;
+}
+.cabecaFolha .prefeituraTexto {
+  text-align: center;
+  margin: 0 20px;
+}
+.peFolha img {
+  width: 100%;
+  bottom: 60px;
+  position: absolute;
+}
+.meioFolha {
+  padding-top: 1em;
+  line-height: 1.5em;
+  position: relative;
+}
+.cidadeData {
+  padding-top: 1em;
+}
+.certidaoEProtocolo {
+  text-align: center;
+  padding-bottom: 2em;
+}
+.localAssinatura {
+  padding-top: 3em;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+.assinaturaDigital {
+  width: 200px;
+  color: rgb(122, 122, 122);
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  left: -80px;
+  background-image: url("/src/imagens/fundo-assinatura.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  line-height: 0.6em;
+  text-align: center;
+  rotate: -90deg;
+  z-index: 99999;
+}
+.assinaturaDigital h2 {
+  font-size: 0.5em;
+  width: 50%;
+  text-align: center;
+  line-height: 1.2em;
+}
+.assinaturaDigital p {
+  font-size: 0.3em;
+}
+.assinaturaDigital h3 {
+  font-size: 0.3em;
+}
+.assinaturaDigital h4 {
+  font-size: 0.3em;
+}
+.localAssinatura p {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+.fundoInsereDados {
+  background-color: rgb(192, 192, 192);
+  padding: 10px;
+}
+.fundoInsereDados .enviarB {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+fieldset {
+  padding: 10px;
+}
+.corLinha {
+  background-color: rgb(112, 112, 112);
+  color: white;
+  font-weight: 700;
+}
+.tablesLa {
+  justify-content: space-between;
+  width: 100%;
+}
+fieldset table  input {
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border: black solid 1px;
+}
+.folhaImpress {
+  display: block;
+}
+.classeTR {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+ 
+}
+#abrirI button {
+  padding: 10px;
+  background-color: rgb(0, 70, 128);
+  color: white;
+}
+.tabelaInfo {
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: black solid 1px;
+  border-radius: 8px 8px 0px 0px;
+  margin: 0px;
+  
+}
+.tabelaInfo table td {
+  border: black solid 1px;
+}
+.IDados {
+  font-weight: 700;
+}
+
+@media print {
+  .noPrint {
+    display: none;
+  }
+  .folhaImpress {
+    display: block;
+  }
+}

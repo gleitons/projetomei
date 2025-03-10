@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/src/estilos/style.css">  
+    
+    <script src="/src/scripts/avaliacao.js"></script>
+    <script src="/src/scripts/extenso.js"></script>
+    <title id="tituloSalvar"></title>
+</head>
+<body>
+    <div id="dadosDiv">
+        <div class="fundoInsereDados"> 
+            <fieldset>
+                <legend >Avaliação Venal Urbana</legend>
+                <fieldset>
+                    <legend>Dados Iniciais</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Protocolo Geral:</td>
+                            <td><input type="text" name="" placeholder="ex: 252" id="protoEcidade"><br></td>
+                        </tr>
+                        <tr class="DnoneD">
+                            <td class="IDados">Usuário:</td>
+                            <td><select name="func"  id="selectFun">
+                                <option value="">Selecione</option>
+                                <option value="funcio" id="func01">GLEITON APARECIDO SOARES DE SOUZA</option>
+                                <option value="funcio" id="func02">VANDER DE JESUS MAGALHAES NOBRE</option>
+                                <option value="funcio" id="func03">JOAO MARTINS GUEDES</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="IDados">Proprietário:</td>
+                            <td><input placeholder="ex: nome completo" type="text" required name="" id="nomeSolicitante"></td>
+                        </tr>
+                        
+                    </table>  
+                </fieldset>
+                <fieldset>
+                    
+                    <legend>Endereço do Imóvel</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Endereço Completo:</td>
+                            <td ><input type="text" placeholder="rua, numero, bairro" name="" id="ruaC" required></td>
+                        </tr>
+                        <tr class="DnoneD">
+                            <td class="IDados">Endereço Completo:</td>
+                            <td><input type="text" name="" placeholder="rua, numero, bairro" id="numeroCasaC" required></td>
+                        </tr>
+                        <tr class="DnoneD">
+                            <td>Bairro:</td>
+                            <td><input type="text" placeholder="ex: centro" name="" id="bairroC"></td>
+                        </tr>
+                    </table>
+                     
+                    
+                </fieldset>
+
+
+                <fieldset>
+                    
+                    <legend>Imóvel urbano</legend>
+                    <table>
+                        <tr class="DnoneD">
+                            <td class="IDados">Tipo de Acabamento: </td>
+                            <td><select name="" id="tipoDeAcabamento">
+                                <option value="">Selecione</option>
+                                <option value="0" id="npossui" >Não Possui imóvel</option>
+
+                                <option value="581.62" id="setor01"><abbr title="">Unidade de Alto padrão de Acabamento</abbr> </option>
+                                <option value="416.25" id="setor02">Unidade de Padrão Médio de Acabamento </option>
+                                <option value="346.50" id="setor03">Unidade de Padrão Normal de Acabamento  </option>
+                                <option value="200.02" id="setor04">Unidade de Padrão Popular de Acabamento </option>
+                                <option value="140.62" id="setor05">Unidade de Baixíssimo Padrão de Acabamento</option>
+                                <option value="138" id="setor05">Unidade de Baixíssimo Padrão de Acabamento  </option>
+                            </select></td>
+                        </tr>
+                        <tr class="DnoneD">
+                            <td class="IDados">Passe o Mouse para mais informações.</td>
+                            <td><button><abbr title="Piso em tábua corrida de madeira de lei ou cerâmica tipo extra e 
+                                ou  granito,  suíte,  banheiro  e  cozinha  em  azulejos  de  primeira, 
+                                portas e janelas em madeiras de lei  maciças ou alumínio, coberta 
+                                em telhado colonial com laje de forro, pintura a óleo ou látex com 
+                                massa corrida................................................R$ 581,62  ">Tipo 01</abbr></button> <button><abbr title="Unidade de Padrão Médio de Acabamento  
+                                    Piso em tábua corrida ou taco de madeira de lei e ou cerâmica 
+                                    comercial, banheiro e cozinha em azulejos comercial, esquadrias 
+                                    em madeira de lei, coberta em telha colonial ou francesa com forro 
+                                    de madeira ou laje e pintura a óleo ou látex................R$ 416,25">Tipo 02</abbr></button> <button><abbr title="Unidade de Padrão Normal de Acabamento  
+                                        Piso  em taco de madeira e ou cerâmica, banheiro e cozinha em 
+                                        azulejo, esquadrias metálicas em chapa dobrada e ou madeira, 
+                                        cobertura em telha colonial ou francesa com laje de forro, pintura 
+                                        a óleo ou similar.............................................R$ 346,50  ">Tipo 03</abbr></button> <button><abbr title="Unidade de Padrão Popular de Acabamento  
+                                            Piso  cimentado,  banheiro  e  cozinha  em  cimento  enatado  ou 
+                                            azulejo  e  ou  cerâmica    de  terceira  qualidade,  esquadrias  em 
+                                            cantoneira  ou  chapa  dobrada,  cobertura  em  telha  de  cerâmica, 
+                                            sem laje de forro e pintura com tinta a base de água.............R$ 200,02 ">Tipo 04</abbr> </button> <button><abbr title="Unidade de Baixíssimo Padrão de Acabamento  
+                                                Piso  cimentado,  banheiro  e  cozinha  em  cimento  enatado, 
+                                                esquadrias  em  cantoneiras,  cobertura  em  telha  de  amiato, 
+                                                inexistindo laje de forro e pintura........................................R$ 140,62  ">Tipo 05</abbr></button> <button><abbr title="Unidade de Baixíssimo Padrão de Acabamento  
+                                                    Aquela em que falta uma das características do item 
+                                                    anterior....................................................................R$ 138,00 ">Tipo 06</abbr></button></td>
+                        </tr>
+                    </table>
+                    
+                    
+                    
+                        <table>
+                            <tr>
+                                <td class="IDados">Setor:</td>
+
+                                <td><select name="" id="selSetor">
+                                    <option value="">Selecione</option>
+                                    <option value="29.68" id="setor01">0001</option>
+                                    <option value="22.26" id="setor02">0002</option>
+                                    <option value="14.84" id="setor03">0003</option>
+                                    <option value="14.84" id="setor04">0004</option>
+                                    <option value="4" id="setor05">0005</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Quadra:</td>
+                                <td><input type="text" name="" id="quadra" placeholder="ex: 0004"></td>
+                            </tr>
+                            <tr>
+                                <td class="IDados">Lote:</td>
+                                <td><input type="text" name="" id="lote" placeholder="ex: 0004"></td>
+                            </tr>
+                        </table>
+                     
+                     
+
+                </fieldset>
+                <fieldset>
+                    <legend>Tamanho do Imóvel</legend>
+                    <table>
+                        <tr>
+                            <td class="IDados">Área do Lote:</td>
+                            <td><input type="text" name="" id="areaLote" placeholder="ex: 100"></td>
+                        </tr>
+                        <tr>
+                            <td>Área da Construção:</td>
+                            <td><input type="text" name="" id="areaConstrucao" placeholder="ex: 50"></td>
+                        </tr>
+                    </table>  
+                </fieldset>
+                
+                <input  class="botaoEnviar" type="submit" onclick="gerarPDF()" value="Gerar Avaliação Urbana" />
+                
+            </fieldset>
+                </fieldset>
+                
+                
+        </div>
+        
+    </div>
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Editar Evento - Município de Lagoa dos Patos MG</title>
+</head>
+
+<body onload="editarEventoOn()">
+    <header>
+
+    </header>
+    <main>
+        <div class="esquerdo">
+            <nav>
+
+            </nav>
+        </div>
+        <div class="direito">
+            <div class="formularioCadastro">
+                <form action="">
+                    <h3>EDITAR EVENTO</h3>
+
+                    <div>
+                        <div class="cadastoConti">
+                            <div class="cadastro">
+                                <p>Codigo:</p> <input type="text" name="" id="codigoEvento" value=""
+                                    disabled>
+                            </div>
+                            
+                            <div class="cadastro">
+                                <p>Evento:</p> <input type="text" name="" id="tituloEvento" value=""  required onkeyup="search_Evento()" placeholder="Digite o nome, data ou cidade do Evento" autofocus>
+                                <button id="cancelS">Cancelar</button>
+                            </div>
+
+
+                            <!-- style="display: none;"  -->
+                           
+                            <div class="doServidor" style="display: none;"  id="doEventoB">
+                                <ul id="listEvent">
+                                  
+                                </ul>
+                            </div>
+                            <div class="cadastro">
+                                <p>Titulo do Evento:</p> <input type="text" name="" id="tituloEventoE" value=""
+                                     required>
+                            </div>
+                            
+                            <div>
+                                <p>Exercício:</p> <input type="number" name="" id="idAnoExercicio" required>
+                            </div>
+                           
+                            <div class="cadastro">
+                                <p>Tipo:</p> 
+                                <select name="" id="tipodeEvento" required>
+                                    <option value="">Selecione</option>
+                                    <option value="cursos">Cursos</option>
+                                    <option value="encontros">Encontros</option>
+                                    <option value="encontros">Eventos</option>
+                                    <option value="palestras">Palestras</option>
+                                    <option value="reunioes">Reuniões</option>
+                                    <option value="outros">Outros</option>
+                                    
+                                </select>
+                                
+                                   
+                            </div>
+                            
+                            <div>                               
+                                    <p>Data do Evento:</p> <input type="date" name="" id="diasEventos" required>
+                                        <span class="adicionarData">&#10009; Add</span> <br>
+                                        
+                                        
+                            </div>
+                            <div class="atebc" id="favorPreencha">
+                                
+                            </div>
+                            <h4>Datas:</h4>
+                            <div class="datasEvento" id="mostraDatas">
+                                 <br>
+                             
+                                
+                            </div>
+                            <div>
+                                <p>Objetivo da Viagem:</p> <input type="text" name="" id="idPernoite"
+                                    placeholder="ex: Encontro Nacional - Curso Tal" required>
+                            </div>
+                           
+                            <div class="cadastro">
+                                <p id="loadEstadoE">Estado do Evento:</p> 
+                                <select name="" id="estadoEvento"  onclick="geraEstados()" onchange="selecionaCidade()" required>
+                                    <option value="" >Selecione</option>
+                                                            
+                                </select>
+                                
+                                   
+                            </div>
+                            <div class="cadastro">
+                                <p id="cevento">Cidade do Evento:</p> 
+                                <select name="" id="cidadEvento" onchange="mostraInfoCidade()" >
+                                    <option value="" required>Selecione</option>
+                                       
+                                </select>
+                            </div>
+                            <div>
+                                <p>Distancia até Destino:</p> <input type="text" name="" id="distanciaAte"
+                                     disabled>
+                            </div>
+                            <div>
+                                <p>Tempo de Viagem:</p> <input type="text" name="" id="tempoV"
+                                     disabled>
+                            </div>
+                            <div>
+                                <div class="avisoDestino" id="mostraida">
+                                   
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <button id="editE">Editar Evento</button>
+                        
+                        
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTRATO E TERMO DE DOAÇÃO</title>
+    <link rel="stylesheet" href="./style.css">   
+</head>
+
+<body>
+    <div>
+        <h2>Sistema de Emissão de Contrato de compra e venda e Termo de doação</h2>
+    </div>
+    <div class="ProprietarioClass">
+        <select name="" id="termoOuContrato" onchange="selectTipo()">
+            <option value="">SELECIONE TIPO</option>
+            <option value="compraVenda">CONTRATO DE COMPRA E VENDA</option>
+            <option value="termoDoacao">TERMO DE DOAÇÃO</option>
+        </select>
+    </div>
+
+    <div id="NovoPegaDados" style="margin: 10px 0;" class="ProprietarioClass">
+    </div>
+
+    <fieldset id="InsiraDados">
+      
+    </fieldset>
+
+    <div id="preencherDados">       
+        <fieldset>
+            <legend>IMÓVEL</legend>
+            <fieldset class="ProprietarioClass">
+                <legend>Endereço</legend>
+                <div class="preecherD">
+                    <div class="alinhaSpan">Setor:</div> <input type="number" placeholder="ex: 0004 "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Quadra:</div> <input type="number" placeholder="ex: 0010 "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Lote:</div> <input type="number" placeholder="ex: 0005 "> 
+                </div> 
+                <fieldset>
+                    <legend>Medidas</legend>
+                    <div class="preecherD">
+                        <div class="alinhaSpan">Frente:</div> 
+                        <select name="proP" id="">
+                            <option value="">Selecione</option>
+                            <option value="frente">Frente</option>
+                            <option value="fundo">Fundo</option>
+                            <option value="direito">Direito</option>
+                            <option value="esquerdo">Esquerdo</option>
+                        </select>  
+                    </div> 
+                    <div class="preecherD">
+                        <div class="alinhaSpan">Fundo:</div> <select name="proP" id="">
+                            <option value="">Selecione</option>
+                            <option value="frente">Frente</option>
+                            <option value="fundo">Fundo</option>
+                            <option value="direito">Direito</option>
+                            <option value="esquerdo">Esquerdo</option>
+                        </select>  
+                    </div> 
+                    <div class="preecherD">
+                        <div class="alinhaSpan">Esquerdo:</div> <select name="proP" id="">
+                            <option value="">Selecione</option>
+                            <option value="frente">Frente</option>
+                            <option value="fundo">Fundo</option>
+                            <option value="direito">Direito</option>
+                            <option value="esquerdo">Esquerdo</option>
+                        </select>  
+                    </div> 
+                    <div class="preecherD">
+                        <div class="alinhaSpan">Direito:</div> <select name="proP" id="">
+                            <option value="">Selecione</option>
+                            <option value="frente">Frente</option>
+                            <option value="fundo">Fundo</option>
+                            <option value="direito">Direito</option>
+                            <option value="esquerdo">Esquerdo</option>
+                        </select>  
+                    </div> 
+                </fieldset>
+                <div class="preecherD">
+                    <div class="alinhaSpan">Endereço:</div> <input type="text" placeholder="Endereço: ex rua "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Numero:</div> <input type="text" placeholder="Endereço: ex rua "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Bairro:</div> <input type="text" placeholder="Endereço: ex rua "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Cidade:</div> <input type="text" placeholder="Endereço: ex rua "> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Estado:</div> <input type="text" placeholder="ex: MG "  value="MG"> 
+                </div> 
+               
+            </fieldset>
+
+
+            <fieldset class="ProprietarioClass">
+                <legend>Valor da Transação</legend>
+                <div class="preecherD">
+                    <div class="alinhaSpan">R$:</div> <input type="number" placeholder="ex: 10000 "  id="valorT"> 
+                </div> 
+               
+            </fieldset>
+            <fieldset class="ProprietarioClass">
+                <legend>Forma de Pagamento</legend>
+                <div class="preecherD">
+                    <select name="proP" id="">
+                        <option value="">Selecione</option>
+                        <option value="avista">A vista</option>
+                        <option value="aprazo">A prazo </option>
+                        <option value="parcelado">Parcelado</option>
+                    </select> 
+                </div> 
+                <div class="preecherD">
+                    <div class="alinhaSpan">Observações:</div> <input type="text" placeholder="Adicione Qualquer tipo de informação "  id="oservacoes"> 
+                </div> 
+            </fieldset>
+        </fieldset>
+        <button onclick="adicionarPro()">GERAR CONTRATO</button>
+    </div>  
+   
+    <fieldset>
+        <legend>PROPRIETÁRIO</legend>
+        <fieldset class="ProprietarioClass">
+            <legend>Vendedor</legend>
+        <div class="preecherD">
+            <div class="alinhaSpan">Proprietário:</div> <input type="text" placeholder="Nome Proprietário" value="${proprietario}">
+        </div> 
+        <div class="preecherD">
+            <div class="alinhaSpan">Sexo:</div> <select name="proP" id="">
+                <option value="">Selecione</option>
+                <option value="m">MASCULINO</option>
+                <option value="f">FEMININO </option>            
+            </select> 
+        </div> 
+
+        <div class="preecherD">
+            <div class="alinhaSpan">CPF:</div> <input type="text" placeholder="CPF Proprietário" value="${cpfCompleto}">
+        </div> 
+
+        <div class="preecherD">
+            <div class="alinhaSpan">Identidade:</div> <input type="text" placeholder="Identidade Proprietário"> 
+        </div> 
+
+        <div class="preecherD">
+            <div class="alinhaSpan">Estado Civil:</div> 
+            <select name="proP" id="">
+                <option value="">Selecione</option>
+                <option value="s">Solteiro</option>
+                <option value="c">Casado </option>
+                <option value="a">Amaziado</option>
+                <option value="ue">União estável</option>            
+            </select> 
+        </div> 
+        
+        <div class="preecherD">
+            <div class="alinhaSpan">Profissão:</div> <input type="text" placeholder="profissão"> 
+        </div> 
+        <div class="preecherD">
+            <div class="alinhaSpan">Endereço:</div> <input type="text" placeholder="Endereço: ex rua "> 
+        </div> 
+        <div class="preecherD">
+            <div class="alinhaSpan">Numero:</div>  <input type="number" placeholder="ex: 22"> 
+        </div> 
+        <div class="preecherD">
+            <div class="alinhaSpan">Bairro:</div>   <input type="text" placeholder="Bairro: ">
+        </div> 
+
+        <div class="preecherD">
+            <div class="alinhaSpan">Cidade:</div>    <input type="text" placeholder="Cidade:  ">
+        </div> 
+
+        <div id="outrosProp">
+          
+            <button onclick="adicionarPro()">Adicionar + Proprietário</button>
+        </div>
+        </fieldset>
+
+        <fieldset class="ProprietarioClass">
+            <legend>Comprador</legend>
+           
+            <div class="preecherD">
+                <div class="alinhaSpan">Proprietário:</div> <input type="text" placeholder="Nome Proprietário" value="${proprietario}">
+            </div> 
+            <div class="preecherD">
+                <div class="alinhaSpan">Sexo:</div> <select name="proP" id="">
+                    <option value="">Selecione</option>
+                    <option value="m">MASCULINO</option>
+                    <option value="f">FEMININO </option>            
+                </select> 
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">CPF:</div> <input type="text" placeholder="CPF Proprietário" value="${cpfCompleto}">
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Identidade:</div> <input type="text" placeholder="Identidade Proprietário"> 
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Estado Civil:</div> 
+                <select name="proP" id="">
+                    <option value="">Selecione</option>
+                    <option value="s">Solteiro</option>
+                    <option value="c">Casado </option>
+                    <option value="a">Amaziado</option>
+                    <option value="ue">União estável</option>            
+                </select> 
+            </div> 
+            
+            <div class="preecherD">
+                <div class="alinhaSpan">Profissão:</div> <input type="text" placeholder="profissão"> 
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Endereço:</div> <input type="text" placeholder="Endereço: ex rua "> 
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Numero:</div>  <input type="number" placeholder="ex: 22"> 
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Bairro:</div>   <input type="text" placeholder="Bairro: ">
+            </div> 
+    
+            <div class="preecherD">
+                <div class="alinhaSpan">Cidade:</div>    <input type="text" placeholder="Cidade:  ">
+            </div> 
+            <button onclick="adicionarCom()">Adicionar + Comprador</button>
+           
+
+            <div id="outrosComp">
+          
+                <!-- <button onclick="adicionarCom()">Adicionar + Comprador</button> -->
+            </div>
+        
+        
+        </fieldset>
+         
+    </fieldset>
+   
+    <div id="ver">
+        
+    </div>
+    <div id="inpu">
+
+    </div>
+    
+    <script src="./contratos.js"></script>
+</body>
+
+</html>
