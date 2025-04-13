@@ -1268,35 +1268,37 @@ function linkOn(link) {
 
 
 async function carregaPostIt() {
-    if (localStorage.getItem('postIt') != null) {
-        var data = JSON.parse(localStorage.getItem('postIt'))
-    } else {
-        location.reload()
+    const postItData = localStorage.getItem('postIt');
+
+    // Verifica se o dado é válido antes de continuar
+    if (!postItData) {
+        console.warn('postIt não encontrado no localStorage. Abortando sem recarregar.');
+        return;
     }
 
+    const data = JSON.parse(postItData);
+    const agendaLateral = document.querySelector('.agendaLateral');
+    agendaLateral.innerHTML = '';
 
-    const agendaLateral = document.querySelector('.agendaLateral')
-    agendaLateral.innerHTML = ``
-    const dataH = new Date()
+    const dataH = new Date();
+    const dia = dataH.getDate().toString().padStart(2, '0');
+    const mes = (dataH.getMonth() + 1).toString().padStart(2, '0');
+    const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`;
 
-    const dia = dataH.getDate().toString().length == 1 ? `0${dataH.getDate()}` : dataH.getDate()
-    const somaMes = dataH.getMonth() + 1
-    const mes = somaMes.toString().length == 1 ? `0${somaMes}` : somaMes
-    const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`
+    data.forEach((e, index) => {
+        const addClasse = diahoje === e.data ? 'piscandoHoje' : '';
+        agendaLateral.innerHTML += `
+            <div class="${addClasse}" onclick="openLembrete(${index})">
+                <h6>${e.data.split('-').reverse().join('-')}</h6>
+                <h2>${e.titulo}</h2>
+                <p>${e.textoL}</p>
+            </div>`;
+    });
 
-
-    //const dataHoje = 
-    await data.map((e, index) => {
-        const addClasse = diahoje == e.data ? 'piscandoHoje' : ''
-        agendaLateral.innerHTML += `<div class="${addClasse}" onclick="openLembrete(${index})">
-        <h6>${e.data.split('-').reverse().join('-')}</h6>
-        <h2>${e.titulo}</h2>
-        <p>${e.textoL}</p>
-    </div>`
-    })
-    agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`
-    fechaMenuLembre()
+    agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`;
+    fechaMenuLembre();
 }
+
 
 function deletaEmpresasFavoritasAMais(e) {
     const data = JSON.parse(localStorage.getItem('empresasFavoritasPage'))
