@@ -135,9 +135,7 @@ const MenuLateral = () => {
          --!>
      </ul>
     </li>  
-     <a href="./acessar-system.html">
-        <li><i class="bi bi-arrow-clockwise"></i> New System </li>
-    </a>
+    
 
     
 

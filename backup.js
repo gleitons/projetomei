@@ -1,17 +1,11 @@
 
 function criarCSV() {
-    // Obtenha os dados do Local Storage
+
     const dadosArmazenados = JSON.parse(localStorage.getItem('empresasFavoritasPage'));
     const postIt = JSON.parse(localStorage.getItem('postIt'));
     const todosAtalhos = JSON.parse(localStorage.getItem('todosAtalhos'));
     
 
-
-
-    // Verifique se há dados no Local Storage
-    //if (dadosArmazenados && dadosArmazenados.length > 0) {
-        // Concatene os dados em uma única string CSV
-        //const csvData = dadosArmazenados.join('\n');
         const todosDados = dadosArmazenados + postIt + todosAtalhos
         
         const csvData = JSON.stringify([{dadosArmazenados}, {postIt}, {todosAtalhos}]);
