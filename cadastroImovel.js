@@ -1171,22 +1171,58 @@ function pesquisaCNPJ() {
 
 
 if (localStorage.getItem('atalhosContratos') == null) {
-   
-    const divCc = document.createElement('div')
-    divCc.classList.add('carregoLo')
-    divCc.innerHTML = `<img src="./src/imagens/loInicial.svg" alt="">
-    <p>CARREGAMENTO INICIAL. AGUARDE ...</p>`
-    document.body.appendChild(divCc)
-   location.reload()
+    // Cria estrutura do loader
+    const divCc = document.createElement('div');
+    divCc.classList.add('loaderContainer');
+    divCc.innerHTML = `
+        <img src="./src/imagens/loInicial.svg" alt="" style="width: 120px; margin-bottom: 20px;">
+        <div class="loaderBar"><div class="progress"></div></div>
+        <p class="progressText">Carregando... 0%</p>
+    `;
+    document.body.appendChild(divCc);
+
+    // Começa a animação da barra de progresso
+    const progressBar = divCc.querySelector('.progress');
+    const progressText = divCc.querySelector('.progressText');
+    let percent = 0;
+
+    const interval = setInterval(() => {
+        percent++;
+        progressBar.style.width = percent + '%';
+        progressText.textContent = `Carregando... ${percent}%`;
+
+        if (percent >= 100) {
+            clearInterval(interval);
+
+            // Define valor padrão após 100%
+            localStorage.setItem('atalhosContratos', JSON.stringify([]));
+
+            // Remove loader e segue para o app
+            divCc.remove();
+            iniciarAplicacao();
+        }
+    }, 20); // 0 a 100 em 2 segundos
+} else {
+    iniciarAplicacao(); // Se já tem dado, segue normal
 }
+
+// Função chamada após carregamento
+function iniciarAplicacao() {
+    console.log('Aplicação iniciada');
+    // Aqui você chama suas funções normais como:
+    // carregaPostIt();
+    // carregaContratos();
+}
+
+// Ajuste visual simples
 function tirBorder() {
-    document.querySelector('#cnpjGerado').style.border = 'green solid 1px'
-    document.querySelector('.infoCNPJPesquisa').innerHTML = ''
+    const cnpjInput = document.querySelector('#cnpjGerado');
+    const infoDiv = document.querySelector('.infoCNPJPesquisa');
 
-
-
-
+    if (cnpjInput) cnpjInput.style.border = 'green solid 1px';
+    if (infoDiv) infoDiv.innerHTML = '';
 }
+
 
 
 

@@ -15,6 +15,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">
 </head>
+<style>
+    .loaderContainer {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    font-family: sans-serif;
+}
+
+.loaderBar {
+    width: 80%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: #4caf50;
+    transition: width 0.2s ease;
+}
+
+.progressText {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+</style>
 
 <body>
     <header>
@@ -31,6 +67,13 @@
                 <!-- <p>Atalhos</p> -->
                 <div class="atalhosTela" id="iconsAtalhos"> 
                     <p ><img src="./src/img/loaders/generic.gif" alt=""></p>  
+                    <div onclick="linkOn('https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir')">
+                        <img src="https://ialkyrog.sirv.com/sala/icones/edificio-do-governo.png" alt="CND FEDERAL">
+                        <p>CND FEDERAL</p>
+                    </div><div onclick="linkOn('https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao')">
+                        <img src="./src/img/icons/conta.png" alt="BOLETO DAS">
+                        <p>BOLETO DAS</p>
+                    </div>
                 </div>
                
                
